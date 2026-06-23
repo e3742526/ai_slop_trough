@@ -6,7 +6,7 @@ This repository treats `share/` as a controlled public surface for reusable gene
 
 - commodity assets that are useful enough to keep and generic enough to share
 - generated app artifacts that work as examples, starters, or throwaway utilities
-- curated indexes pointing to external slop collections with clear notes
+- curated indexes pointing to external slop collections, branded here as “Other People's Slop,” with clear notes
 
 Do not put one-off scratch files, half-imported zips, or unclear licensing surfaces directly under `share/`.
 
@@ -54,6 +54,10 @@ The app README should document:
 ## External Link Indexes
 
 Curated external slop links should live under `share/links/`.
+
+Public-facing name:
+
+- “Other People's Slop”
 
 Use a compact table with at least:
 

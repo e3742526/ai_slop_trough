@@ -1,6 +1,14 @@
-# AI Slop Trough
-
-Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep.
+<table>
+  <tr>
+    <td width="108">
+      <img src="slop/AI_Slop_Trough.png" alt="AI Slop Trough logo" width="88">
+    </td>
+    <td>
+      <h1>AI Slop Trough</h1>
+      <p>Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep.</p>
+    </td>
+  </tr>
+</table>
 
 ## Table of Contents
 
@@ -24,6 +32,7 @@ The intent is practical:
 - avoid mixing future asset types into the repo root
 
 Right now, the repo contains one public collection: the icon share.
+It also contains one curated external index: [Other People's Slop](share/links/README.md).
 
 ## Current State
 
@@ -31,7 +40,7 @@ Right now, the repo contains one public collection: the icon share.
 | --- | --- | --- |
 | [`share/icons/`](share/icons/) | Active | Public icon library with metadata, gallery, and provenance |
 | [`share/apps/`](share/apps/) | Reserved | Future home for reusable generated app artifacts |
-| [`share/links/`](share/links/) | Reserved | Future home for curated links to external slop collections |
+| [`share/links/`](share/links/) | Active | “Other People's Slop,” a curated index of external icon packs and icon-generation tools |
 
 ## Start Here
 
@@ -40,6 +49,7 @@ If you only need the useful parts, start with these:
 - [share/icons/README.md](share/icons/README.md): human-readable overview of the current icon collection
 - [share/icons/index.html](share/icons/index.html): lightweight static browser for the icon catalog
 - [share/icons/catalog.json](share/icons/catalog.json): machine-readable index for search, tagging, or import tooling
+- [share/links/README.md](share/links/README.md): Other People's Slop, a curated page of external icon packs and tools
 - [share/README.md](share/README.md): collection-level index for the `share/` surface
 - [share/CONTRIBUTING.md](share/CONTRIBUTING.md): import and contribution contract for future collections
 
@@ -91,12 +101,12 @@ The repo is structured so future collections can be added under `share/<collecti
 
 ## Future Collections
 
-The repo is scaffolded for growth, but only the icon share is populated today.
+The repo is scaffolded for growth. Today it contains one local asset collection and one curated external index.
 
 Likely future additions:
 
 - `share/apps/` for generated app artifacts, prototypes, or exports worth keeping
-- `share/links/` for external asset dumps worth indexing without mirroring
+- `share/links/` for “Other People's Slop,” external icon packs and generation tools worth indexing without mirroring
 - additional sibling collections such as `share/images/` if they warrant their own catalog and rules
 
 The rule is simple: add new public material under `share/`, not at the repo root.

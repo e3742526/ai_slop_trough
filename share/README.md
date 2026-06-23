@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | [`icons/`](icons/) | PNG icon library with tags, descriptions, and provenance metadata | Active |
 | [`apps/`](apps/) | Placeholder for future reusable generated app artifacts | Reserved |
-| [`links/`](links/) | Placeholder for curated links to external slop collections | Reserved |
+| [`links/`](links/) | “Other People's Slop,” a curated index of external icon packs and generation tools | Active |
 
 ## Contributing
 
@@ -25,4 +25,4 @@
 
 ## Planned Growth
 
-This directory is intended to support future additions such as `share/apps/`, `share/images/`, or curated links to external asset dumps.
+This directory is intended to support future additions such as `share/apps/`, `share/images/`, or “Other People's Slop” style indexes of external asset dumps.
