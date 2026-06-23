@@ -7,20 +7,8 @@ Reusable AI-generated PNG icons organized into four nominal buckets for low-fric
 - `140` unique icons
 - `560` exported PNG assets across `64`, `128`, `256`, and `512` sizes
 - `4` public buckets
-- `1` lightweight static gallery: [`index.html`](index.html)
 - `1` machine-readable catalog: [`catalog.json`](catalog.json)
 - Source pack provenance under [`_meta/source-packs/`](_meta/source-packs/)
-
-## Gallery
-
-[`index.html`](index.html) provides a dependency-free browser for the catalog with:
-
-- bucket filters
-- size switching
-- text search over labels, ids, and tags
-- inline copy-friendly file paths
-
-For local use, serve the repo root with `python3 -m http.server` and open `/share/icons/`.
 
 ## Buckets
 
@@ -63,11 +51,7 @@ That file is the intended search/index surface if you want to build a picker, we
 
 ## Provenance
 
-The public assets were imported from three upstream pack folders:
-
-- `cuttlefish_ocean_avatar_pack`
-- `cuttlefish_ocean_maker_avatar_pack`
-- `cuttlefish_office_avatar_pack`
+The assets were generated with ChatGPT 5.5 High. I asked it to make me icons for "https://github.com/repo-makeover/jinn" which is a fork of "hristo2612/jinn".
 
 The original upstream `README.md`, `manifest.json`, and preview images are preserved under [`_meta/source-packs/`](_meta/source-packs/) for reference.
 
