@@ -8,6 +8,7 @@ Reusable AI-generated PNG icons organized into four nominal buckets for low-fric
 - `560` exported PNG assets across `64`, `128`, `256`, and `512` sizes
 - `4` public buckets
 - `1` machine-readable catalog: [`catalog.json`](catalog.json)
+- `1` catalog schema: [`catalog.schema.json`](catalog.schema.json)
 - Source pack provenance under [`_meta/source-packs/`](_meta/source-packs/)
 
 ## Buckets
@@ -48,6 +49,7 @@ Each bucket uses the same four-size layout, so consumers can swap sizes without 
 - source sheet row and column metadata from the original pack manifests
 
 That file is the intended search/index surface if you want to build a picker, website, or import script later.
+[`catalog.schema.json`](catalog.schema.json) documents the current catalog shape for tooling that wants to validate or consume it.
 
 ## Provenance
 

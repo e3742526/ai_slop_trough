@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://e3742526.github.io/ai_slop_trough/share/icons/catalog.schema.json",
+  "title": "AI Slop Trough Icon Catalog",
+  "type": "object",
+  "required": [
+    "title",
+    "generatedOn",
+    "license",
+    "totalIcons",
+    "sizes",
+    "buckets",
+    "sourcePacks",
+    "items"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "generatedOn": {
+      "type": "string",
+      "format": "date"
+    },
+    "license": {
+      "type": "string"
+    },
+    "totalIcons": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sizes": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "buckets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/bucket"
+      }
+    },
+    "sourcePacks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourcePack"
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/icon"
+      }
+    }
+  },
+  "$defs": {
+    "bucket": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "description",
+        "count"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/kebabId"
+        },
+        "label": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "sourcePack": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "created",
+        "iconCount",
+        "sizes",
+        "sourceReadme",
+        "sourceManifest",
+        "previewFiles"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/snakeId"
+        },
+        "name": {
+          "$ref": "#/$defs/kebabId"
+        },
+        "created": {
+          "type": "string",
+          "format": "date"
+        },
+        "iconCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sizes": {
+          "$ref": "#/$defs/sizes"
+        },
+        "sourceReadme": {
+          "type": "string"
+        },
+        "sourceManifest": {
+          "type": "string"
+        },
+        "previewFiles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "icon": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "bucket",
+        "description",
+        "tags",
+        "sourcePack",
+        "sourceSheet",
+        "sourceGrid",
+        "sizes",
+        "files",
+        "preview"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/snakeId"
+        },
+        "label": {
+          "type": "string"
+        },
+        "bucket": {
+          "$ref": "#/$defs/kebabId"
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sourcePack": {
+          "$ref": "#/$defs/snakeId"
+        },
+        "sourceSheet": {
+          "type": "string"
+        },
+        "sourceGrid": {
+          "type": "object",
+          "required": [
+            "row",
+            "column"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "row": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "column": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "sizes": {
+          "$ref": "#/$defs/sizes"
+        },
+        "files": {
+          "type": "object",
+          "required": [
+            "64",
+            "128",
+            "256",
+            "512"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "64": {
+              "type": "string"
+            },
+            "128": {
+              "type": "string"
+            },
+            "256": {
+              "type": "string"
+            },
+            "512": {
+              "type": "string"
+            }
+          }
+        },
+        "preview": {
+          "type": "string"
+        }
+      }
+    },
+    "sizes": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "enum": [
+          64,
+          128,
+          256,
+          512
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "kebabId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "snakeId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+    }
+  }
+}

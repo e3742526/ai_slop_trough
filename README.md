@@ -17,7 +17,7 @@
 - [Start Here](#start-here)
 - [Icon Share](#icon-share)
 - [Repo Layout](#repo-layout)
-- [Future Collections](#future-collections)
+- [Rules of the Trough](#rules-of-the-trough)
 - [License](#license)
 - [Notes](#notes)
 
@@ -39,7 +39,6 @@ It also contains one curated external index: [Other People's Slop](share/links/R
 | Surface | Status | Notes |
 | --- | --- | --- |
 | [`share/icons/`](share/icons/) | Active | Public icon library with metadata, gallery, and provenance |
-| [`share/apps/`](share/apps/) | Reserved | Future home for reusable generated app artifacts |
 | [`share/links/`](share/links/) | Active | “Other People's Slop,” a curated index of external icon packs and icon-generation tools |
 
 ## Start Here
@@ -49,6 +48,7 @@ If you only need the useful parts, start with these:
 - [share/icons/README.md](share/icons/README.md): human-readable overview of the current icon collection
 - [share/icons/index.html](share/icons/index.html): lightweight static browser for the icon catalog
 - [share/icons/catalog.json](share/icons/catalog.json): machine-readable index for search, tagging, or import tooling
+- [share/icons/catalog.schema.json](share/icons/catalog.schema.json): JSON Schema for the icon catalog shape
 - [share/links/README.md](share/links/README.md): Other People's Slop, a curated page of external icon packs and tools
 - [share/README.md](share/README.md): collection-level index for the `share/` surface
 - [share/CONTRIBUTING.md](share/CONTRIBUTING.md): import and contribution contract for future collections
@@ -65,6 +65,7 @@ The current collection under `share/icons/` contains:
 | Public buckets | `marine-life`, `marine-items`, `maker-lab`, `office-items` |
 | Gallery | [`share/icons/index.html`](share/icons/index.html) |
 | Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
+| Schema | [`share/icons/catalog.schema.json`](share/icons/catalog.schema.json) |
 
 The icon share is intentionally split into nominal buckets instead of preserving raw source-pack names. That keeps the public surface usable while still preserving source provenance under `share/icons/_meta/`.
 
@@ -82,12 +83,11 @@ Then open `/share/icons/`.
 share/
   CONTRIBUTING.md
   README.md
-  apps/
-    README.md
   icons/
     README.md
     index.html
     catalog.json
+    catalog.schema.json
     marine-life/
     marine-items/
     maker-lab/
@@ -97,19 +97,17 @@ share/
     README.md
 ```
 
-The repo is structured so future collections can be added under `share/<collection>/` without changing the meaning of the current icon library.
+The repo is structured so future real collections can be added under `share/<collection>/` without changing the meaning of the current icon library.
 
-## Future Collections
+## Rules of the Trough
 
-The repo is scaffolded for growth. Today it contains one local asset collection and one curated external index.
-
-Likely future additions:
-
-- `share/apps/` for generated app artifacts, prototypes, or exports worth keeping
-- `share/links/` for “Other People's Slop,” external icon packs and generation tools worth indexing without mirroring
-- additional sibling collections such as `share/images/` if they warrant their own catalog and rules
-
-The rule is simple: add new public material under `share/`, not at the repo root.
+1. Useful beats polished.
+2. Metadata beats mystery.
+3. CC0 is the default unless a collection says otherwise.
+4. Preserve provenance when it is available.
+5. Avoid intentional trademarks, protected characters, public figures, and brand impersonation.
+6. Every public collection lives under `share/`.
+7. Do not add empty collection scaffolding. Add a collection when there is real content to share.
 
 ## License
 

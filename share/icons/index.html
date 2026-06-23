@@ -253,6 +253,29 @@
         overflow-wrap: anywhere;
       }
 
+      .actions {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+        margin-top: 10px;
+      }
+
+      .copy-button {
+        min-height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: #fff;
+        color: var(--ink);
+        cursor: pointer;
+        font-size: 0.82rem;
+      }
+
+      .copy-button:focus-visible,
+      .copy-button:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
       .tags {
         display: flex;
         gap: 8px;
@@ -366,6 +389,47 @@
         summaryEl.textContent = text;
       }
 
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function markdownSnippet(item, path) {
+        return `![${item.label}](${path})`;
+      }
+
+      function htmlSnippet(item, path) {
+        return `<img src="${path}" alt="${item.label}" width="128">`;
+      }
+
+      function clipboardValue(item, path, action) {
+        if (action === "markdown") {
+          return markdownSnippet(item, path);
+        }
+        if (action === "html") {
+          return htmlSnippet(item, path);
+        }
+        return path;
+      }
+
+      async function copyText(text, button) {
+        try {
+          await navigator.clipboard.writeText(text);
+          const original = button.textContent;
+          button.textContent = "Copied";
+          setTimeout(() => {
+            button.textContent = original;
+          }, 1200);
+        } catch (error) {
+          window.prompt("Copy this value:", text);
+          console.error(error);
+        }
+      }
+
       function renderFilters() {
         const buckets = state.catalog.buckets;
         const buttons = [
@@ -445,21 +509,38 @@
             return `
               <article class="card">
                 <div class="thumb">
-                  <img src="${path}" alt="${item.label}">
+                  <img src="${escapeHtml(path)}" alt="${escapeHtml(item.label)}">
                 </div>
                 <div class="body">
-                  <h3>${item.label}</h3>
-                  <div class="meta">${item.bucket} / ${item.sourcePack}</div>
-                  <p>${item.description}</p>
-                  <a class="path" href="${path}">${path}</a>
+                  <h3>${escapeHtml(item.label)}</h3>
+                  <div class="meta">${escapeHtml(item.bucket)} / ${escapeHtml(item.sourcePack)}</div>
+                  <p>${escapeHtml(item.description)}</p>
+                  <a class="path" href="${escapeHtml(path)}">${escapeHtml(path)}</a>
+                  <div class="actions">
+                    <button class="copy-button" type="button" data-action="path" data-id="${escapeHtml(item.id)}">Path</button>
+                    <button class="copy-button" type="button" data-action="markdown" data-id="${escapeHtml(item.id)}">Markdown</button>
+                    <button class="copy-button" type="button" data-action="html" data-id="${escapeHtml(item.id)}">HTML</button>
+                  </div>
                   <div class="tags">
-                    ${tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
+                    ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
                   </div>
                 </div>
               </article>
             `;
           })
           .join("");
+
+        galleryEl.querySelectorAll("[data-action]").forEach((button) => {
+          button.addEventListener("click", () => {
+            const item = filtered.find((candidate) => candidate.id === button.getAttribute("data-id"));
+            if (!item) {
+              return;
+            }
+            const path = item.files[state.size];
+            const action = button.getAttribute("data-action");
+            copyText(clipboardValue(item, path, action), button);
+          });
+        });
 
         emptyEl.classList.toggle("visible", filtered.length === 0);
       }

@@ -25,10 +25,9 @@ Do not add new asset dumps directly to the root directory unless the user explic
 At the time of writing:
 
 - `share/icons/` is the active local asset collection
-- `share/apps/` is reserved for future app artifacts
 - `share/links/` is active as “Other People's Slop,” the curated external asset index
 
-Agents should preserve this pattern and extend it rather than inventing parallel top-level directories.
+Agents should preserve this pattern and extend it rather than inventing parallel top-level directories. Do not add empty public collection scaffolding; create a collection directory only when there is real content to document.
 
 ## Root README Expectations
 
@@ -43,9 +42,9 @@ The root README should:
 - include a current-state summary of what is actually in the repo now
 - link directly to the active collection README files
 - link directly to any gallery or machine-readable catalog that matters
-- scaffold future collection growth without pretending those collections already exist
+- explain how future collection growth should happen without pretending those collections already exist
 
-Do not overstate repo completeness. Reserved collections should be labeled as reserved until they are populated.
+Do not overstate repo completeness. Avoid public reserved-collection placeholders unless the user explicitly asks for them.
 
 ## Share Organization Rules
 
@@ -76,6 +75,8 @@ Requirements:
 ### App collections
 
 App artifacts should live under `share/apps/<slug>/`.
+
+Do not create an empty `share/apps/` lane just to reserve the name. Add it when an actual app share lands.
 
 Each app share should document:
 

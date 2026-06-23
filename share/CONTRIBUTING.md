@@ -8,7 +8,7 @@ This repository treats `share/` as a controlled public surface for reusable gene
 - generated app artifacts that work as examples, starters, or throwaway utilities
 - curated indexes pointing to external slop collections, branded here as “Other People's Slop,” with clear notes
 
-Do not put one-off scratch files, half-imported zips, or unclear licensing surfaces directly under `share/`.
+Do not put one-off scratch files, half-imported zips, unclear licensing surfaces, or empty collection scaffolding directly under `share/`.
 
 ## Collection Contract
 
@@ -33,6 +33,8 @@ When importing a new asset pack:
 ## App Shares
 
 Future app artifacts should live under `share/apps/<slug>/`.
+
+Do not create `share/apps/` as a public placeholder. Create it only when the first app artifact is ready to document.
 
 Recommended layout:
 
