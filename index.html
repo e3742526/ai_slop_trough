@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Slop Trough</title>
+    <meta
+      name="description"
+      content="Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep."
+    >
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4efe7;
+        --panel: rgba(255, 251, 245, 0.94);
+        --panel-strong: #fffaf2;
+        --ink: #1f2933;
+        --muted: #5a6872;
+        --line: rgba(31, 41, 51, 0.12);
+        --accent: #0f766e;
+        --accent-strong: #115e59;
+        --accent-soft: rgba(15, 118, 110, 0.1);
+        --shadow: 0 18px 40px rgba(56, 43, 24, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.16), transparent 30%),
+          radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 24%),
+          linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .page {
+        width: min(1100px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 32px 0 64px;
+      }
+
+      .hero,
+      .panel,
+      .card,
+      .link-list a {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow);
+      }
+
+      .hero,
+      .panel,
+      .card {
+        border-radius: 24px;
+      }
+
+      .hero {
+        padding: 28px;
+      }
+
+      .eyebrow,
+      .meta,
+      code {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        margin-top: 10px;
+        font-size: clamp(2.2rem, 5vw, 4rem);
+        line-height: 0.95;
+      }
+
+      h2 {
+        font-size: clamp(1.4rem, 3vw, 2rem);
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .hero-grid,
+      .stats,
+      .cards,
+      .link-list {
+        display: grid;
+        gap: 16px;
+      }
+
+      .hero-grid {
+        grid-template-columns: 160px 1fr;
+        align-items: center;
+        gap: 24px;
+        margin-top: 20px;
+      }
+
+      .logo-wrap {
+        display: grid;
+        place-items: center;
+        padding: 16px;
+        border-radius: 22px;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.12), rgba(255, 255, 255, 0.78)),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(15, 23, 42, 0.02));
+      }
+
+      .logo-wrap img {
+        width: min(128px, 100%);
+        height: auto;
+      }
+
+      .hero-copy p {
+        margin-top: 14px;
+        max-width: 60ch;
+      }
+
+      .button-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .button-primary {
+        background: var(--accent);
+        color: #f8fffd;
+      }
+
+      .button-secondary {
+        background: var(--panel-strong);
+        border: 1px solid var(--line);
+      }
+
+      .meta {
+        margin-top: 16px;
+        font-size: 0.86rem;
+      }
+
+      .section {
+        margin-top: 20px;
+      }
+
+      .panel {
+        padding: 22px;
+      }
+
+      .stats {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin-top: 16px;
+      }
+
+      .stat {
+        padding: 14px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.58);
+        border: 1px solid var(--line);
+      }
+
+      .stat strong {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 1.55rem;
+        color: var(--accent-strong);
+      }
+
+      .cards {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        margin-top: 16px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      .card h3 {
+        font-size: 1.1rem;
+      }
+
+      .card p {
+        margin-top: 10px;
+      }
+
+      .card a {
+        display: inline-block;
+        margin-top: 14px;
+        color: var(--accent-strong);
+        font-weight: 700;
+        text-decoration-thickness: 1px;
+      }
+
+      .link-list {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        margin-top: 16px;
+      }
+
+      .link-list a {
+        display: block;
+        padding: 16px 18px;
+        border-radius: 18px;
+        text-decoration: none;
+      }
+
+      .link-list strong {
+        display: block;
+        margin-bottom: 6px;
+        color: var(--ink);
+      }
+
+      .footnote {
+        margin-top: 18px;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 760px) {
+        .hero-grid,
+        .stats {
+          grid-template-columns: 1fr;
+        }
+
+        .logo-wrap {
+          max-width: 180px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="eyebrow">Controlled Public Share</div>
+        <h1>AI Slop Trough</h1>
+        <div class="hero-grid">
+          <div class="logo-wrap">
+            <img src="slop/AI_Slop_Trough_88.png" alt="AI Slop Trough logo">
+          </div>
+          <div class="hero-copy">
+            <p>
+              Reusable AI-generated artifacts that are generic enough to share,
+              cheap enough to copy, and useful enough to keep.
+            </p>
+            <div class="button-row">
+              <a class="button button-primary" href="share/icons/">Browse Icon Share</a>
+              <a class="button button-secondary" href="share/links/README.md">See Other People's Slop</a>
+              <a class="button button-secondary" href="https://github.com/e3742526/ai_slop_trough">View Repository</a>
+            </div>
+            <div class="meta">CC0-1.0 default posture unless a collection says otherwise.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section panel">
+        <h2>Current State</h2>
+        <p>
+          The repo currently exposes one local asset collection and one curated
+          external index. Both live under <code>share/</code>.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <strong>225</strong>
+            Unique icons
+          </div>
+          <div class="stat">
+            <strong>900</strong>
+            Exported PNG assets
+          </div>
+          <div class="stat">
+            <strong>6</strong>
+            Public icon buckets
+          </div>
+          <div class="stat">
+            <strong>2</strong>
+            Active collections
+          </div>
+        </div>
+      </section>
+
+      <section class="section panel">
+        <h2>Collections</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Icon Share</h3>
+            <p>
+              Public PNG icon library with descriptive bucketing, provenance
+              metadata, a machine-readable catalog, and a lightweight static
+              gallery.
+            </p>
+            <a href="share/icons/">Open the icon collection</a>
+          </article>
+          <article class="card">
+            <h3>Other People's Slop</h3>
+            <p>
+              Curated external links for icon packs and generation tools, kept
+              separate from the locally hosted asset collection.
+            </p>
+            <a href="share/links/README.md">Open the links index</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section panel">
+        <h2>Start Here</h2>
+        <div class="link-list">
+          <a href="https://github.com/e3742526/ai_slop_trough/blob/main/share/icons/README.md">
+            <strong>Icon Overview</strong>
+            Human-readable guide to the current icon collection.
+          </a>
+          <a href="share/icons/index.html">
+            <strong>Icon Gallery</strong>
+            Static browser for search, filtering, and direct asset path copying.
+          </a>
+          <a href="share/icons/catalog.json">
+            <strong>Catalog JSON</strong>
+            Machine-readable index for tooling and import flows.
+          </a>
+          <a href="https://github.com/e3742526/ai_slop_trough/blob/main/share/links/README.md">
+            <strong>Other People's Slop</strong>
+            Curated external asset and tool links.
+          </a>
+          <a href="https://github.com/e3742526/ai_slop_trough/blob/main/share/README.md">
+            <strong>Share Index</strong>
+            Collection-level index for the public share surface.
+          </a>
+          <a href="https://github.com/e3742526/ai_slop_trough">
+            <strong>Repo README</strong>
+            The GitHub repo front door and maintenance notes.
+          </a>
+        </div>
+        <p class="footnote">
+          Future public artifacts should be added under <code>share/&lt;collection&gt;/</code>,
+          not as new root-level asset dumps.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

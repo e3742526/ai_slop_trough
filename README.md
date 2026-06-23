@@ -46,6 +46,7 @@ contains one curated external index:
 
 If you only need the useful parts, start with these:
 
+- `index.html`: GitHub Pages landing page for the published repo surface
 - [share/icons/README.md](share/icons/README.md): human-readable overview of
   the current icon collection
 - [share/icons/index.html](share/icons/index.html): lightweight static browser

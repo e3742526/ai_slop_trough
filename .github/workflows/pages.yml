@@ -5,7 +5,9 @@ on:
     paths:
       - ".github/workflows/pages.yml"
       - ".nojekyll"
+      - "index.html"
       - "README.md"
+      - "slop/**"
       - "share/**"
   push:
     branches:
@@ -13,7 +15,9 @@ on:
     paths:
       - ".github/workflows/pages.yml"
       - ".nojekyll"
+      - "index.html"
       - "README.md"
+      - "slop/**"
       - "share/**"
   workflow_dispatch:
 
