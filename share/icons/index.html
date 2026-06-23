@@ -319,8 +319,8 @@
           <div>
             <p>
               Lightweight browser for the shared icon catalog. Filter by bucket,
-              switch preview size, and search labels, ids, or tags without
-              pulling in a build step.
+              switch preview size, search labels, ids, or tags, and copy direct
+              paths or embed snippets without pulling in a build step.
             </p>
           </div>
           <div class="pill-list">
@@ -517,9 +517,9 @@
                   <p>${escapeHtml(item.description)}</p>
                   <a class="path" href="${escapeHtml(path)}">${escapeHtml(path)}</a>
                   <div class="actions">
-                    <button class="copy-button" type="button" data-action="path" data-id="${escapeHtml(item.id)}">Path</button>
-                    <button class="copy-button" type="button" data-action="markdown" data-id="${escapeHtml(item.id)}">Markdown</button>
-                    <button class="copy-button" type="button" data-action="html" data-id="${escapeHtml(item.id)}">HTML</button>
+                    <button class="copy-button" type="button" data-action="path" data-id="${escapeHtml(item.id)}">Copy Path</button>
+                    <button class="copy-button" type="button" data-action="markdown" data-id="${escapeHtml(item.id)}">Copy Markdown</button>
+                    <button class="copy-button" type="button" data-action="html" data-id="${escapeHtml(item.id)}">Copy HTML</button>
                   </div>
                   <div class="tags">
                     ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}

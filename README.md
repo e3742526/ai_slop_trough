@@ -1,14 +1,9 @@
-<table>
-  <tr>
-    <td width="108">
-      <img src="slop/AI_Slop_Trough.png" alt="AI Slop Trough logo" width="88">
-    </td>
-    <td>
-      <h1>AI Slop Trough</h1>
-      <p>Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep.</p>
-    </td>
-  </tr>
-</table>
+# AI Slop Trough
+
+![AI Slop Trough logo](slop/AI_Slop_Trough.png)
+
+Reusable AI-generated artifacts that are generic enough to share, cheap enough
+to copy, and useful enough to keep.
 
 ## Table of Contents
 
@@ -31,8 +26,9 @@ The intent is practical:
 - organize it well enough that it stays searchable and linkable
 - avoid mixing future asset types into the repo root
 
-Right now, the repo contains one public collection: the icon share.
-It also contains one curated external index: [Other People's Slop](share/links/README.md).
+Right now, the repo contains one public collection: the icon share. It also
+contains one curated external index:
+[Other People's Slop](share/links/README.md).
 
 ## Current State
 
@@ -45,13 +41,20 @@ It also contains one curated external index: [Other People's Slop](share/links/R
 
 If you only need the useful parts, start with these:
 
-- [share/icons/README.md](share/icons/README.md): human-readable overview of the current icon collection
-- [share/icons/index.html](share/icons/index.html): lightweight static browser for the icon catalog
-- [share/icons/catalog.json](share/icons/catalog.json): machine-readable index for search, tagging, or import tooling
-- [share/icons/catalog.schema.json](share/icons/catalog.schema.json): JSON Schema for the icon catalog shape
-- [share/links/README.md](share/links/README.md): Other People's Slop, a curated page of external icon packs and tools
-- [share/README.md](share/README.md): collection-level index for the `share/` surface
-- [share/CONTRIBUTING.md](share/CONTRIBUTING.md): import and contribution contract for future collections
+- [share/icons/README.md](share/icons/README.md): human-readable overview of
+  the current icon collection
+- [share/icons/index.html](share/icons/index.html): lightweight static browser
+  for the icon catalog
+- [share/icons/catalog.json](share/icons/catalog.json): machine-readable index
+  for search, tagging, or import tooling
+- [share/icons/catalog.schema.json](share/icons/catalog.schema.json): JSON
+  Schema for the icon catalog shape
+- [share/links/README.md](share/links/README.md): Other People's Slop, a
+  curated page of external icon packs and tools
+- [share/README.md](share/README.md): collection-level index for the `share/`
+  surface
+- [share/CONTRIBUTING.md](share/CONTRIBUTING.md): import and contribution
+  contract for future collections
 
 ## Icon Share
 
@@ -67,7 +70,12 @@ The current collection under `share/icons/` contains:
 | Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
 | Schema | [`share/icons/catalog.schema.json`](share/icons/catalog.schema.json) |
 
-The icon share is intentionally split into nominal buckets instead of preserving raw source-pack names. That keeps the public surface usable while still preserving source provenance under `share/icons/_meta/`.
+The icon share is intentionally split into nominal buckets instead of
+preserving raw source-pack names. That keeps the public surface usable while
+still preserving source provenance under `share/icons/_meta/`.
+
+The gallery includes copy actions for direct asset paths, Markdown image
+snippets, and HTML `<img>` snippets.
 
 For local browsing, serve the repo root and open the gallery:
 
@@ -97,7 +105,8 @@ share/
     README.md
 ```
 
-The repo is structured so future real collections can be added under `share/<collection>/` without changing the meaning of the current icon library.
+The repo is structured so future real collections can be added under
+`share/<collection>/` without changing the meaning of the current icon library.
 
 ## Rules of the Trough
 
@@ -105,16 +114,22 @@ The repo is structured so future real collections can be added under `share/<col
 2. Metadata beats mystery.
 3. CC0 is the default unless a collection says otherwise.
 4. Preserve provenance when it is available.
-5. Avoid intentional trademarks, protected characters, public figures, and brand impersonation.
+5. Avoid intentional trademarks, protected characters, public figures, and
+   brand impersonation.
 6. Every public collection lives under `share/`.
-7. Do not add empty collection scaffolding. Add a collection when there is real content to share.
+7. Do not add empty collection scaffolding. Add a collection when there is real
+   content to share.
 
 ## License
 
 The repository currently uses `CC0-1.0`.
 
-That is the right default for this repo’s current purpose: low-friction reuse of generated assets without attribution overhead. If a future collection needs different terms, that collection should declare them explicitly inside its own directory.
+That is the right default for this repo’s current purpose: low-friction reuse
+of generated assets without attribution overhead. If a future collection needs
+different terms, that collection should declare them explicitly inside its own
+directory.
 
 ## Notes
 
-These assets are AI-generated and provided as-is. No trademark, publicity, privacy, or other third-party rights are granted.
+These assets are AI-generated and provided as-is. No trademark, publicity,
+privacy, or other third-party rights are granted.
