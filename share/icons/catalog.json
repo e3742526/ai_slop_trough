@@ -1,0 +1,4835 @@
+{
+  "title": "AI Slop Trough Icon Catalog",
+  "generatedOn": "2026-06-23",
+  "license": "CC0-1.0",
+  "totalIcons": 140,
+  "sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "buckets": [
+    {
+      "id": "marine-life",
+      "label": "Marine Life",
+      "description": "Sea animals and coastal wildlife in a glossy sticker style.",
+      "count": 35
+    },
+    {
+      "id": "marine-items",
+      "label": "Marine Items",
+      "description": "Marine-adjacent objects, nautical gear, and sea flora in a glossy sticker style.",
+      "count": 15
+    },
+    {
+      "id": "maker-lab",
+      "label": "Maker and Lab",
+      "description": "Workshop, field-science, instrumentation, and oddball maker icons.",
+      "count": 40
+    },
+    {
+      "id": "office-items",
+      "label": "Office Items",
+      "description": "Office supplies, deskside hardware, and workplace objects in a glossy sticker style.",
+      "count": 50
+    }
+  ],
+  "sourcePacks": [
+    {
+      "id": "cuttlefish_ocean_avatar_pack",
+      "name": "cuttlefish-ocean-avatar-pack",
+      "created": "2026-06-22",
+      "iconCount": 50,
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "sourceReadme": "_meta/source-packs/cuttlefish_ocean_avatar_pack/README.md",
+      "sourceManifest": "_meta/source-packs/cuttlefish_ocean_avatar_pack/manifest.json",
+      "previewFiles": [
+        "_meta/source-packs/cuttlefish_ocean_avatar_pack/ocean-avatar-preview.png"
+      ]
+    },
+    {
+      "id": "cuttlefish_ocean_maker_avatar_pack",
+      "name": "cuttlefish-ocean-maker-avatar-pack",
+      "created": "2026-06-22",
+      "iconCount": 40,
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "sourceReadme": "_meta/source-packs/cuttlefish_ocean_maker_avatar_pack/README.md",
+      "sourceManifest": "_meta/source-packs/cuttlefish_ocean_maker_avatar_pack/manifest.json",
+      "previewFiles": [
+        "_meta/source-packs/cuttlefish_ocean_maker_avatar_pack/ocean-maker-avatar-preview.png"
+      ]
+    },
+    {
+      "id": "cuttlefish_office_avatar_pack",
+      "name": "cuttlefish-office-avatar-pack",
+      "created": "2026-06-22",
+      "iconCount": 50,
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "sourceReadme": "_meta/source-packs/cuttlefish_office_avatar_pack/README.md",
+      "sourceManifest": "_meta/source-packs/cuttlefish_office_avatar_pack/manifest.json",
+      "previewFiles": [
+        "_meta/source-packs/cuttlefish_office_avatar_pack/office-avatar-preview.png"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "printer_3d_cartesian",
+      "label": "3D Printer (Cartesian)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring 3D Printer (Cartesian).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "printer",
+        "3d",
+        "cartesian"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/printer_3d_cartesian.png",
+        "128": "maker-lab/128/printer_3d_cartesian.png",
+        "256": "maker-lab/256/printer_3d_cartesian.png",
+        "512": "maker-lab/512/printer_3d_cartesian.png"
+      },
+      "preview": "maker-lab/128/printer_3d_cartesian.png"
+    },
+    {
+      "id": "printer_3d_enclosed",
+      "label": "3D Printer (Enclosed)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring 3D Printer (Enclosed).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "printer",
+        "3d",
+        "enclosed"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/printer_3d_enclosed.png",
+        "128": "maker-lab/128/printer_3d_enclosed.png",
+        "256": "maker-lab/256/printer_3d_enclosed.png",
+        "512": "maker-lab/512/printer_3d_enclosed.png"
+      },
+      "preview": "maker-lab/128/printer_3d_enclosed.png"
+    },
+    {
+      "id": "archaeology_brush",
+      "label": "Archaeology Brush",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Archaeology Brush.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "archaeology",
+        "brush"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/archaeology_brush.png",
+        "128": "maker-lab/128/archaeology_brush.png",
+        "256": "maker-lab/256/archaeology_brush.png",
+        "512": "maker-lab/512/archaeology_brush.png"
+      },
+      "preview": "maker-lab/128/archaeology_brush.png"
+    },
+    {
+      "id": "archaeology_hand_pick",
+      "label": "Archaeology Hand Pick",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Archaeology Hand Pick.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "archaeology",
+        "hand",
+        "pick"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/archaeology_hand_pick.png",
+        "128": "maker-lab/128/archaeology_hand_pick.png",
+        "256": "maker-lab/256/archaeology_hand_pick.png",
+        "512": "maker-lab/512/archaeology_hand_pick.png"
+      },
+      "preview": "maker-lab/128/archaeology_hand_pick.png"
+    },
+    {
+      "id": "archaeology_shovel",
+      "label": "Archaeology Shovel",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Archaeology Shovel.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "archaeology",
+        "shovel"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/archaeology_shovel.png",
+        "128": "maker-lab/128/archaeology_shovel.png",
+        "256": "maker-lab/256/archaeology_shovel.png",
+        "512": "maker-lab/512/archaeology_shovel.png"
+      },
+      "preview": "maker-lab/128/archaeology_shovel.png"
+    },
+    {
+      "id": "archaeology_sieve",
+      "label": "Archaeology Sieve",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Archaeology Sieve.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "archaeology",
+        "sieve"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/archaeology_sieve.png",
+        "128": "maker-lab/128/archaeology_sieve.png",
+        "256": "maker-lab/256/archaeology_sieve.png",
+        "512": "maker-lab/512/archaeology_sieve.png"
+      },
+      "preview": "maker-lab/128/archaeology_sieve.png"
+    },
+    {
+      "id": "archaeology_trowel",
+      "label": "Archaeology Trowel",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Archaeology Trowel.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "archaeology",
+        "trowel"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/archaeology_trowel.png",
+        "128": "maker-lab/128/archaeology_trowel.png",
+        "256": "maker-lab/256/archaeology_trowel.png",
+        "512": "maker-lab/512/archaeology_trowel.png"
+      },
+      "preview": "maker-lab/128/archaeology_trowel.png"
+    },
+    {
+      "id": "astrolabe",
+      "label": "Astrolabe",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Astrolabe.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "astrolabe"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/astrolabe.png",
+        "128": "maker-lab/128/astrolabe.png",
+        "256": "maker-lab/256/astrolabe.png",
+        "512": "maker-lab/512/astrolabe.png"
+      },
+      "preview": "maker-lab/128/astrolabe.png"
+    },
+    {
+      "id": "benchy_boat",
+      "label": "Benchy Boat",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Benchy Boat.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "benchy",
+        "boat"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/benchy_boat.png",
+        "128": "maker-lab/128/benchy_boat.png",
+        "256": "maker-lab/256/benchy_boat.png",
+        "512": "maker-lab/512/benchy_boat.png"
+      },
+      "preview": "maker-lab/128/benchy_boat.png"
+    },
+    {
+      "id": "binoculars",
+      "label": "Binoculars",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Binoculars.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "binoculars"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/binoculars.png",
+        "128": "maker-lab/128/binoculars.png",
+        "256": "maker-lab/256/binoculars.png",
+        "512": "maker-lab/512/binoculars.png"
+      },
+      "preview": "maker-lab/128/binoculars.png"
+    },
+    {
+      "id": "candybar_phone",
+      "label": "Candybar Phone",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Candybar Phone.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "candybar",
+        "phone"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/candybar_phone.png",
+        "128": "maker-lab/128/candybar_phone.png",
+        "256": "maker-lab/256/candybar_phone.png",
+        "512": "maker-lab/512/candybar_phone.png"
+      },
+      "preview": "maker-lab/128/candybar_phone.png"
+    },
+    {
+      "id": "woodworking_circular_saw",
+      "label": "Circular Saw",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Circular Saw.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "circular",
+        "saw"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_circular_saw.png",
+        "128": "maker-lab/128/woodworking_circular_saw.png",
+        "256": "maker-lab/256/woodworking_circular_saw.png",
+        "512": "maker-lab/512/woodworking_circular_saw.png"
+      },
+      "preview": "maker-lab/128/woodworking_circular_saw.png"
+    },
+    {
+      "id": "cnc_machine",
+      "label": "CNC Machine",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring CNC Machine.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "cnc",
+        "machine"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/cnc_machine.png",
+        "128": "maker-lab/128/cnc_machine.png",
+        "256": "maker-lab/256/cnc_machine.png",
+        "512": "maker-lab/512/cnc_machine.png"
+      },
+      "preview": "maker-lab/128/cnc_machine.png"
+    },
+    {
+      "id": "compass_antique",
+      "label": "Compass (Antique)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Compass (Antique).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "compass",
+        "antique"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/compass_antique.png",
+        "128": "maker-lab/128/compass_antique.png",
+        "256": "maker-lab/256/compass_antique.png",
+        "512": "maker-lab/512/compass_antique.png"
+      },
+      "preview": "maker-lab/128/compass_antique.png"
+    },
+    {
+      "id": "compass_modern",
+      "label": "Compass (Modern)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Compass (Modern).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "compass",
+        "modern"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/compass_modern.png",
+        "128": "maker-lab/128/compass_modern.png",
+        "256": "maker-lab/256/compass_modern.png",
+        "512": "maker-lab/512/compass_modern.png"
+      },
+      "preview": "maker-lab/128/compass_modern.png"
+    },
+    {
+      "id": "woodworking_drill_press",
+      "label": "Drill Press",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Drill Press.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "drill",
+        "press"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_drill_press.png",
+        "128": "maker-lab/128/woodworking_drill_press.png",
+        "256": "maker-lab/256/woodworking_drill_press.png",
+        "512": "maker-lab/512/woodworking_drill_press.png"
+      },
+      "preview": "maker-lab/128/woodworking_drill_press.png"
+    },
+    {
+      "id": "flip_phone",
+      "label": "Flip Phone",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Flip Phone.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "flip",
+        "phone"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/flip_phone.png",
+        "128": "maker-lab/128/flip_phone.png",
+        "256": "maker-lab/256/flip_phone.png",
+        "512": "maker-lab/512/flip_phone.png"
+      },
+      "preview": "maker-lab/128/flip_phone.png"
+    },
+    {
+      "id": "geppetto",
+      "label": "Geppetto",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Geppetto.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "geppetto"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/geppetto.png",
+        "128": "maker-lab/128/geppetto.png",
+        "256": "maker-lab/256/geppetto.png",
+        "512": "maker-lab/512/geppetto.png"
+      },
+      "preview": "maker-lab/128/geppetto.png"
+    },
+    {
+      "id": "woodworking_hand_plane",
+      "label": "Hand Plane",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Hand Plane.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "hand",
+        "plane"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_hand_plane.png",
+        "128": "maker-lab/128/woodworking_hand_plane.png",
+        "256": "maker-lab/256/woodworking_hand_plane.png",
+        "512": "maker-lab/512/woodworking_hand_plane.png"
+      },
+      "preview": "maker-lab/128/woodworking_hand_plane.png"
+    },
+    {
+      "id": "woodworking_hand_saw",
+      "label": "Hand Saw",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Hand Saw.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "hand",
+        "saw"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_hand_saw.png",
+        "128": "maker-lab/128/woodworking_hand_saw.png",
+        "256": "maker-lab/256/woodworking_hand_saw.png",
+        "512": "maker-lab/512/woodworking_hand_saw.png"
+      },
+      "preview": "maker-lab/128/woodworking_hand_saw.png"
+    },
+    {
+      "id": "laptop",
+      "label": "Laptop",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Laptop.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "laptop"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/laptop.png",
+        "128": "maker-lab/128/laptop.png",
+        "256": "maker-lab/256/laptop.png",
+        "512": "maker-lab/512/laptop.png"
+      },
+      "preview": "maker-lab/128/laptop.png"
+    },
+    {
+      "id": "magnifying_glass",
+      "label": "Magnifying Glass",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Magnifying Glass.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "magnifying",
+        "glass"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/magnifying_glass.png",
+        "128": "maker-lab/128/magnifying_glass.png",
+        "256": "maker-lab/256/magnifying_glass.png",
+        "512": "maker-lab/512/magnifying_glass.png"
+      },
+      "preview": "maker-lab/128/magnifying_glass.png"
+    },
+    {
+      "id": "microscope_binocular",
+      "label": "Microscope (Binocular)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Microscope (Binocular).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "microscope",
+        "binocular"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/microscope_binocular.png",
+        "128": "maker-lab/128/microscope_binocular.png",
+        "256": "maker-lab/256/microscope_binocular.png",
+        "512": "maker-lab/512/microscope_binocular.png"
+      },
+      "preview": "maker-lab/128/microscope_binocular.png"
+    },
+    {
+      "id": "microscope_classic",
+      "label": "Microscope (Classic)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Microscope (Classic).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "microscope",
+        "classic"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/microscope_classic.png",
+        "128": "maker-lab/128/microscope_classic.png",
+        "256": "maker-lab/256/microscope_classic.png",
+        "512": "maker-lab/512/microscope_classic.png"
+      },
+      "preview": "maker-lab/128/microscope_classic.png"
+    },
+    {
+      "id": "microscope_digital",
+      "label": "Microscope (Digital)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Microscope (Digital).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "microscope",
+        "digital"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/microscope_digital.png",
+        "128": "maker-lab/128/microscope_digital.png",
+        "256": "maker-lab/256/microscope_digital.png",
+        "512": "maker-lab/512/microscope_digital.png"
+      },
+      "preview": "maker-lab/128/microscope_digital.png"
+    },
+    {
+      "id": "microscope_field",
+      "label": "Microscope (Field)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Microscope (Field).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "microscope",
+        "field"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/microscope_field.png",
+        "128": "maker-lab/128/microscope_field.png",
+        "256": "maker-lab/256/microscope_field.png",
+        "512": "maker-lab/512/microscope_field.png"
+      },
+      "preview": "maker-lab/128/microscope_field.png"
+    },
+    {
+      "id": "microscope_pocket",
+      "label": "Microscope (Pocket)",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Microscope (Pocket).",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "microscope",
+        "pocket"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/microscope_pocket.png",
+        "128": "maker-lab/128/microscope_pocket.png",
+        "256": "maker-lab/256/microscope_pocket.png",
+        "512": "maker-lab/512/microscope_pocket.png"
+      },
+      "preview": "maker-lab/128/microscope_pocket.png"
+    },
+    {
+      "id": "pinocchio",
+      "label": "Pinocchio",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Pinocchio.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "pinocchio"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/pinocchio.png",
+        "128": "maker-lab/128/pinocchio.png",
+        "256": "maker-lab/256/pinocchio.png",
+        "512": "maker-lab/512/pinocchio.png"
+      },
+      "preview": "maker-lab/128/pinocchio.png"
+    },
+    {
+      "id": "pirate_flag",
+      "label": "Pirate Flag",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Pirate Flag.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "pirate",
+        "flag"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/pirate_flag.png",
+        "128": "maker-lab/128/pirate_flag.png",
+        "256": "maker-lab/256/pirate_flag.png",
+        "512": "maker-lab/512/pirate_flag.png"
+      },
+      "preview": "maker-lab/128/pirate_flag.png"
+    },
+    {
+      "id": "rugged_phone",
+      "label": "Rugged Phone",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Rugged Phone.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "rugged",
+        "phone"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/rugged_phone.png",
+        "128": "maker-lab/128/rugged_phone.png",
+        "256": "maker-lab/256/rugged_phone.png",
+        "512": "maker-lab/512/rugged_phone.png"
+      },
+      "preview": "maker-lab/128/rugged_phone.png"
+    },
+    {
+      "id": "satellite",
+      "label": "Satellite",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Satellite.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "satellite"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/satellite.png",
+        "128": "maker-lab/128/satellite.png",
+        "256": "maker-lab/256/satellite.png",
+        "512": "maker-lab/512/satellite.png"
+      },
+      "preview": "maker-lab/128/satellite.png"
+    },
+    {
+      "id": "smartphone",
+      "label": "Smartphone",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Smartphone.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "smartphone"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/smartphone.png",
+        "128": "maker-lab/128/smartphone.png",
+        "256": "maker-lab/256/smartphone.png",
+        "512": "maker-lab/512/smartphone.png"
+      },
+      "preview": "maker-lab/128/smartphone.png"
+    },
+    {
+      "id": "woodworking_table_saw",
+      "label": "Table Saw",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Table Saw.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "table",
+        "saw"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_table_saw.png",
+        "128": "maker-lab/128/woodworking_table_saw.png",
+        "256": "maker-lab/256/woodworking_table_saw.png",
+        "512": "maker-lab/512/woodworking_table_saw.png"
+      },
+      "preview": "maker-lab/128/woodworking_table_saw.png"
+    },
+    {
+      "id": "telescope",
+      "label": "Telescope",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Telescope.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "telescope"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/telescope.png",
+        "128": "maker-lab/128/telescope.png",
+        "256": "maker-lab/256/telescope.png",
+        "512": "maker-lab/512/telescope.png"
+      },
+      "preview": "maker-lab/128/telescope.png"
+    },
+    {
+      "id": "walkie_talkie",
+      "label": "Walkie-Talkie",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Walkie-Talkie.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "walkie",
+        "talkie"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/walkie_talkie.png",
+        "128": "maker-lab/128/walkie_talkie.png",
+        "256": "maker-lab/256/walkie_talkie.png",
+        "512": "maker-lab/512/walkie_talkie.png"
+      },
+      "preview": "maker-lab/128/walkie_talkie.png"
+    },
+    {
+      "id": "woodworking_chisel",
+      "label": "Woodworking Chisel",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Woodworking Chisel.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "chisel"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_chisel.png",
+        "128": "maker-lab/128/woodworking_chisel.png",
+        "256": "maker-lab/256/woodworking_chisel.png",
+        "512": "maker-lab/512/woodworking_chisel.png"
+      },
+      "preview": "maker-lab/128/woodworking_chisel.png"
+    },
+    {
+      "id": "woodworking_clamp",
+      "label": "Woodworking Clamp",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Woodworking Clamp.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "clamp"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_clamp.png",
+        "128": "maker-lab/128/woodworking_clamp.png",
+        "256": "maker-lab/256/woodworking_clamp.png",
+        "512": "maker-lab/512/woodworking_clamp.png"
+      },
+      "preview": "maker-lab/128/woodworking_clamp.png"
+    },
+    {
+      "id": "woodworking_hammer",
+      "label": "Woodworking Hammer",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Woodworking Hammer.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "hammer"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_hammer.png",
+        "128": "maker-lab/128/woodworking_hammer.png",
+        "256": "maker-lab/256/woodworking_hammer.png",
+        "512": "maker-lab/512/woodworking_hammer.png"
+      },
+      "preview": "maker-lab/128/woodworking_hammer.png"
+    },
+    {
+      "id": "woodworking_mallet",
+      "label": "Woodworking Mallet",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Woodworking Mallet.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "mallet"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_mallet.png",
+        "128": "maker-lab/128/woodworking_mallet.png",
+        "256": "maker-lab/256/woodworking_mallet.png",
+        "512": "maker-lab/512/woodworking_mallet.png"
+      },
+      "preview": "maker-lab/128/woodworking_mallet.png"
+    },
+    {
+      "id": "woodworking_router",
+      "label": "Woodworking Router",
+      "bucket": "maker-lab",
+      "description": "Glossy AI-generated maker, lab, or workshop icon featuring Woodworking Router.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "maker",
+        "lab",
+        "woodworking",
+        "router"
+      ],
+      "sourcePack": "cuttlefish_ocean_maker_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "maker-lab/64/woodworking_router.png",
+        "128": "maker-lab/128/woodworking_router.png",
+        "256": "maker-lab/256/woodworking_router.png",
+        "512": "maker-lab/512/woodworking_router.png"
+      },
+      "preview": "maker-lab/128/woodworking_router.png"
+    },
+    {
+      "id": "anchor",
+      "label": "Anchor",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Anchor.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "anchor"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/anchor.png",
+        "128": "marine-items/128/anchor.png",
+        "256": "marine-items/256/anchor.png",
+        "512": "marine-items/512/anchor.png"
+      },
+      "preview": "marine-items/128/anchor.png"
+    },
+    {
+      "id": "buoy",
+      "label": "Buoy",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Buoy.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "buoy"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/buoy.png",
+        "128": "marine-items/128/buoy.png",
+        "256": "marine-items/256/buoy.png",
+        "512": "marine-items/512/buoy.png"
+      },
+      "preview": "marine-items/128/buoy.png"
+    },
+    {
+      "id": "captains_wheel",
+      "label": "Captain's Wheel",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Captain's Wheel.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "captains",
+        "wheel"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/captains_wheel.png",
+        "128": "marine-items/128/captains_wheel.png",
+        "256": "marine-items/256/captains_wheel.png",
+        "512": "marine-items/512/captains_wheel.png"
+      },
+      "preview": "marine-items/128/captains_wheel.png"
+    },
+    {
+      "id": "clam_shell",
+      "label": "Clam Shell",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Clam Shell.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "clam",
+        "shell"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/clam_shell.png",
+        "128": "marine-items/128/clam_shell.png",
+        "256": "marine-items/256/clam_shell.png",
+        "512": "marine-items/512/clam_shell.png"
+      },
+      "preview": "marine-items/128/clam_shell.png"
+    },
+    {
+      "id": "coral",
+      "label": "Coral",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Coral.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "coral"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/coral.png",
+        "128": "marine-items/128/coral.png",
+        "256": "marine-items/256/coral.png",
+        "512": "marine-items/512/coral.png"
+      },
+      "preview": "marine-items/128/coral.png"
+    },
+    {
+      "id": "life_ring",
+      "label": "Life Ring",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Life Ring.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "life",
+        "ring"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/life_ring.png",
+        "128": "marine-items/128/life_ring.png",
+        "256": "marine-items/256/life_ring.png",
+        "512": "marine-items/512/life_ring.png"
+      },
+      "preview": "marine-items/128/life_ring.png"
+    },
+    {
+      "id": "lighthouse",
+      "label": "Lighthouse",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Lighthouse.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "lighthouse"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/lighthouse.png",
+        "128": "marine-items/128/lighthouse.png",
+        "256": "marine-items/256/lighthouse.png",
+        "512": "marine-items/512/lighthouse.png"
+      },
+      "preview": "marine-items/128/lighthouse.png"
+    },
+    {
+      "id": "message_bottle",
+      "label": "Message in a Bottle",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Message in a Bottle.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "message",
+        "bottle"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/message_bottle.png",
+        "128": "marine-items/128/message_bottle.png",
+        "256": "marine-items/256/message_bottle.png",
+        "512": "marine-items/512/message_bottle.png"
+      },
+      "preview": "marine-items/128/message_bottle.png"
+    },
+    {
+      "id": "oyster_pearl",
+      "label": "Oyster with Pearl",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Oyster with Pearl.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "oyster",
+        "pearl"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/oyster_pearl.png",
+        "128": "marine-items/128/oyster_pearl.png",
+        "256": "marine-items/256/oyster_pearl.png",
+        "512": "marine-items/512/oyster_pearl.png"
+      },
+      "preview": "marine-items/128/oyster_pearl.png"
+    },
+    {
+      "id": "sailboat",
+      "label": "Sailboat",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Sailboat.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "sailboat"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/sailboat.png",
+        "128": "marine-items/128/sailboat.png",
+        "256": "marine-items/256/sailboat.png",
+        "512": "marine-items/512/sailboat.png"
+      },
+      "preview": "marine-items/128/sailboat.png"
+    },
+    {
+      "id": "seaweed",
+      "label": "Seaweed",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Seaweed.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "seaweed"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/seaweed.png",
+        "128": "marine-items/128/seaweed.png",
+        "256": "marine-items/256/seaweed.png",
+        "512": "marine-items/512/seaweed.png"
+      },
+      "preview": "marine-items/128/seaweed.png"
+    },
+    {
+      "id": "ship_wheel",
+      "label": "Ship Wheel",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Ship Wheel.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "ship",
+        "wheel"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/ship_wheel.png",
+        "128": "marine-items/128/ship_wheel.png",
+        "256": "marine-items/256/ship_wheel.png",
+        "512": "marine-items/512/ship_wheel.png"
+      },
+      "preview": "marine-items/128/ship_wheel.png"
+    },
+    {
+      "id": "submarine",
+      "label": "Submarine",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Submarine.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "submarine"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/submarine.png",
+        "128": "marine-items/128/submarine.png",
+        "256": "marine-items/256/submarine.png",
+        "512": "marine-items/512/submarine.png"
+      },
+      "preview": "marine-items/128/submarine.png"
+    },
+    {
+      "id": "treasure_chest",
+      "label": "Treasure Chest",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Treasure Chest.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "treasure",
+        "chest"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/treasure_chest.png",
+        "128": "marine-items/128/treasure_chest.png",
+        "256": "marine-items/256/treasure_chest.png",
+        "512": "marine-items/512/treasure_chest.png"
+      },
+      "preview": "marine-items/128/treasure_chest.png"
+    },
+    {
+      "id": "trident",
+      "label": "Trident",
+      "bucket": "marine-items",
+      "description": "Glossy AI-generated marine-themed object icon featuring Trident.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-item",
+        "trident"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-items/64/trident.png",
+        "128": "marine-items/128/trident.png",
+        "256": "marine-items/256/trident.png",
+        "512": "marine-items/512/trident.png"
+      },
+      "preview": "marine-items/128/trident.png"
+    },
+    {
+      "id": "albatross",
+      "label": "Albatross",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Albatross.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "albatross"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/albatross.png",
+        "128": "marine-life/128/albatross.png",
+        "256": "marine-life/256/albatross.png",
+        "512": "marine-life/512/albatross.png"
+      },
+      "preview": "marine-life/128/albatross.png"
+    },
+    {
+      "id": "anglerfish",
+      "label": "Anglerfish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Anglerfish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "anglerfish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/anglerfish.png",
+        "128": "marine-life/128/anglerfish.png",
+        "256": "marine-life/256/anglerfish.png",
+        "512": "marine-life/512/anglerfish.png"
+      },
+      "preview": "marine-life/128/anglerfish.png"
+    },
+    {
+      "id": "beluga_whale",
+      "label": "Beluga Whale",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Beluga Whale.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "beluga",
+        "whale"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/beluga_whale.png",
+        "128": "marine-life/128/beluga_whale.png",
+        "256": "marine-life/256/beluga_whale.png",
+        "512": "marine-life/512/beluga_whale.png"
+      },
+      "preview": "marine-life/128/beluga_whale.png"
+    },
+    {
+      "id": "blue_tang",
+      "label": "Blue Tang",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Blue Tang.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "blue",
+        "tang"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/blue_tang.png",
+        "128": "marine-life/128/blue_tang.png",
+        "256": "marine-life/256/blue_tang.png",
+        "512": "marine-life/512/blue_tang.png"
+      },
+      "preview": "marine-life/128/blue_tang.png"
+    },
+    {
+      "id": "clownfish",
+      "label": "Clownfish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Clownfish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "clownfish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/clownfish.png",
+        "128": "marine-life/128/clownfish.png",
+        "256": "marine-life/256/clownfish.png",
+        "512": "marine-life/512/clownfish.png"
+      },
+      "preview": "marine-life/128/clownfish.png"
+    },
+    {
+      "id": "crab",
+      "label": "Crab",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Crab.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "crab"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/crab.png",
+        "128": "marine-life/128/crab.png",
+        "256": "marine-life/256/crab.png",
+        "512": "marine-life/512/crab.png"
+      },
+      "preview": "marine-life/128/crab.png"
+    },
+    {
+      "id": "cuttlefish",
+      "label": "Cuttlefish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Cuttlefish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "cuttlefish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/cuttlefish.png",
+        "128": "marine-life/128/cuttlefish.png",
+        "256": "marine-life/256/cuttlefish.png",
+        "512": "marine-life/512/cuttlefish.png"
+      },
+      "preview": "marine-life/128/cuttlefish.png"
+    },
+    {
+      "id": "dolphin",
+      "label": "Dolphin",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Dolphin.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "dolphin"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/dolphin.png",
+        "128": "marine-life/128/dolphin.png",
+        "256": "marine-life/256/dolphin.png",
+        "512": "marine-life/512/dolphin.png"
+      },
+      "preview": "marine-life/128/dolphin.png"
+    },
+    {
+      "id": "flying_fish",
+      "label": "Flying Fish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Flying Fish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "flying",
+        "fish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/flying_fish.png",
+        "128": "marine-life/128/flying_fish.png",
+        "256": "marine-life/256/flying_fish.png",
+        "512": "marine-life/512/flying_fish.png"
+      },
+      "preview": "marine-life/128/flying_fish.png"
+    },
+    {
+      "id": "hammerhead_shark",
+      "label": "Hammerhead Shark",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Hammerhead Shark.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "hammerhead",
+        "shark"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/hammerhead_shark.png",
+        "128": "marine-life/128/hammerhead_shark.png",
+        "256": "marine-life/256/hammerhead_shark.png",
+        "512": "marine-life/512/hammerhead_shark.png"
+      },
+      "preview": "marine-life/128/hammerhead_shark.png"
+    },
+    {
+      "id": "hermit_crab",
+      "label": "Hermit Crab",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Hermit Crab.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "hermit",
+        "crab"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/hermit_crab.png",
+        "128": "marine-life/128/hermit_crab.png",
+        "256": "marine-life/256/hermit_crab.png",
+        "512": "marine-life/512/hermit_crab.png"
+      },
+      "preview": "marine-life/128/hermit_crab.png"
+    },
+    {
+      "id": "jellyfish",
+      "label": "Jellyfish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Jellyfish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "jellyfish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/jellyfish.png",
+        "128": "marine-life/128/jellyfish.png",
+        "256": "marine-life/256/jellyfish.png",
+        "512": "marine-life/512/jellyfish.png"
+      },
+      "preview": "marine-life/128/jellyfish.png"
+    },
+    {
+      "id": "lobster",
+      "label": "Lobster",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Lobster.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "lobster"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/lobster.png",
+        "128": "marine-life/128/lobster.png",
+        "256": "marine-life/256/lobster.png",
+        "512": "marine-life/512/lobster.png"
+      },
+      "preview": "marine-life/128/lobster.png"
+    },
+    {
+      "id": "manatee",
+      "label": "Manatee",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Manatee.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "manatee"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/manatee.png",
+        "128": "marine-life/128/manatee.png",
+        "256": "marine-life/256/manatee.png",
+        "512": "marine-life/512/manatee.png"
+      },
+      "preview": "marine-life/128/manatee.png"
+    },
+    {
+      "id": "manta_ray",
+      "label": "Manta Ray",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Manta Ray.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "manta",
+        "ray"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/manta_ray.png",
+        "128": "marine-life/128/manta_ray.png",
+        "256": "marine-life/256/manta_ray.png",
+        "512": "marine-life/512/manta_ray.png"
+      },
+      "preview": "marine-life/128/manta_ray.png"
+    },
+    {
+      "id": "moray_eel",
+      "label": "Moray Eel",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Moray Eel.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "moray",
+        "eel"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/moray_eel.png",
+        "128": "marine-life/128/moray_eel.png",
+        "256": "marine-life/256/moray_eel.png",
+        "512": "marine-life/512/moray_eel.png"
+      },
+      "preview": "marine-life/128/moray_eel.png"
+    },
+    {
+      "id": "narwhal",
+      "label": "Narwhal",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Narwhal.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "narwhal"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/narwhal.png",
+        "128": "marine-life/128/narwhal.png",
+        "256": "marine-life/256/narwhal.png",
+        "512": "marine-life/512/narwhal.png"
+      },
+      "preview": "marine-life/128/narwhal.png"
+    },
+    {
+      "id": "nautilus",
+      "label": "Nautilus",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Nautilus.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "nautilus"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/nautilus.png",
+        "128": "marine-life/128/nautilus.png",
+        "256": "marine-life/256/nautilus.png",
+        "512": "marine-life/512/nautilus.png"
+      },
+      "preview": "marine-life/128/nautilus.png"
+    },
+    {
+      "id": "octopus",
+      "label": "Octopus",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Octopus.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "octopus"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/octopus.png",
+        "128": "marine-life/128/octopus.png",
+        "256": "marine-life/256/octopus.png",
+        "512": "marine-life/512/octopus.png"
+      },
+      "preview": "marine-life/128/octopus.png"
+    },
+    {
+      "id": "orca",
+      "label": "Orca",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Orca.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "orca"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/orca.png",
+        "128": "marine-life/128/orca.png",
+        "256": "marine-life/256/orca.png",
+        "512": "marine-life/512/orca.png"
+      },
+      "preview": "marine-life/128/orca.png"
+    },
+    {
+      "id": "pelican",
+      "label": "Pelican",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Pelican.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "pelican"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/pelican.png",
+        "128": "marine-life/128/pelican.png",
+        "256": "marine-life/256/pelican.png",
+        "512": "marine-life/512/pelican.png"
+      },
+      "preview": "marine-life/128/pelican.png"
+    },
+    {
+      "id": "penguin",
+      "label": "Penguin",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Penguin.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "penguin"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/penguin.png",
+        "128": "marine-life/128/penguin.png",
+        "256": "marine-life/256/penguin.png",
+        "512": "marine-life/512/penguin.png"
+      },
+      "preview": "marine-life/128/penguin.png"
+    },
+    {
+      "id": "pufferfish",
+      "label": "Pufferfish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Pufferfish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "pufferfish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/pufferfish.png",
+        "128": "marine-life/128/pufferfish.png",
+        "256": "marine-life/256/pufferfish.png",
+        "512": "marine-life/512/pufferfish.png"
+      },
+      "preview": "marine-life/128/pufferfish.png"
+    },
+    {
+      "id": "sea_lion",
+      "label": "Sea Lion",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Sea Lion.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "sea",
+        "lion"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/sea_lion.png",
+        "128": "marine-life/128/sea_lion.png",
+        "256": "marine-life/256/sea_lion.png",
+        "512": "marine-life/512/sea_lion.png"
+      },
+      "preview": "marine-life/128/sea_lion.png"
+    },
+    {
+      "id": "sea_otter",
+      "label": "Sea Otter",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Sea Otter.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "sea",
+        "otter"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/sea_otter.png",
+        "128": "marine-life/128/sea_otter.png",
+        "256": "marine-life/256/sea_otter.png",
+        "512": "marine-life/512/sea_otter.png"
+      },
+      "preview": "marine-life/128/sea_otter.png"
+    },
+    {
+      "id": "sea_turtle",
+      "label": "Sea Turtle",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Sea Turtle.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "sea",
+        "turtle"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/sea_turtle.png",
+        "128": "marine-life/128/sea_turtle.png",
+        "256": "marine-life/256/sea_turtle.png",
+        "512": "marine-life/512/sea_turtle.png"
+      },
+      "preview": "marine-life/128/sea_turtle.png"
+    },
+    {
+      "id": "sea_urchin",
+      "label": "Sea Urchin",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Sea Urchin.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "sea",
+        "urchin"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/sea_urchin.png",
+        "128": "marine-life/128/sea_urchin.png",
+        "256": "marine-life/256/sea_urchin.png",
+        "512": "marine-life/512/sea_urchin.png"
+      },
+      "preview": "marine-life/128/sea_urchin.png"
+    },
+    {
+      "id": "seahorse",
+      "label": "Seahorse",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Seahorse.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "seahorse"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/seahorse.png",
+        "128": "marine-life/128/seahorse.png",
+        "256": "marine-life/256/seahorse.png",
+        "512": "marine-life/512/seahorse.png"
+      },
+      "preview": "marine-life/128/seahorse.png"
+    },
+    {
+      "id": "shark",
+      "label": "Shark",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Shark.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "shark"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/shark.png",
+        "128": "marine-life/128/shark.png",
+        "256": "marine-life/256/shark.png",
+        "512": "marine-life/512/shark.png"
+      },
+      "preview": "marine-life/128/shark.png"
+    },
+    {
+      "id": "shrimp",
+      "label": "Shrimp",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Shrimp.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "shrimp"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/shrimp.png",
+        "128": "marine-life/128/shrimp.png",
+        "256": "marine-life/256/shrimp.png",
+        "512": "marine-life/512/shrimp.png"
+      },
+      "preview": "marine-life/128/shrimp.png"
+    },
+    {
+      "id": "squid",
+      "label": "Squid",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Squid.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "squid"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/squid.png",
+        "128": "marine-life/128/squid.png",
+        "256": "marine-life/256/squid.png",
+        "512": "marine-life/512/squid.png"
+      },
+      "preview": "marine-life/128/squid.png"
+    },
+    {
+      "id": "starfish",
+      "label": "Starfish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Starfish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "starfish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/starfish.png",
+        "128": "marine-life/128/starfish.png",
+        "256": "marine-life/256/starfish.png",
+        "512": "marine-life/512/starfish.png"
+      },
+      "preview": "marine-life/128/starfish.png"
+    },
+    {
+      "id": "stingray",
+      "label": "Stingray",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Stingray.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "stingray"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/stingray.png",
+        "128": "marine-life/128/stingray.png",
+        "256": "marine-life/256/stingray.png",
+        "512": "marine-life/512/stingray.png"
+      },
+      "preview": "marine-life/128/stingray.png"
+    },
+    {
+      "id": "swordfish",
+      "label": "Swordfish",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Swordfish.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "swordfish"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/swordfish.png",
+        "128": "marine-life/128/swordfish.png",
+        "256": "marine-life/256/swordfish.png",
+        "512": "marine-life/512/swordfish.png"
+      },
+      "preview": "marine-life/128/swordfish.png"
+    },
+    {
+      "id": "whale",
+      "label": "Whale",
+      "bucket": "marine-life",
+      "description": "Glossy AI-generated marine life icon featuring Whale.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "marine-life",
+        "whale"
+      ],
+      "sourcePack": "cuttlefish_ocean_avatar_pack",
+      "sourceSheet": "source-sheets/ocean_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "marine-life/64/whale.png",
+        "128": "marine-life/128/whale.png",
+        "256": "marine-life/256/whale.png",
+        "512": "marine-life/512/whale.png"
+      },
+      "preview": "marine-life/128/whale.png"
+    },
+    {
+      "id": "backpack",
+      "label": "Backpack",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Backpack.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "backpack"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/backpack.png",
+        "128": "office-items/128/backpack.png",
+        "256": "office-items/256/backpack.png",
+        "512": "office-items/512/backpack.png"
+      },
+      "preview": "office-items/128/backpack.png"
+    },
+    {
+      "id": "binder_clip",
+      "label": "Binder Clip",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Binder Clip.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "binder",
+        "clip"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/binder_clip.png",
+        "128": "office-items/128/binder_clip.png",
+        "256": "office-items/256/binder_clip.png",
+        "512": "office-items/512/binder_clip.png"
+      },
+      "preview": "office-items/128/binder_clip.png"
+    },
+    {
+      "id": "blackboard",
+      "label": "Blackboard",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Blackboard.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "blackboard"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/blackboard.png",
+        "128": "office-items/128/blackboard.png",
+        "256": "office-items/256/blackboard.png",
+        "512": "office-items/512/blackboard.png"
+      },
+      "preview": "office-items/128/blackboard.png"
+    },
+    {
+      "id": "calculator",
+      "label": "Calculator",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Calculator.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "calculator"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/calculator.png",
+        "128": "office-items/128/calculator.png",
+        "256": "office-items/256/calculator.png",
+        "512": "office-items/512/calculator.png"
+      },
+      "preview": "office-items/128/calculator.png"
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Calendar.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "calendar"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/calendar.png",
+        "128": "office-items/128/calendar.png",
+        "256": "office-items/256/calendar.png",
+        "512": "office-items/512/calendar.png"
+      },
+      "preview": "office-items/128/calendar.png"
+    },
+    {
+      "id": "clipboard_checklist",
+      "label": "Clipboard Checklist",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Clipboard Checklist.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "clipboard",
+        "checklist"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/clipboard_checklist.png",
+        "128": "office-items/128/clipboard_checklist.png",
+        "256": "office-items/256/clipboard_checklist.png",
+        "512": "office-items/512/clipboard_checklist.png"
+      },
+      "preview": "office-items/128/clipboard_checklist.png"
+    },
+    {
+      "id": "coffee_mug",
+      "label": "Coffee Mug",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Coffee Mug.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "coffee",
+        "mug"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/coffee_mug.png",
+        "128": "office-items/128/coffee_mug.png",
+        "256": "office-items/256/coffee_mug.png",
+        "512": "office-items/512/coffee_mug.png"
+      },
+      "preview": "office-items/128/coffee_mug.png"
+    },
+    {
+      "id": "computer_monitor",
+      "label": "Computer Monitor",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Computer Monitor.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "computer",
+        "monitor"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/computer_monitor.png",
+        "128": "office-items/128/computer_monitor.png",
+        "256": "office-items/256/computer_monitor.png",
+        "512": "office-items/512/computer_monitor.png"
+      },
+      "preview": "office-items/128/computer_monitor.png"
+    },
+    {
+      "id": "copier",
+      "label": "Copier",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Copier.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "copier"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/copier.png",
+        "128": "office-items/128/copier.png",
+        "256": "office-items/256/copier.png",
+        "512": "office-items/512/copier.png"
+      },
+      "preview": "office-items/128/copier.png"
+    },
+    {
+      "id": "corded_phone",
+      "label": "Corded Phone",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Corded Phone.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "corded",
+        "phone"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/corded_phone.png",
+        "128": "office-items/128/corded_phone.png",
+        "256": "office-items/256/corded_phone.png",
+        "512": "office-items/512/corded_phone.png"
+      },
+      "preview": "office-items/128/corded_phone.png"
+    },
+    {
+      "id": "crayon",
+      "label": "Crayon",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Crayon.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "crayon"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/crayon.png",
+        "128": "office-items/128/crayon.png",
+        "256": "office-items/256/crayon.png",
+        "512": "office-items/512/crayon.png"
+      },
+      "preview": "office-items/128/crayon.png"
+    },
+    {
+      "id": "desk_clock",
+      "label": "Desk Clock",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Desk Clock.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "desk",
+        "clock"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/desk_clock.png",
+        "128": "office-items/128/desk_clock.png",
+        "256": "office-items/256/desk_clock.png",
+        "512": "office-items/512/desk_clock.png"
+      },
+      "preview": "office-items/128/desk_clock.png"
+    },
+    {
+      "id": "desk_lamp",
+      "label": "Desk Lamp",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Desk Lamp.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "desk",
+        "lamp"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/desk_lamp.png",
+        "128": "office-items/128/desk_lamp.png",
+        "256": "office-items/256/desk_lamp.png",
+        "512": "office-items/512/desk_lamp.png"
+      },
+      "preview": "office-items/128/desk_lamp.png"
+    },
+    {
+      "id": "document_stack",
+      "label": "Document Stack",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Document Stack.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "document",
+        "stack"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/document_stack.png",
+        "128": "office-items/128/document_stack.png",
+        "256": "office-items/256/document_stack.png",
+        "512": "office-items/512/document_stack.png"
+      },
+      "preview": "office-items/128/document_stack.png"
+    },
+    {
+      "id": "envelope",
+      "label": "Envelope",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Envelope.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "envelope"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/envelope.png",
+        "128": "office-items/128/envelope.png",
+        "256": "office-items/256/envelope.png",
+        "512": "office-items/512/envelope.png"
+      },
+      "preview": "office-items/128/envelope.png"
+    },
+    {
+      "id": "eraser",
+      "label": "Eraser",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Eraser.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "eraser"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/eraser.png",
+        "128": "office-items/128/eraser.png",
+        "256": "office-items/256/eraser.png",
+        "512": "office-items/512/eraser.png"
+      },
+      "preview": "office-items/128/eraser.png"
+    },
+    {
+      "id": "file_folder",
+      "label": "File Folder",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring File Folder.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "file",
+        "folder"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/file_folder.png",
+        "128": "office-items/128/file_folder.png",
+        "256": "office-items/256/file_folder.png",
+        "512": "office-items/512/file_folder.png"
+      },
+      "preview": "office-items/128/file_folder.png"
+    },
+    {
+      "id": "filing_cabinet",
+      "label": "Filing Cabinet",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Filing Cabinet.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "filing",
+        "cabinet"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/filing_cabinet.png",
+        "128": "office-items/128/filing_cabinet.png",
+        "256": "office-items/256/filing_cabinet.png",
+        "512": "office-items/512/filing_cabinet.png"
+      },
+      "preview": "office-items/128/filing_cabinet.png"
+    },
+    {
+      "id": "glue_bottle",
+      "label": "Glue Bottle",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Glue Bottle.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "glue",
+        "bottle"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/glue_bottle.png",
+        "128": "office-items/128/glue_bottle.png",
+        "256": "office-items/256/glue_bottle.png",
+        "512": "office-items/512/glue_bottle.png"
+      },
+      "preview": "office-items/128/glue_bottle.png"
+    },
+    {
+      "id": "highlighter",
+      "label": "Highlighter",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Highlighter.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "highlighter"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/highlighter.png",
+        "128": "office-items/128/highlighter.png",
+        "256": "office-items/256/highlighter.png",
+        "512": "office-items/512/highlighter.png"
+      },
+      "preview": "office-items/128/highlighter.png"
+    },
+    {
+      "id": "hole_punch",
+      "label": "Hole Punch",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Hole Punch.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "hole",
+        "punch"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/hole_punch.png",
+        "128": "office-items/128/hole_punch.png",
+        "256": "office-items/256/hole_punch.png",
+        "512": "office-items/512/hole_punch.png"
+      },
+      "preview": "office-items/128/hole_punch.png"
+    },
+    {
+      "id": "in_tray",
+      "label": "In Tray",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring In Tray.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "in",
+        "tray"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/in_tray.png",
+        "128": "office-items/128/in_tray.png",
+        "256": "office-items/256/in_tray.png",
+        "512": "office-items/512/in_tray.png"
+      },
+      "preview": "office-items/128/in_tray.png"
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Keyboard.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "keyboard"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/keyboard.png",
+        "128": "office-items/128/keyboard.png",
+        "256": "office-items/256/keyboard.png",
+        "512": "office-items/512/keyboard.png"
+      },
+      "preview": "office-items/128/keyboard.png"
+    },
+    {
+      "id": "lunch_bag",
+      "label": "Lunch Bag",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Lunch Bag.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "lunch",
+        "bag"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/lunch_bag.png",
+        "128": "office-items/128/lunch_bag.png",
+        "256": "office-items/256/lunch_bag.png",
+        "512": "office-items/512/lunch_bag.png"
+      },
+      "preview": "office-items/128/lunch_bag.png"
+    },
+    {
+      "id": "lunchbox",
+      "label": "Lunchbox",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Lunchbox.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "lunchbox"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/lunchbox.png",
+        "128": "office-items/128/lunchbox.png",
+        "256": "office-items/256/lunchbox.png",
+        "512": "office-items/512/lunchbox.png"
+      },
+      "preview": "office-items/128/lunchbox.png"
+    },
+    {
+      "id": "marker",
+      "label": "Marker",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Marker.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "marker"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/marker.png",
+        "128": "office-items/128/marker.png",
+        "256": "office-items/256/marker.png",
+        "512": "office-items/512/marker.png"
+      },
+      "preview": "office-items/128/marker.png"
+    },
+    {
+      "id": "name_badge",
+      "label": "Name Badge",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Name Badge.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "name",
+        "badge"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/name_badge.png",
+        "128": "office-items/128/name_badge.png",
+        "256": "office-items/256/name_badge.png",
+        "512": "office-items/512/name_badge.png"
+      },
+      "preview": "office-items/128/name_badge.png"
+    },
+    {
+      "id": "notebook",
+      "label": "Notebook",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Notebook.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "notebook"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/notebook.png",
+        "128": "office-items/128/notebook.png",
+        "256": "office-items/256/notebook.png",
+        "512": "office-items/512/notebook.png"
+      },
+      "preview": "office-items/128/notebook.png"
+    },
+    {
+      "id": "office_chair",
+      "label": "Office Chair",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Office Chair.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "chair"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/office_chair.png",
+        "128": "office-items/128/office_chair.png",
+        "256": "office-items/256/office_chair.png",
+        "512": "office-items/512/office_chair.png"
+      },
+      "preview": "office-items/128/office_chair.png"
+    },
+    {
+      "id": "office_desk",
+      "label": "Office Desk",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Office Desk.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "desk"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/office_desk.png",
+        "128": "office-items/128/office_desk.png",
+        "256": "office-items/256/office_desk.png",
+        "512": "office-items/512/office_desk.png"
+      },
+      "preview": "office-items/128/office_desk.png"
+    },
+    {
+      "id": "office_plant",
+      "label": "Office Plant",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Office Plant.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "plant"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/office_plant.png",
+        "128": "office-items/128/office_plant.png",
+        "256": "office-items/256/office_plant.png",
+        "512": "office-items/512/office_plant.png"
+      },
+      "preview": "office-items/128/office_plant.png"
+    },
+    {
+      "id": "out_tray",
+      "label": "Out Tray",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Out Tray.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "out",
+        "tray"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 5
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/out_tray.png",
+        "128": "office-items/128/out_tray.png",
+        "256": "office-items/256/out_tray.png",
+        "512": "office-items/512/out_tray.png"
+      },
+      "preview": "office-items/128/out_tray.png"
+    },
+    {
+      "id": "paper_cutter",
+      "label": "Paper Cutter",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Paper Cutter.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "paper",
+        "cutter"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/paper_cutter.png",
+        "128": "office-items/128/paper_cutter.png",
+        "256": "office-items/256/paper_cutter.png",
+        "512": "office-items/512/paper_cutter.png"
+      },
+      "preview": "office-items/128/paper_cutter.png"
+    },
+    {
+      "id": "paper_shredder",
+      "label": "Paper Shredder",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Paper Shredder.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "paper",
+        "shredder"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/paper_shredder.png",
+        "128": "office-items/128/paper_shredder.png",
+        "256": "office-items/256/paper_shredder.png",
+        "512": "office-items/512/paper_shredder.png"
+      },
+      "preview": "office-items/128/paper_shredder.png"
+    },
+    {
+      "id": "paperclip",
+      "label": "Paperclip",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Paperclip.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "paperclip"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/paperclip.png",
+        "128": "office-items/128/paperclip.png",
+        "256": "office-items/256/paperclip.png",
+        "512": "office-items/512/paperclip.png"
+      },
+      "preview": "office-items/128/paperclip.png"
+    },
+    {
+      "id": "pen",
+      "label": "Pen",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Pen.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "pen"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/pen.png",
+        "128": "office-items/128/pen.png",
+        "256": "office-items/256/pen.png",
+        "512": "office-items/512/pen.png"
+      },
+      "preview": "office-items/128/pen.png"
+    },
+    {
+      "id": "pencil",
+      "label": "Pencil",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Pencil.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "pencil"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/pencil.png",
+        "128": "office-items/128/pencil.png",
+        "256": "office-items/256/pencil.png",
+        "512": "office-items/512/pencil.png"
+      },
+      "preview": "office-items/128/pencil.png"
+    },
+    {
+      "id": "printer",
+      "label": "Printer",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Printer.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "printer"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/printer.png",
+        "128": "office-items/128/printer.png",
+        "256": "office-items/256/printer.png",
+        "512": "office-items/512/printer.png"
+      },
+      "preview": "office-items/128/printer.png"
+    },
+    {
+      "id": "projector",
+      "label": "Projector",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Projector.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "projector"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/projector.png",
+        "128": "office-items/128/projector.png",
+        "256": "office-items/256/projector.png",
+        "512": "office-items/512/projector.png"
+      },
+      "preview": "office-items/128/projector.png"
+    },
+    {
+      "id": "push_pin",
+      "label": "Push Pin",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Push Pin.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "push",
+        "pin"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/push_pin.png",
+        "128": "office-items/128/push_pin.png",
+        "256": "office-items/256/push_pin.png",
+        "512": "office-items/512/push_pin.png"
+      },
+      "preview": "office-items/128/push_pin.png"
+    },
+    {
+      "id": "ruler",
+      "label": "Ruler",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Ruler.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "ruler"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/ruler.png",
+        "128": "office-items/128/ruler.png",
+        "256": "office-items/256/ruler.png",
+        "512": "office-items/512/ruler.png"
+      },
+      "preview": "office-items/128/ruler.png"
+    },
+    {
+      "id": "scissors",
+      "label": "Scissors",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Scissors.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "scissors"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/scissors.png",
+        "128": "office-items/128/scissors.png",
+        "256": "office-items/256/scissors.png",
+        "512": "office-items/512/scissors.png"
+      },
+      "preview": "office-items/128/scissors.png"
+    },
+    {
+      "id": "stapler",
+      "label": "Stapler",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Stapler.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "stapler"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/stapler.png",
+        "128": "office-items/128/stapler.png",
+        "256": "office-items/256/stapler.png",
+        "512": "office-items/512/stapler.png"
+      },
+      "preview": "office-items/128/stapler.png"
+    },
+    {
+      "id": "sticky_notes",
+      "label": "Sticky Notes",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Sticky Notes.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "sticky",
+        "notes"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/sticky_notes.png",
+        "128": "office-items/128/sticky_notes.png",
+        "256": "office-items/256/sticky_notes.png",
+        "512": "office-items/512/sticky_notes.png"
+      },
+      "preview": "office-items/128/sticky_notes.png"
+    },
+    {
+      "id": "tape_dispenser",
+      "label": "Tape Dispenser",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Tape Dispenser.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "tape",
+        "dispenser"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/tape_dispenser.png",
+        "128": "office-items/128/tape_dispenser.png",
+        "256": "office-items/256/tape_dispenser.png",
+        "512": "office-items/512/tape_dispenser.png"
+      },
+      "preview": "office-items/128/tape_dispenser.png"
+    },
+    {
+      "id": "thumb_drive",
+      "label": "Thumb Drive",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Thumb Drive.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "thumb",
+        "drive"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 3
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/thumb_drive.png",
+        "128": "office-items/128/thumb_drive.png",
+        "256": "office-items/256/thumb_drive.png",
+        "512": "office-items/512/thumb_drive.png"
+      },
+      "preview": "office-items/128/thumb_drive.png"
+    },
+    {
+      "id": "wall_clock",
+      "label": "Wall Clock",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Wall Clock.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "wall",
+        "clock"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/wall_clock.png",
+        "128": "office-items/128/wall_clock.png",
+        "256": "office-items/256/wall_clock.png",
+        "512": "office-items/512/wall_clock.png"
+      },
+      "preview": "office-items/128/wall_clock.png"
+    },
+    {
+      "id": "water_bottle",
+      "label": "Water Bottle",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Water Bottle.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "water",
+        "bottle"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 4
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/water_bottle.png",
+        "128": "office-items/128/water_bottle.png",
+        "256": "office-items/256/water_bottle.png",
+        "512": "office-items/512/water_bottle.png"
+      },
+      "preview": "office-items/128/water_bottle.png"
+    },
+    {
+      "id": "whiteboard",
+      "label": "Whiteboard",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Whiteboard.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "whiteboard"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/whiteboard.png",
+        "128": "office-items/128/whiteboard.png",
+        "256": "office-items/256/whiteboard.png",
+        "512": "office-items/512/whiteboard.png"
+      },
+      "preview": "office-items/128/whiteboard.png"
+    },
+    {
+      "id": "whiteout",
+      "label": "Whiteout",
+      "bucket": "office-items",
+      "description": "Glossy AI-generated office supply or workplace icon featuring Whiteout.",
+      "tags": [
+        "ai-generated",
+        "icon",
+        "png",
+        "sticker-style",
+        "office",
+        "whiteout"
+      ],
+      "sourcePack": "cuttlefish_office_avatar_pack",
+      "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
+      "sourceGrid": {
+        "row": 2,
+        "column": 2
+      },
+      "sizes": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "files": {
+        "64": "office-items/64/whiteout.png",
+        "128": "office-items/128/whiteout.png",
+        "256": "office-items/256/whiteout.png",
+        "512": "office-items/512/whiteout.png"
+      },
+      "preview": "office-items/128/whiteout.png"
+    }
+  ]
+}

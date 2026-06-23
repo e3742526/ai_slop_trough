@@ -1,2 +1,112 @@
-# ai_slop_trough
-For re-usable AI generated slop - Save on tokens
+# AI Slop Trough
+
+Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep.
+
+## Table of Contents
+
+- [What This Is](#what-this-is)
+- [Current State](#current-state)
+- [Start Here](#start-here)
+- [Icon Share](#icon-share)
+- [Repo Layout](#repo-layout)
+- [Future Collections](#future-collections)
+- [License](#license)
+- [Notes](#notes)
+
+## What This Is
+
+This repo is a controlled dumping ground for reusable generated assets.
+
+The intent is practical:
+
+- keep commodity AI output that other people can reuse
+- organize it well enough that it stays searchable and linkable
+- avoid mixing future asset types into the repo root
+
+Right now, the repo contains one public collection: the icon share.
+
+## Current State
+
+| Surface | Status | Notes |
+| --- | --- | --- |
+| [`share/icons/`](share/icons/) | Active | Public icon library with metadata, gallery, and provenance |
+| [`share/apps/`](share/apps/) | Reserved | Future home for reusable generated app artifacts |
+| [`share/links/`](share/links/) | Reserved | Future home for curated links to external slop collections |
+
+## Start Here
+
+If you only need the useful parts, start with these:
+
+- [share/icons/README.md](share/icons/README.md): human-readable overview of the current icon collection
+- [share/icons/index.html](share/icons/index.html): lightweight static browser for the icon catalog
+- [share/icons/catalog.json](share/icons/catalog.json): machine-readable index for search, tagging, or import tooling
+- [share/README.md](share/README.md): collection-level index for the `share/` surface
+- [share/CONTRIBUTING.md](share/CONTRIBUTING.md): import and contribution contract for future collections
+
+## Icon Share
+
+The current collection under `share/icons/` contains:
+
+| Metric | Value |
+| --- | --- |
+| Unique icons | `140` |
+| Exported PNG assets | `560` |
+| Sizes | `64`, `128`, `256`, `512` |
+| Public buckets | `marine-life`, `marine-items`, `maker-lab`, `office-items` |
+| Gallery | [`share/icons/index.html`](share/icons/index.html) |
+| Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
+
+The icon share is intentionally split into nominal buckets instead of preserving raw source-pack names. That keeps the public surface usable while still preserving source provenance under `share/icons/_meta/`.
+
+For local browsing, serve the repo root and open the gallery:
+
+```bash
+python3 -m http.server
+```
+
+Then open `/share/icons/`.
+
+## Repo Layout
+
+```text
+share/
+  CONTRIBUTING.md
+  README.md
+  apps/
+    README.md
+  icons/
+    README.md
+    index.html
+    catalog.json
+    marine-life/
+    marine-items/
+    maker-lab/
+    office-items/
+    _meta/
+  links/
+    README.md
+```
+
+The repo is structured so future collections can be added under `share/<collection>/` without changing the meaning of the current icon library.
+
+## Future Collections
+
+The repo is scaffolded for growth, but only the icon share is populated today.
+
+Likely future additions:
+
+- `share/apps/` for generated app artifacts, prototypes, or exports worth keeping
+- `share/links/` for external asset dumps worth indexing without mirroring
+- additional sibling collections such as `share/images/` if they warrant their own catalog and rules
+
+The rule is simple: add new public material under `share/`, not at the repo root.
+
+## License
+
+The repository currently uses `CC0-1.0`.
+
+That is the right default for this repo’s current purpose: low-friction reuse of generated assets without attribution overhead. If a future collection needs different terms, that collection should declare them explicitly inside its own directory.
+
+## Notes
+
+These assets are AI-generated and provided as-is. No trademark, publicity, privacy, or other third-party rights are granted.

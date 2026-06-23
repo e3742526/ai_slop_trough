@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Slop Trough Icon Gallery</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='48'%3E%F0%9F%90%99%3C/text%3E%3C/svg%3E">
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4efe7;
+        --panel: rgba(255, 251, 245, 0.92);
+        --panel-strong: #fffaf2;
+        --ink: #1f2933;
+        --muted: #5a6872;
+        --line: rgba(31, 41, 51, 0.12);
+        --accent: #0f766e;
+        --accent-soft: rgba(15, 118, 110, 0.12);
+        --shadow: 0 18px 40px rgba(56, 43, 24, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.16), transparent 28%),
+          radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 22%),
+          linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
+      }
+
+      .page {
+        width: min(1200px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 32px 0 64px;
+      }
+
+      .hero,
+      .controls,
+      .summary,
+      .empty {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: var(--shadow);
+      }
+
+      .hero {
+        padding: 28px;
+      }
+
+      .eyebrow,
+      .meta,
+      .hint,
+      .path {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        font-weight: 700;
+      }
+
+      h1 {
+        margin-top: 12px;
+        font-size: clamp(2rem, 4vw, 3.3rem);
+        line-height: 0.95;
+      }
+
+      .hero p,
+      .summary p,
+      .empty p {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .hero-grid,
+      .toolbar,
+      .stats,
+      .card-grid {
+        display: grid;
+        gap: 16px;
+      }
+
+      .hero-grid {
+        grid-template-columns: 2fr 1fr;
+        margin-top: 18px;
+      }
+
+      .pill-list,
+      .filter-list {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .pill,
+      .filter {
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: var(--panel-strong);
+        padding: 10px 14px;
+        font-size: 0.95rem;
+      }
+
+      .controls {
+        margin-top: 18px;
+        padding: 20px;
+      }
+
+      .toolbar {
+        grid-template-columns: 1.5fr 1fr;
+      }
+
+      .field label,
+      .field legend {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.85rem;
+        font-family: "Courier New", Courier, monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted);
+      }
+
+      input,
+      select,
+      button {
+        font: inherit;
+      }
+
+      input[type="search"],
+      select {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 12px 14px;
+        background: #fff;
+        color: var(--ink);
+      }
+
+      .filter-list {
+        margin-top: 6px;
+      }
+
+      .filter {
+        cursor: pointer;
+      }
+
+      .filter.active {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .summary {
+        margin-top: 18px;
+        padding: 20px;
+      }
+
+      .stats {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin-top: 12px;
+      }
+
+      .stat {
+        padding: 14px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.55);
+        border: 1px solid var(--line);
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+      }
+
+      .gallery {
+        margin-top: 20px;
+      }
+
+      .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .thumb {
+        display: grid;
+        place-items: center;
+        padding: 18px;
+        min-height: 170px;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.08), rgba(255, 255, 255, 0.65)),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(15, 23, 42, 0.02));
+      }
+
+      .thumb img {
+        width: min(128px, 100%);
+        height: auto;
+        image-rendering: auto;
+      }
+
+      .body {
+        padding: 16px;
+      }
+
+      .body h3 {
+        font-size: 1.05rem;
+      }
+
+      .meta {
+        margin-top: 6px;
+        font-size: 0.82rem;
+        color: var(--muted);
+      }
+
+      .body p {
+        min-height: 48px;
+        margin: 12px 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .path {
+        display: block;
+        padding: 10px 12px;
+        border-radius: 14px;
+        background: rgba(15, 118, 110, 0.08);
+        color: var(--accent);
+        font-size: 0.82rem;
+        text-decoration: none;
+        overflow-wrap: anywhere;
+      }
+
+      .tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+
+      .tag {
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(31, 41, 51, 0.06);
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .empty {
+        display: none;
+        margin-top: 20px;
+        padding: 24px;
+      }
+
+      .empty.visible {
+        display: block;
+      }
+
+      @media (max-width: 860px) {
+        .hero-grid,
+        .toolbar,
+        .stats {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="eyebrow">AI Slop Trough</div>
+        <h1>Icon Gallery</h1>
+        <div class="hero-grid">
+          <div>
+            <p>
+              Lightweight browser for the shared icon catalog. Filter by bucket,
+              switch preview size, and search labels, ids, or tags without
+              pulling in a build step.
+            </p>
+          </div>
+          <div class="pill-list">
+            <div class="pill">CC0-1.0</div>
+            <div class="pill">140 icons</div>
+            <div class="pill">4 buckets</div>
+            <div class="pill">4 sizes</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls">
+        <div class="toolbar">
+          <div class="field">
+            <label for="search">Search</label>
+            <input id="search" type="search" placeholder="Try shark, calculator, printer, coral...">
+          </div>
+          <div class="field">
+            <label for="size">Preview Size</label>
+            <select id="size">
+              <option value="128">128</option>
+              <option value="64">64</option>
+              <option value="256">256</option>
+              <option value="512">512</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <legend>Bucket</legend>
+          <div class="filter-list" id="filters"></div>
+        </div>
+      </section>
+
+      <section class="summary">
+        <h2>Catalog Snapshot</h2>
+        <p id="summary-text">Loading catalog...</p>
+        <div class="stats" id="stats"></div>
+      </section>
+
+      <section class="gallery">
+        <div class="card-grid" id="gallery"></div>
+        <div class="empty" id="empty">
+          <h2>No Matches</h2>
+          <p>Adjust the search text or switch back to a broader bucket filter.</p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        query: "",
+        bucket: "all",
+        size: "128",
+        catalog: null,
+      };
+
+      const galleryEl = document.getElementById("gallery");
+      const filtersEl = document.getElementById("filters");
+      const statsEl = document.getElementById("stats");
+      const emptyEl = document.getElementById("empty");
+      const summaryEl = document.getElementById("summary-text");
+      const searchEl = document.getElementById("search");
+      const sizeEl = document.getElementById("size");
+
+      function setSummary(text) {
+        summaryEl.textContent = text;
+      }
+
+      function renderFilters() {
+        const buckets = state.catalog.buckets;
+        const buttons = [
+          { id: "all", label: `All (${state.catalog.totalIcons})` },
+          ...buckets.map((bucket) => ({
+            id: bucket.id,
+            label: `${bucket.label} (${bucket.count})`,
+          })),
+        ];
+
+        filtersEl.innerHTML = buttons
+          .map(
+            (button) => `
+              <button class="filter ${button.id === state.bucket ? "active" : ""}" data-bucket="${button.id}">
+                ${button.label}
+              </button>
+            `
+          )
+          .join("");
+
+        filtersEl.querySelectorAll("[data-bucket]").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.bucket = button.getAttribute("data-bucket");
+            renderFilters();
+            renderGallery();
+          });
+        });
+      }
+
+      function renderStats() {
+        statsEl.innerHTML = state.catalog.buckets
+          .map(
+            (bucket) => `
+              <div class="stat">
+                <strong>${bucket.count}</strong>
+                <div>${bucket.label}</div>
+              </div>
+            `
+          )
+          .join("");
+      }
+
+      function matches(item) {
+        const query = state.query.trim().toLowerCase();
+        const bucketMatch = state.bucket === "all" || item.bucket === state.bucket;
+        if (!bucketMatch) {
+          return false;
+        }
+        if (!query) {
+          return true;
+        }
+        const haystack = [
+          item.id,
+          item.label,
+          item.description,
+          item.bucket,
+          ...(item.tags || []),
+        ]
+          .join(" ")
+          .toLowerCase();
+        return haystack.includes(query);
+      }
+
+      function renderGallery() {
+        const filtered = state.catalog.items.filter(matches);
+        const size = state.size;
+
+        setSummary(
+          `${filtered.length} matching icons from ${state.catalog.totalIcons} total. ` +
+            `Showing ${size}px preview paths.`
+        );
+
+        galleryEl.innerHTML = filtered
+          .map((item) => {
+            const path = item.files[size];
+            const tags = (item.tags || []).slice(0, 6);
+            return `
+              <article class="card">
+                <div class="thumb">
+                  <img src="${path}" alt="${item.label}">
+                </div>
+                <div class="body">
+                  <h3>${item.label}</h3>
+                  <div class="meta">${item.bucket} / ${item.sourcePack}</div>
+                  <p>${item.description}</p>
+                  <a class="path" href="${path}">${path}</a>
+                  <div class="tags">
+                    ${tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
+                  </div>
+                </div>
+              </article>
+            `;
+          })
+          .join("");
+
+        emptyEl.classList.toggle("visible", filtered.length === 0);
+      }
+
+      async function loadCatalog() {
+        try {
+          const response = await fetch("./catalog.json");
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+          state.catalog = await response.json();
+          renderFilters();
+          renderStats();
+          renderGallery();
+        } catch (error) {
+          setSummary(
+            "Could not load catalog.json. Serve this directory over HTTP, for example with `python3 -m http.server` from the repo root."
+          );
+          console.error(error);
+        }
+      }
+
+      searchEl.addEventListener("input", (event) => {
+        state.query = event.target.value;
+        if (state.catalog) {
+          renderGallery();
+        }
+      });
+
+      sizeEl.addEventListener("change", (event) => {
+        state.size = event.target.value;
+        if (state.catalog) {
+          renderGallery();
+        }
+      });
+
+      loadCatalog();
+    </script>
+  </body>
+</html>
