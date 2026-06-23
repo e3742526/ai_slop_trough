@@ -1,9 +1,14 @@
-# AI Slop Trough
-
-![AI Slop Trough logo](slop/AI_Slop_Trough.png)
-
-Reusable AI-generated artifacts that are generic enough to share, cheap enough
-to copy, and useful enough to keep.
+<table>
+  <tr>
+    <td width="108">
+      <img src="slop/AI_Slop_Trough_88.png" alt="AI Slop Trough logo" width="88">
+    </td>
+    <td>
+      <h1>AI Slop Trough</h1>
+      <p>Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep.</p>
+    </td>
+  </tr>
+</table>
 
 ## Table of Contents
 
@@ -62,15 +67,15 @@ The current collection under `share/icons/` contains:
 
 | Metric | Value |
 | --- | --- |
-| Unique icons | `140` |
-| Exported PNG assets | `560` |
+| Unique icons | `225` |
+| Exported PNG assets | `900` |
 | Sizes | `64`, `128`, `256`, `512` |
-| Public buckets | `marine-life`, `marine-items`, `maker-lab`, `office-items` |
+| Public buckets | `aquatic-life`, `aquatic-habitats`, `aquarium-care`, `nautical-items`, `maker-lab`, `office-items` |
 | Gallery | [`share/icons/index.html`](share/icons/index.html) |
 | Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
 | Schema | [`share/icons/catalog.schema.json`](share/icons/catalog.schema.json) |
 
-The icon share is intentionally split into nominal buckets instead of
+The icon share is intentionally split into descriptive buckets instead of
 preserving raw source-pack names. That keeps the public surface usable while
 still preserving source provenance under `share/icons/_meta/`.
 
@@ -96,8 +101,10 @@ share/
     index.html
     catalog.json
     catalog.schema.json
-    marine-life/
-    marine-items/
+    aquatic-life/
+    aquatic-habitats/
+    aquarium-care/
+    nautical-items/
     maker-lab/
     office-items/
     _meta/

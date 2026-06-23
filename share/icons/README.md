@@ -1,13 +1,13 @@
 # Icon Share
 
-Reusable AI-generated PNG icons organized into four nominal buckets for
+Reusable AI-generated PNG icons organized into descriptive buckets for
 low-friction reuse.
 
 ## Summary
 
-- `140` unique icons
-- `560` exported PNG assets across `64`, `128`, `256`, and `512` sizes
-- `4` public buckets
+- `225` unique icons
+- `900` exported PNG assets across `64`, `128`, `256`, and `512` sizes
+- `6` public buckets
 - `1` machine-readable catalog: [`catalog.json`](catalog.json)
 - `1` catalog schema: [`catalog.schema.json`](catalog.schema.json)
 - Source pack provenance under [`_meta/source-packs/`](_meta/source-packs/)
@@ -16,21 +16,28 @@ low-friction reuse.
 
 | Bucket | Count | Use |
 | --- | --- | --- |
-| `marine-life` | `35` | Sea animals and coastal wildlife |
-| `marine-items` | `15` | Nautical gear, sea flora, and marine-adjacent objects |
+| `aquatic-life` | `89` | Fish, turtles, crustaceans, mollusks, and other aquatic animals |
+| `aquatic-habitats` | `19` | Aquarium tanks, aquatic plants, coral, shells, and other habitat elements |
+| `aquarium-care` | `16` | Aquarium tools, health, water handling, and maintenance equipment |
+| `nautical-items` | `11` | Boats, navigation, safety gear, and sea-adjacent objects |
 | `maker-lab` | `40` | Workshop, field-science, instrumentation, and other oddball utility icons |
 | `office-items` | `50` | Office supplies, workplace gear, and desk objects |
 
-The original “random other things” pack was normalized to `maker-lab` so the
-bucket stays discoverable instead of becoming a junk drawer.
+The public buckets are descriptive rather than source-pack based. The aquarium
+packs were folded into the aquatic buckets, the earlier marine object bucket was
+split between aquatic habitats and nautical items, and the original “random
+other things” pack remains normalized to `maker-lab` so it stays discoverable
+instead of becoming a junk drawer.
 
 ## Layout
 
 ```text
 share/icons/
   catalog.json
-  marine-life/<size>/*.png
-  marine-items/<size>/*.png
+  aquatic-life/<size>/*.png
+  aquatic-habitats/<size>/*.png
+  aquarium-care/<size>/*.png
+  nautical-items/<size>/*.png
   maker-lab/<size>/*.png
   office-items/<size>/*.png
   _meta/source-packs/<pack>/
@@ -78,9 +85,15 @@ npx --yes -p ajv-cli@5.0.0 -p ajv-formats@2.1.1 \
 
 ## Provenance
 
-The assets were generated with ChatGPT 5.5 High. I asked it to make me icons
-for "https://github.com/repo-makeover/jinn" which is a fork of
-"hristo2612/jinn".
+The assets were generated with ChatGPT 5.5 High. Many were originally generated
+for personal applications, prototypes, or experiments rather than as a public
+asset product. They are shared here because the generic icons are still useful
+outside those original contexts.
+
+The earlier ocean and office packs were generated for
+"https://github.com/repo-makeover/jinn", which is a fork of "hristo2612/jinn".
+The aquarium packs were generated later as Jinn-compatible aquarium and
+aquarium-care assets.
 
 The original upstream `README.md`, `manifest.json`, and preview images are
 preserved under [`_meta/source-packs/`](_meta/source-packs/) for reference.
