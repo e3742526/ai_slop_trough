@@ -39,7 +39,7 @@ contains one curated external index:
 
 | Surface | Status | Notes |
 | --- | --- | --- |
-| [`share/icons/`](share/icons/) | Active | Transparent-background icon subset with metadata, gallery, and provenance |
+| [`share/icons/`](share/icons/) | Reset | Empty icon-share surface pending full recreation |
 | [`share/links/`](share/links/) | Active | “Other People's Slop,” a curated index of external icon packs and icon-generation tools |
 
 ## Start Here
@@ -48,9 +48,9 @@ If you only need the useful parts, start with these:
 
 - `index.html`: GitHub Pages landing page for the published repo surface
 - [share/icons/README.md](share/icons/README.md): human-readable overview of
-  the current icon collection
+  the current icon-share reset state
 - [share/icons/index.html](share/icons/index.html): lightweight static browser
-  for the icon catalog
+  for the icon catalog surface
 - [share/icons/catalog.json](share/icons/catalog.json): machine-readable index
   for search, tagging, or import tooling
 - [share/icons/catalog.schema.json](share/icons/catalog.schema.json): JSON
@@ -68,17 +68,16 @@ The current collection under `share/icons/` contains:
 
 | Metric | Value |
 | --- | --- |
-| Unique icons | `75` |
-| Exported PNG assets | `300` |
-| Sizes | `64`, `128`, `256`, `512` |
-| Public buckets | `aquatic-life`, `aquatic-habitats`, `nautical-items` |
+| Unique icons | `0` |
+| Exported PNG assets | `0` |
+| Planned size lanes | `64`, `128`, `256`, `512` |
+| Public buckets | none yet |
 | Gallery | [`share/icons/index.html`](share/icons/index.html) |
 | Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
 | Schema | [`share/icons/catalog.schema.json`](share/icons/catalog.schema.json) |
 
-The icon share is temporarily reduced to the transparent-background subset.
-Opaque exports were removed from the public repo surface so the remaining files
-can be trusted while the broader collection is rebuilt.
+The old icon-share payload has been removed. `share/icons/` is now an empty
+reset surface so the collection can be recreated cleanly from scratch.
 
 The gallery includes copy actions for direct asset paths, Markdown image
 snippets, and HTML `<img>` snippets.
@@ -102,10 +101,6 @@ share/
     index.html
     catalog.json
     catalog.schema.json
-    aquatic-life/
-    aquatic-habitats/
-    nautical-items/
-    _meta/
   links/
     README.md
 ```
