@@ -1,14 +1,7 @@
-<table>
-  <tr>
-    <td width="108">
-      <img src="slop/AI_Slop_Trough_88.png" alt="AI Slop Trough logo" width="88">
-    </td>
-    <td>
-      <h1>AI Slop Trough</h1>
-      <p>Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep.</p>
-    </td>
-  </tr>
-</table>
+# AI Slop Trough
+
+Reusable AI-generated artifacts that are generic enough to share, cheap enough
+to copy, and useful enough to keep.
 
 ## Table of Contents
 
@@ -39,7 +32,7 @@ contains one curated external index:
 
 | Surface | Status | Notes |
 | --- | --- | --- |
-| [`share/icons/`](share/icons/) | Active | Public icon library with metadata, gallery, and provenance |
+| [`share/icons/`](share/icons/) | Active | Transparent-background icon subset with metadata, gallery, and provenance |
 | [`share/links/`](share/links/) | Active | “Other People's Slop,” a curated index of external icon packs and icon-generation tools |
 
 ## Start Here
@@ -68,20 +61,17 @@ The current collection under `share/icons/` contains:
 
 | Metric | Value |
 | --- | --- |
-| Unique icons | `225` |
-| Exported PNG assets | `900` |
+| Unique icons | `75` |
+| Exported PNG assets | `300` |
 | Sizes | `64`, `128`, `256`, `512` |
-| Public buckets | `aquatic-life`, `aquatic-habitats`, `aquarium-care`, `nautical-items`, `maker-lab`, `office-items` |
+| Public buckets | `aquatic-life`, `aquatic-habitats`, `nautical-items` |
 | Gallery | [`share/icons/index.html`](share/icons/index.html) |
 | Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
 | Schema | [`share/icons/catalog.schema.json`](share/icons/catalog.schema.json) |
 
-The icon share is intentionally split into descriptive buckets instead of
-preserving raw source-pack names. That keeps the public surface usable while
-still preserving source provenance under `share/icons/_meta/`.
-
-Some upstream pack exports were mislabeled. The public icon paths and catalog
-normalize those labels instead of mirroring the raw source-pack filenames.
+The icon share is temporarily reduced to the transparent-background subset.
+Opaque exports were removed from the public repo surface so the remaining files
+can be trusted while the broader collection is rebuilt.
 
 The gallery includes copy actions for direct asset paths, Markdown image
 snippets, and HTML `<img>` snippets.
@@ -107,10 +97,7 @@ share/
     catalog.schema.json
     aquatic-life/
     aquatic-habitats/
-    aquarium-care/
     nautical-items/
-    maker-lab/
-    office-items/
     _meta/
   links/
     README.md

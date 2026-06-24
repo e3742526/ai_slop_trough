@@ -5,9 +5,9 @@ low-friction reuse.
 
 ## Summary
 
-- `225` unique icons
-- `900` exported PNG assets across `64`, `128`, `256`, and `512` sizes
-- `6` public buckets
+- `75` unique icons
+- `300` exported PNG assets across `64`, `128`, `256`, and `512` sizes
+- `3` public buckets
 - `1` machine-readable catalog: [`catalog.json`](catalog.json)
 - `1` catalog schema: [`catalog.schema.json`](catalog.schema.json)
 - Source pack provenance under [`_meta/source-packs/`](_meta/source-packs/)
@@ -16,18 +16,13 @@ low-friction reuse.
 
 | Bucket | Count | Use |
 | --- | --- | --- |
-| `aquatic-life` | `89` | Fish, turtles, crustaceans, mollusks, and other aquatic animals |
-| `aquatic-habitats` | `19` | Aquarium tanks, aquatic plants, coral, shells, and other habitat elements |
-| `aquarium-care` | `16` | Aquarium tools, health, water handling, and maintenance equipment |
+| `aquatic-life` | `50` | Fish, turtles, crustaceans, mollusks, and other aquatic animals |
+| `aquatic-habitats` | `14` | Aquarium tanks, aquatic plants, coral, shells, and other habitat elements |
 | `nautical-items` | `11` | Boats, navigation, safety gear, and sea-adjacent objects |
-| `maker-lab` | `40` | Workshop, field-science, instrumentation, and other oddball utility icons |
-| `office-items` | `50` | Office supplies, workplace gear, and desk objects |
 
-The public buckets are descriptive rather than source-pack based. The aquarium
-packs were folded into the aquatic buckets, the earlier marine object bucket was
-split between aquatic habitats and nautical items, and the original “random
-other things” pack remains normalized to `maker-lab` so it stays discoverable
-instead of becoming a junk drawer.
+The public share currently exposes only the transparent-background subset.
+Opaque icon exports were removed from the repo so the remaining files can serve
+as a clean restart point.
 
 ## Layout
 
@@ -36,10 +31,7 @@ share/icons/
   catalog.json
   aquatic-life/<size>/*.png
   aquatic-habitats/<size>/*.png
-  aquarium-care/<size>/*.png
   nautical-items/<size>/*.png
-  maker-lab/<size>/*.png
-  office-items/<size>/*.png
   _meta/source-packs/<pack>/
 ```
 
@@ -64,10 +56,8 @@ website, or import script later.
 [`catalog.schema.json`](catalog.schema.json) documents the current catalog
 shape for tooling that wants to validate or consume it.
 
-The public catalog normalizes known upstream mislabels from the imported
-source packs. The raw source-pack manifests remain preserved under
-[`_meta/source-packs/`](_meta/source-packs/) for provenance, but the public
-IDs and file paths follow the corrected icon labels.
+The current catalog only lists icons whose public exports still have transparent
+backgrounds. Removed opaque exports are intentionally absent.
 
 ## Gallery
 
@@ -94,8 +84,8 @@ To rebuild the public icon share from the downloaded source packs, run:
 python3 scripts/rebuild_icons.py
 ```
 
-The rebuild script auto-detects the local source bundle under
-`/home/ericl/Downloads/` when all five imported pack directories are present.
+The rebuild script is retained as a local helper, but the public repo surface
+has been reset to the transparent subset pending a fresh reimport.
 
 ## Provenance
 
@@ -106,8 +96,7 @@ outside those original contexts.
 
 The earlier ocean and office packs were generated for
 "https://github.com/repo-makeover/jinn", which is a fork of "hristo2612/jinn".
-The aquarium packs were generated later as Jinn-compatible aquarium and
-aquarium-care assets.
+The aquarium packs were generated later as Jinn-compatible aquarium assets.
 
 The original upstream `README.md`, `manifest.json`, and preview images are
 preserved under [`_meta/source-packs/`](_meta/source-packs/) for reference.
