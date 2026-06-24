@@ -64,6 +64,11 @@ website, or import script later.
 [`catalog.schema.json`](catalog.schema.json) documents the current catalog
 shape for tooling that wants to validate or consume it.
 
+The public catalog normalizes known upstream mislabels from the imported
+source packs. The raw source-pack manifests remain preserved under
+[`_meta/source-packs/`](_meta/source-packs/) for provenance, but the public
+IDs and file paths follow the corrected icon labels.
+
 ## Gallery
 
 [`index.html`](index.html) is a static browser for the catalog. It supports
@@ -82,6 +87,15 @@ npx --yes -p ajv-cli@5.0.0 -p ajv-formats@2.1.1 \
   -s share/icons/catalog.schema.json \
   -d share/icons/catalog.json
 ```
+
+To rebuild the public icon share from the downloaded source packs, run:
+
+```bash
+python3 scripts/rebuild_icons.py
+```
+
+The rebuild script auto-detects the local source bundle under
+`/home/ericl/Downloads/` when all five imported pack directories are present.
 
 ## Provenance
 

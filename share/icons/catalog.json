@@ -1,6 +1,6 @@
 {
   "title": "AI Slop Trough Icon Catalog",
-  "generatedOn": "2026-06-23",
+  "generatedOn": "2026-06-23T23:33:35.401735Z",
   "license": "CC0-1.0",
   "totalIcons": 225,
   "sizes": [
@@ -510,7 +510,7 @@
         "blue"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 1,
         "column": 1
@@ -1345,7 +1345,7 @@
         "golden"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 1,
         "column": 5
@@ -1585,7 +1585,7 @@
         "inspector"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 2,
         "column": 4
@@ -1627,7 +1627,7 @@
         "tiger"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 2,
         "column": 2
@@ -1668,7 +1668,7 @@
         "snowball"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 2,
         "column": 3
@@ -1709,7 +1709,7 @@
         "spotted"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 2,
         "column": 5
@@ -1750,7 +1750,7 @@
         "zebra"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 2,
         "column": 1
@@ -2611,7 +2611,7 @@
         "blood"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 1,
         "column": 4
@@ -2810,7 +2810,7 @@
         "red"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 1,
         "column": 2
@@ -2889,7 +2889,7 @@
         "fish"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 1,
         "column": 2
@@ -3202,7 +3202,7 @@
         "ich"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 2,
         "column": 5
@@ -3244,7 +3244,7 @@
         "water-quality"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 1,
         "column": 1
@@ -3285,7 +3285,7 @@
         "fish"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 2,
         "column": 4
@@ -3517,7 +3517,7 @@
         "turquoise"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
       "sourceGrid": {
         "row": 1,
         "column": 3
@@ -4406,7 +4406,7 @@
         "aeration"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 2,
         "column": 1
@@ -4445,7 +4445,7 @@
         "maintenance"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 2,
         "column": 3
@@ -4484,7 +4484,7 @@
         "bottle"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 1,
         "column": 3
@@ -4522,7 +4522,7 @@
         "maintenance"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 2,
         "column": 4
@@ -4560,7 +4560,7 @@
         "box"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 2,
         "column": 2
@@ -4599,7 +4599,7 @@
         "clip"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 1,
         "column": 1
@@ -4640,7 +4640,7 @@
         "container"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 1,
         "column": 4
@@ -4679,7 +4679,7 @@
         "leaking"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 2,
         "column": 2
@@ -4718,7 +4718,7 @@
         "empty"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 2,
         "column": 3
@@ -4758,7 +4758,7 @@
         "glass"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 1,
         "column": 3
@@ -4797,7 +4797,7 @@
         "soaking"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 2,
         "column": 1
@@ -4836,7 +4836,7 @@
         "tank"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 1,
         "column": 4
@@ -4875,7 +4875,7 @@
         "hose"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 2,
         "column": 5
@@ -4914,7 +4914,7 @@
         "filtration"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_01.png",
       "sourceGrid": {
         "row": 1,
         "column": 5
@@ -4954,7 +4954,7 @@
         "stick"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 1,
         "column": 2
@@ -4992,7 +4992,7 @@
         "barrel"
       ],
       "sourcePack": "cuttlefish_aquarium_advanced_avatar_pack",
-      "sourceSheet": "source-sheets/aquarium_advanced_sheet_05.png",
+      "sourceSheet": "source-sheets/aquarium_advanced_sheet_06.png",
       "sourceGrid": {
         "row": 1,
         "column": 5
@@ -5446,7 +5446,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 1
       },
       "sizes": [
         64,
@@ -5483,7 +5483,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -5518,7 +5518,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 1
+        "column": 2
       },
       "sizes": [
         64,
@@ -5554,7 +5554,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 3
+        "column": 4
       },
       "sizes": [
         64,
@@ -5589,7 +5589,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 4
+        "column": 1
       },
       "sizes": [
         64,
@@ -5659,7 +5659,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 2
+        "column": 3
       },
       "sizes": [
         64,
@@ -5693,7 +5693,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
       "sourceGrid": {
         "row": 2,
-        "column": 5
+        "column": 3
       },
       "sizes": [
         64,
@@ -5728,7 +5728,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 1
+        "column": 4
       },
       "sizes": [
         64,
@@ -5762,7 +5762,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
       "sourceGrid": {
         "row": 2,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -5797,7 +5797,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 4
+        "column": 5
       },
       "sizes": [
         64,
@@ -5833,7 +5833,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -5868,7 +5868,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 1
+        "column": 2
       },
       "sizes": [
         64,
@@ -5904,7 +5904,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 1
       },
       "sizes": [
         64,
@@ -5940,7 +5940,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 2
       },
       "sizes": [
         64,
@@ -5976,7 +5976,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 5
+        "column": 3
       },
       "sizes": [
         64,
@@ -6011,7 +6011,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 2
+        "column": 1
       },
       "sizes": [
         64,
@@ -6045,7 +6045,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 2
       },
       "sizes": [
         64,
@@ -6117,7 +6117,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 3
       },
       "sizes": [
         64,
@@ -6186,7 +6186,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 4
       },
       "sizes": [
         64,
@@ -6222,7 +6222,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 5
+        "column": 1
       },
       "sizes": [
         64,
@@ -6294,7 +6294,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 5
       },
       "sizes": [
         64,
@@ -6400,7 +6400,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 5
+        "column": 3
       },
       "sizes": [
         64,
@@ -6435,7 +6435,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
       "sourceGrid": {
         "row": 1,
-        "column": 1
+        "column": 3
       },
       "sizes": [
         64,
@@ -6538,7 +6538,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 1
+        "column": 4
       },
       "sizes": [
         64,
@@ -6574,7 +6574,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 4
+        "column": 2
       },
       "sizes": [
         64,
@@ -6643,7 +6643,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 5
+        "column": 2
       },
       "sizes": [
         64,
@@ -6678,7 +6678,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 4
       },
       "sizes": [
         64,
@@ -6713,7 +6713,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 1
+        "column": 4
       },
       "sizes": [
         64,
@@ -6783,7 +6783,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 2
       },
       "sizes": [
         64,
@@ -6818,7 +6818,7 @@
       "sourceSheet": "source-sheets/ocean_maker_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 2
+        "column": 1
       },
       "sizes": [
         64,
@@ -6921,7 +6921,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -6955,7 +6955,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 1,
-        "column": 5
+        "column": 4
       },
       "sizes": [
         64,
@@ -6989,7 +6989,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 1
+        "column": 4
       },
       "sizes": [
         64,
@@ -7024,7 +7024,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 2
       },
       "sizes": [
         64,
@@ -7059,7 +7059,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -7094,7 +7094,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
       "sourceGrid": {
         "row": 1,
-        "column": 5
+        "column": 4
       },
       "sizes": [
         64,
@@ -7128,7 +7128,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 1
       },
       "sizes": [
         64,
@@ -7197,7 +7197,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -7267,7 +7267,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 2
+        "column": 4
       },
       "sizes": [
         64,
@@ -7302,7 +7302,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 3
+        "column": 4
       },
       "sizes": [
         64,
@@ -7370,7 +7370,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 1
+        "column": 5
       },
       "sizes": [
         64,
@@ -7405,7 +7405,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 2
+        "column": 3
       },
       "sizes": [
         64,
@@ -7440,7 +7440,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 1,
-        "column": 1
+        "column": 3
       },
       "sizes": [
         64,
@@ -7475,7 +7475,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 5
+        "column": 3
       },
       "sizes": [
         64,
@@ -7509,7 +7509,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 3
       },
       "sizes": [
         64,
@@ -7544,7 +7544,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
       "sourceGrid": {
         "row": 2,
-        "column": 5
+        "column": 4
       },
       "sizes": [
         64,
@@ -7578,7 +7578,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 4
+        "column": 1
       },
       "sizes": [
         64,
@@ -7647,7 +7647,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 4
       },
       "sizes": [
         64,
@@ -7715,7 +7715,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 5
+        "column": 1
       },
       "sizes": [
         64,
@@ -7750,7 +7750,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
       "sourceGrid": {
         "row": 2,
-        "column": 2
+        "column": 3
       },
       "sizes": [
         64,
@@ -7784,7 +7784,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 3
       },
       "sizes": [
         64,
@@ -7818,7 +7818,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 3
+        "column": 2
       },
       "sizes": [
         64,
@@ -7852,7 +7852,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
       "sourceGrid": {
         "row": 1,
-        "column": 5
+        "column": 3
       },
       "sizes": [
         64,
@@ -7886,7 +7886,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
       "sourceGrid": {
         "row": 2,
-        "column": 5
+        "column": 2
       },
       "sizes": [
         64,
@@ -7921,7 +7921,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 5
+        "column": 2
       },
       "sizes": [
         64,
@@ -8059,7 +8059,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 4
       },
       "sizes": [
         64,
@@ -8093,7 +8093,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 1,
-        "column": 1
+        "column": 2
       },
       "sizes": [
         64,
@@ -8127,7 +8127,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 1,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -8161,7 +8161,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 2
       },
       "sizes": [
         64,
@@ -8230,7 +8230,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 3
+        "column": 4
       },
       "sizes": [
         64,
@@ -8264,7 +8264,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_01.png",
       "sourceGrid": {
         "row": 2,
-        "column": 4
+        "column": 1
       },
       "sizes": [
         64,
@@ -8298,7 +8298,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
       "sourceGrid": {
         "row": 2,
-        "column": 4
+        "column": 5
       },
       "sizes": [
         64,
@@ -8333,7 +8333,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_02.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 1
       },
       "sizes": [
         64,
@@ -8368,7 +8368,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_03.png",
       "sourceGrid": {
         "row": 2,
-        "column": 1
+        "column": 5
       },
       "sizes": [
         64,
@@ -8403,7 +8403,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
       "sourceGrid": {
         "row": 2,
-        "column": 3
+        "column": 5
       },
       "sizes": [
         64,
@@ -8438,7 +8438,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
       "sourceGrid": {
         "row": 2,
-        "column": 4
+        "column": 3
       },
       "sizes": [
         64,
@@ -8473,7 +8473,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_05.png",
       "sourceGrid": {
         "row": 1,
-        "column": 4
+        "column": 2
       },
       "sizes": [
         64,
@@ -8507,7 +8507,7 @@
       "sourceSheet": "source-sheets/office_avatar_sheet_04.png",
       "sourceGrid": {
         "row": 1,
-        "column": 2
+        "column": 3
       },
       "sizes": [
         64,

@@ -80,6 +80,9 @@ The icon share is intentionally split into descriptive buckets instead of
 preserving raw source-pack names. That keeps the public surface usable while
 still preserving source provenance under `share/icons/_meta/`.
 
+Some upstream pack exports were mislabeled. The public icon paths and catalog
+normalize those labels instead of mirroring the raw source-pack filenames.
+
 The gallery includes copy actions for direct asset paths, Markdown image
 snippets, and HTML `<img>` snippets.
 
