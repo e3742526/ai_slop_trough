@@ -267,7 +267,7 @@ def build_corrected_items(source_root: Path) -> tuple[list[dict], list[str]]:
 
 def write_catalog(corrected_items: list[dict]) -> None:
     catalog = load_json(CATALOG_PATH)
-    catalog["generatedOn"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    catalog["generatedOn"] = datetime.now(timezone.utc).date().isoformat()
     catalog["items"] = corrected_items
     CATALOG_PATH.write_text(json.dumps(catalog, indent=2) + "\n")
 
