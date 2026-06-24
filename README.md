@@ -1,7 +1,14 @@
-# AI Slop Trough
-
-Reusable AI-generated artifacts that are generic enough to share, cheap enough
-to copy, and useful enough to keep.
+<table>
+  <tr>
+    <td width="108">
+      <img src="slop/AI_Slop_Trough_88.png" alt="AI Slop Trough logo" width="88">
+    </td>
+    <td>
+      <h1>AI Slop Trough</h1>
+      <p>Reusable AI-generated artifacts that are generic enough to share, cheap enough to copy, and useful enough to keep.</p>
+    </td>
+  </tr>
+</table>
 
 ## Table of Contents
 
