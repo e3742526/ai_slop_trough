@@ -4,279 +4,373 @@ from __future__ import annotations
 
 import json
 import shutil
-from copy import deepcopy
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Iterable
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-CATALOG_PATH = REPO_ROOT / "share" / "icons" / "catalog.json"
-SOURCE_PACKS_DIR = REPO_ROOT / "share" / "icons" / "_meta" / "source-packs"
-DEFAULT_DOWNLOADS_DIR = Path("/home/ericl/Downloads")
+ICONS_ROOT = REPO_ROOT / "share" / "icons"
+CATALOG_PATH = ICONS_ROOT / "catalog.json"
+SCHEMA_PATH = ICONS_ROOT / "catalog.schema.json"
+README_PATH = ICONS_ROOT / "README.md"
+GALLERY_PATH = ICONS_ROOT / "index.html"
+META_PACKS_DIR = ICONS_ROOT / "_meta" / "source-packs"
+SOURCE_ROOT = Path("/home/ericl/Downloads") / "s\n"
 SIZES = ("64", "128", "256", "512")
+TODAY = datetime.now(timezone.utc).date().isoformat()
 
-
-OFFICE_OVERRIDES = {
-    "pencil": "marker",
-    "pen": "pencil",
-    "crayon": "highlighter",
-    "highlighter": "pen",
-    "marker": "crayon",
-    "eraser": "scissors",
-    "whiteout": "whiteout",
-    "ruler": "glue_bottle",
-    "scissors": "ruler",
-    "glue_bottle": "eraser",
-    "calendar": "sticky_notes",
-    "notebook": "clipboard_checklist",
-    "clipboard_checklist": "notebook",
-    "sticky_notes": "calendar",
-    "envelope": "envelope",
-    "paperclip": "paperclip",
-    "binder_clip": "binder_clip",
-    "push_pin": "push_pin",
-    "stapler": "hole_punch",
-    "hole_punch": "stapler",
-    "filing_cabinet": "copier",
-    "paper_cutter": "paper_cutter",
-    "printer": "filing_cabinet",
-    "copier": "calculator",
-    "calculator": "printer",
-    "tape_dispenser": "in_tray",
-    "file_folder": "out_tray",
-    "document_stack": "file_folder",
-    "in_tray": "document_stack",
-    "out_tray": "tape_dispenser",
-    "corded_phone": "corded_phone",
-    "whiteboard": "projector",
-    "blackboard": "whiteboard",
-    "projector": "computer_monitor",
-    "computer_monitor": "blackboard",
-    "keyboard": "keyboard",
-    "desk_lamp": "office_chair",
-    "office_chair": "wall_clock",
-    "wall_clock": "desk_lamp",
-    "desk_clock": "desk_clock",
-    "lunchbox": "lunchbox",
-    "lunch_bag": "water_bottle",
-    "coffee_mug": "office_desk",
-    "water_bottle": "lunch_bag",
-    "office_desk": "coffee_mug",
-    "backpack": "backpack",
-    "name_badge": "office_plant",
-    "thumb_drive": "name_badge",
-    "paper_shredder": "paper_shredder",
-    "office_plant": "thumb_drive",
+EXCLUDED_PACKS = {
+    "cuttlefish_aquarium_pack_2_transparent",
 }
 
-MAKER_OVERRIDES = {
-    "benchy_boat": "printer_3d_cartesian",
-    "printer_3d_cartesian": "geppetto",
-    "printer_3d_enclosed": "pinocchio",
-    "geppetto": "benchy_boat",
-    "pinocchio": "printer_3d_enclosed",
-    "archaeology_brush": "archaeology_shovel",
-    "archaeology_trowel": "archaeology_brush",
-    "archaeology_hand_pick": "archaeology_trowel",
-    "archaeology_shovel": "archaeology_hand_pick",
-    "archaeology_sieve": "archaeology_sieve",
-    "cnc_machine": "microscope_binocular",
-    "magnifying_glass": "cnc_machine",
-    "microscope_classic": "microscope_classic",
-    "microscope_digital": "magnifying_glass",
-    "microscope_binocular": "microscope_digital",
-    "microscope_field": "microscope_field",
-    "microscope_pocket": "microscope_pocket",
-    "binoculars": "astrolabe",
-    "telescope": "telescope",
-    "astrolabe": "binoculars",
-    "pirate_flag": "compass_antique",
-    "compass_antique": "compass_modern",
-    "compass_modern": "pirate_flag",
-    "satellite": "satellite",
-    "laptop": "laptop",
-    "smartphone": "flip_phone",
-    "flip_phone": "walkie_talkie",
-    "rugged_phone": "rugged_phone",
-    "candybar_phone": "smartphone",
-    "walkie_talkie": "candybar_phone",
-    "woodworking_hammer": "woodworking_hammer",
-    "woodworking_hand_saw": "woodworking_mallet",
-    "woodworking_chisel": "woodworking_hand_saw",
-    "woodworking_mallet": "woodworking_chisel",
-    "woodworking_hand_plane": "woodworking_hand_plane",
-    "woodworking_clamp": "woodworking_router",
-    "woodworking_router": "woodworking_table_saw",
-    "woodworking_circular_saw": "woodworking_drill_press",
-    "woodworking_table_saw": "woodworking_clamp",
-    "woodworking_drill_press": "woodworking_circular_saw",
+NAUTICAL_IDS = {
+    "anchor",
+    "buoy",
+    "captains_wheel",
+    "life_ring",
+    "lighthouse",
+    "message_bottle",
+    "sailboat",
+    "ship_wheel",
+    "submarine",
+    "treasure_chest",
+    "trident",
 }
 
-AQUARIUM_ADVANCED_OVERRIDES = {
-    "discus_blue": "sick_fish_thermometer",
-    "discus_red": "school_of_fish",
-    "discus_turquoise": "aquarium_medication",
-    "discus_pigeon_blood": "quarantine_tank",
-    "discus_golden": "sponge_filter",
-    "hypancistrus_zebra": "air_stone_bubbler",
-    "hypancistrus_king_tiger": "breeder_box",
-    "hypancistrus_snowball": "algae_scraper",
-    "hypancistrus_inspector": "aquarium_net",
-    "hypancistrus_spotted": "siphon_hose",
-    "ancistrus_longfin": "ancistrus_longfin",
-    "ancistrus_albino": "ancistrus_albino",
-    "ancistrus_bristlenose": "ancistrus_bristlenose",
-    "ancistrus_calico": "ancistrus_calico",
-    "snail_mystery": "snail_mystery",
-    "snail_nerite": "snail_nerite",
-    "snail_ramshorn": "snail_ramshorn",
-    "hillstream_loach": "hillstream_loach",
-    "catfish_corydoras": "catfish_corydoras",
-    "catfish_pictus": "catfish_pictus",
-    "catfish_whiskered": "catfish_whiskered",
-    "plant_banana": "plant_banana",
-    "plant_anubias_nana": "plant_anubias_nana",
-    "plant_amazon_sword": "plant_amazon_sword",
-    "plant_java_fern": "plant_java_fern",
-    "plant_anacharis": "plant_anacharis",
-    "crayfish_orange": "crayfish_orange",
-    "crayfish_blue": "crayfish_blue",
-    "crayfish_natural": "crayfish_natural",
-    "goldfish_fancy": "goldfish_fancy",
-    "goldfish_comet": "goldfish_comet",
-    "koi": "koi",
-    "convict_cichlid": "convict_cichlid",
-    "brine_shrimp": "brine_shrimp",
-    "glass_shrimp": "glass_shrimp",
-    "minnows": "minnows",
-    "bloodworms": "bloodworms",
-    "blackworms": "blackworms",
-    "daphnia": "daphnia",
-    "earthworm_red_wiggler": "earthworm_red_wiggler",
-    "thermometer_clip_on": "discus_blue",
-    "thermometer_strip": "discus_red",
-    "thermometer_floating": "discus_turquoise",
-    "sea_salt_container": "discus_pigeon_blood",
-    "water_aging_barrel": "discus_golden",
-    "mop_spill": "hypancistrus_zebra",
-    "aquarium_cracked_leaking": "hypancistrus_king_tiger",
-    "aquarium_cracked_empty": "hypancistrus_snowball",
-    "sick_goldfish": "hypancistrus_inspector",
-    "sick_fish_ich": "hypancistrus_spotted",
-    "sick_fish_thermometer": "thermometer_clip_on",
-    "school_of_fish": "thermometer_strip",
-    "aquarium_medication": "thermometer_floating",
-    "quarantine_tank": "sea_salt_container",
-    "sponge_filter": "water_aging_barrel",
-    "air_stone_bubbler": "mop_spill",
-    "breeder_box": "aquarium_cracked_leaking",
-    "algae_scraper": "aquarium_cracked_empty",
-    "aquarium_net": "sick_goldfish",
-    "siphon_hose": "sick_fish_ich",
+HABITAT_IDS = {
+    "aquarium_standard_tank",
+    "aquarium_rimless_planted_tank",
+    "aquarium_nano_cube_tank",
+    "aquarium_bowfront_tank",
+    "aquarium_turtle_tank",
+    "aquatic_plant_vallisneria",
+    "aquatic_plant_anubias",
+    "aquatic_plant_red_stem",
+    "aquatic_plant_java_fern",
+    "aquatic_plant_floating_cluster",
+    "clam_shell",
+    "coral",
+    "oyster_pearl",
+    "seaweed",
+}
+
+BUCKETS = {
+    "aquatic-life": {
+        "label": "Aquatic Life",
+        "description": "Fish, crustaceans, turtles, marine mammals, and other aquatic animals.",
+    },
+    "aquatic-habitats": {
+        "label": "Aquatic Habitats",
+        "description": "Aquariums, plants, coral, shells, and other aquatic environment elements.",
+    },
+    "nautical-items": {
+        "label": "Nautical Items",
+        "description": "Boats, navigation gear, safety objects, and other sea-adjacent items.",
+    },
+    "maker-workshop": {
+        "label": "Maker Workshop",
+        "description": "Fabrication, electronics, welding, sewing, and mixed maker-space equipment.",
+    },
+    "workshop-tools": {
+        "label": "Workshop Tools",
+        "description": "Garage, woodshop, and handheld or powered workshop tools and fixtures.",
+    },
 }
 
 
 @dataclass(frozen=True)
-class PackConfig:
-    avatar_dir: str
-    overrides: dict[str, str]
+class SourcePack:
+    dir_name: str
+    has_manifest: bool = True
 
 
-PACKS: dict[str, PackConfig] = {
-    "aquarium_25_icon_pack": PackConfig("aquarium-25", {}),
-    "cuttlefish_aquarium_advanced_avatar_pack": PackConfig(
-        "aquarium-advanced",
-        AQUARIUM_ADVANCED_OVERRIDES,
-    ),
-    "cuttlefish_ocean_avatar_pack": PackConfig("ocean", {}),
-    "cuttlefish_ocean_maker_avatar_pack": PackConfig("ocean-maker", MAKER_OVERRIDES),
-    "cuttlefish_office_avatar_pack": PackConfig("office", OFFICE_OVERRIDES),
-}
+SOURCE_PACKS = (
+    SourcePack("aquarium_25_transparent_icon_pack"),
+    SourcePack("cuttlefish_ocean_avatar_pack"),
+    SourcePack("fishlore_cartoon_fish_icons", has_manifest=False),
+    SourcePack("garage_workshop_avatar_icon_pack"),
+    SourcePack("maker_workshop_avatar_icon_pack"),
+    SourcePack("woodshop_avatar_icon_pack_final"),
+    SourcePack("woodworking_power_tool_icon_pack"),
+)
 
 
-def detect_source_root() -> Path:
-    required = set(PACKS)
-    for child in sorted(DEFAULT_DOWNLOADS_DIR.iterdir()):
-        if not child.is_dir():
-            continue
-        present = {entry.name for entry in child.iterdir() if entry.is_dir()}
-        if required.issubset(present):
-            return child
-    raise FileNotFoundError(
-        f"Could not find source pack directory under {DEFAULT_DOWNLOADS_DIR}"
-    )
+def ensure_source_root() -> Path:
+    if not SOURCE_ROOT.is_dir():
+        raise FileNotFoundError(f"Source root not found: {SOURCE_ROOT!r}")
+    return SOURCE_ROOT
 
 
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
-def build_corrected_items(source_root: Path) -> tuple[list[dict], list[str]]:
-    current_catalog = load_json(CATALOG_PATH)
-    current_items = current_catalog["items"]
-    item_templates = {item["id"]: item for item in current_items}
-    corrected_by_id: dict[str, dict] = {}
+def snake_to_label(value: str) -> str:
+    return " ".join(part.capitalize() for part in value.replace("-", "_").split("_"))
 
-    for pack_name, config in PACKS.items():
-        manifest_path = SOURCE_PACKS_DIR / pack_name / "manifest.json"
-        manifest = load_json(manifest_path)
-        source_avatar_root = (
-            source_root
-            / pack_name
-            / "packages"
-            / "web"
-            / "public"
-            / "avatars"
-            / config.avatar_dir
+
+def stable_unique(values: Iterable[str]) -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for value in values:
+        if not value or value in seen:
+            continue
+        seen.add(value)
+        out.append(value)
+    return out
+
+
+def path_from_served(pack_root: Path, asset_root: str, served_root: str, served_path: str) -> Path:
+    suffix = served_path.removeprefix(served_root).lstrip("/")
+    return pack_root / asset_root / suffix
+
+
+def infer_bucket(pack_name: str, icon: dict, icon_id: str) -> str:
+    if pack_name == "aquarium_25_transparent_icon_pack":
+        return "aquatic-habitats" if icon_id in HABITAT_IDS else "aquatic-life"
+    if pack_name == "cuttlefish_ocean_avatar_pack":
+        if icon_id in NAUTICAL_IDS:
+            return "nautical-items"
+        if icon_id in HABITAT_IDS:
+            return "aquatic-habitats"
+        return "aquatic-life"
+    if pack_name == "fishlore_cartoon_fish_icons":
+        return "aquatic-life"
+    if pack_name == "maker_workshop_avatar_icon_pack":
+        return "maker-workshop"
+    return "workshop-tools"
+
+
+def derive_grid(icon: dict, index: int) -> dict[str, int]:
+    row = icon.get("row")
+    column = icon.get("column")
+    if isinstance(row, int) and isinstance(column, int):
+        return {"row": row, "column": column}
+    source_index = icon.get("sourceIndex")
+    if isinstance(source_index, int):
+        return {"row": source_index // 10 + 1, "column": source_index % 10 + 1}
+    return {"row": 1, "column": index + 1}
+
+
+def source_files_for_manifest_icon(pack_root: Path, manifest: dict, icon: dict) -> dict[str, Path]:
+    files: dict[str, Path] = {}
+    if "files" in icon:
+        for size in SIZES:
+            files[size] = pack_root / icon["files"][size]
+        return files
+    asset_root = manifest["assetRoot"]
+    served_root = manifest["servedRoot"]
+    for size in SIZES:
+        served_path = icon.get(f"path{size}") or icon.get("path")
+        candidate = path_from_served(pack_root, asset_root, served_root, served_path)
+        if not candidate.exists():
+            top_level_candidate = pack_root / size / f"{icon['id']}.png"
+            if top_level_candidate.exists():
+                candidate = top_level_candidate
+        files[size] = candidate
+    return files
+
+
+def copy_pack_provenance(pack_root: Path, pack_dir_name: str, manifest: dict | None, icon_count: int) -> dict:
+    target_dir = META_PACKS_DIR / pack_dir_name
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    readme_src = pack_root / "README.md"
+    manifest_src = pack_root / "manifest.json"
+    readme_dst = target_dir / "README.md"
+    manifest_dst = target_dir / "manifest.json"
+
+    if readme_src.exists():
+        shutil.copy2(readme_src, readme_dst)
+    else:
+        readme_dst.write_text(
+            f"# {pack_dir_name}\n\nImported from `{pack_root}` during curated icon-share rebuild.\n"
         )
 
-        for icon in manifest["icons"]:
-            source_id = icon["id"]
-            actual_id = config.overrides.get(source_id, source_id)
-            if actual_id in corrected_by_id:
-                raise ValueError(f"Duplicate corrected id detected: {actual_id}")
-            if actual_id not in item_templates:
-                raise KeyError(f"Missing catalog template for id: {actual_id}")
+    if manifest_src.exists():
+        shutil.copy2(manifest_src, manifest_dst)
+        created = manifest.get("created") or TODAY
+        display_name = manifest.get("name", pack_dir_name.replace("_", "-"))
+    else:
+        inferred = {
+            "name": pack_dir_name.replace("_", "-"),
+            "created": TODAY,
+            "count": icon_count,
+            "sizes": [int(size) for size in SIZES],
+            "notes": "Manifest inferred during import because the source pack did not provide one.",
+        }
+        manifest_dst.write_text(json.dumps(inferred, indent=2) + "\n")
+        created = TODAY
+        display_name = inferred["name"]
 
-            item = deepcopy(item_templates[actual_id])
-            item["sourcePack"] = pack_name
-            item["sourceSheet"] = icon["sourceSheet"]
-            item["sourceGrid"] = {
-                "row": icon["row"],
-                "column": icon["column"],
+    return {
+        "id": pack_dir_name,
+        "name": display_name,
+        "created": created,
+        "iconCount": icon_count,
+        "sizes": [int(size) for size in SIZES],
+        "sourceReadme": str(readme_dst.relative_to(ICONS_ROOT)).replace("\\", "/"),
+        "sourceManifest": str(manifest_dst.relative_to(ICONS_ROOT)).replace("\\", "/"),
+        "previewFiles": [],
+    }
+
+
+def build_manifest_pack_items(pack_root: Path, pack_dir_name: str) -> tuple[list[dict], dict]:
+    manifest = load_json(pack_root / "manifest.json")
+    items: list[dict] = []
+
+    for index, icon in enumerate(manifest["icons"]):
+        icon_id = icon["id"]
+        files = source_files_for_manifest_icon(pack_root, manifest, icon)
+        bucket = infer_bucket(pack_dir_name, icon, icon_id)
+
+        repo_files: dict[str, str] = {}
+        for size, source_path in files.items():
+            if not source_path.exists():
+                raise FileNotFoundError(f"Missing source file for {icon_id} size {size}: {source_path}")
+            target_path = ICONS_ROOT / bucket / size / f"{icon_id}.png"
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source_path, target_path)
+            repo_files[size] = str(target_path.relative_to(ICONS_ROOT)).replace("\\", "/")
+
+        tags = stable_unique(
+            [
+                *icon_id.split("_"),
+                bucket.replace("-", " "),
+                str(icon.get("category", "")).replace("_", " "),
+                str(icon.get("toolType", "")),
+                str(icon.get("colorway", "")),
+                pack_dir_name.replace("_", " "),
+            ]
+        )
+
+        items.append(
+            {
+                "id": icon_id,
+                "label": icon.get("label") or snake_to_label(icon_id),
+                "bucket": bucket,
+                "description": icon.get("description")
+                or f"Glossy AI-generated {bucket} icon featuring {snake_to_label(icon_id)}.",
+                "tags": tags,
+                "sourcePack": pack_dir_name,
+                "sourceSheet": icon.get("sourceSheet", ""),
+                "sourceGrid": derive_grid(icon, index),
+                "sizes": [int(size) for size in SIZES],
+                "files": repo_files,
+                "preview": repo_files["128"],
             }
-            item["preview"] = item["files"]["128"]
-            corrected_by_id[actual_id] = item
+        )
 
-            for size in SIZES:
-                source_file = source_avatar_root / size / f"{source_id}.png"
-                dest_file = REPO_ROOT / "share" / "icons" / item["files"][size]
-                if not source_file.exists():
-                    raise FileNotFoundError(source_file)
-                dest_file.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(source_file, dest_file)
-
-    missing = sorted(set(item_templates) - set(corrected_by_id))
-    if missing:
-        raise ValueError(f"Missing corrected items: {missing}")
-
-    corrected_items = [corrected_by_id[item["id"]] for item in current_items]
-    return corrected_items, [item["id"] for item in corrected_items]
+    source_pack = copy_pack_provenance(pack_root, pack_dir_name, manifest, len(items))
+    return items, source_pack
 
 
-def write_catalog(corrected_items: list[dict]) -> None:
-    catalog = load_json(CATALOG_PATH)
-    catalog["generatedOn"] = datetime.now(timezone.utc).date().isoformat()
-    catalog["items"] = corrected_items
-    CATALOG_PATH.write_text(json.dumps(catalog, indent=2) + "\n")
+def build_fishlore_pack_items(pack_root: Path, pack_dir_name: str) -> tuple[list[dict], dict]:
+    items: list[dict] = []
+    stems = sorted(path.stem.removesuffix("_128") for path in (pack_root / "128").glob("*.png"))
+
+    for index, stem in enumerate(stems):
+        icon_id = stem.replace("-", "_")
+        repo_files: dict[str, str] = {}
+        for size in SIZES:
+            source_path = pack_root / size / f"{stem}_{size}.png"
+            if not source_path.exists():
+                raise FileNotFoundError(f"Missing fishlore size {size} for {stem}: {source_path}")
+            target_path = ICONS_ROOT / "aquatic-life" / size / f"{icon_id}.png"
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source_path, target_path)
+            repo_files[size] = str(target_path.relative_to(ICONS_ROOT)).replace("\\", "/")
+
+        label = snake_to_label(icon_id)
+        items.append(
+            {
+                "id": icon_id,
+                "label": label,
+                "bucket": "aquatic-life",
+                "description": f"Cartoon aquatic-life icon featuring {label}.",
+                "tags": stable_unique([*icon_id.split("_"), "fishlore", "cartoon", "fish"]),
+                "sourcePack": pack_dir_name,
+                "sourceSheet": "",
+                "sourceGrid": {"row": 1, "column": index + 1},
+                "sizes": [int(size) for size in SIZES],
+                "files": repo_files,
+                "preview": repo_files["128"],
+            }
+        )
+
+    source_pack = copy_pack_provenance(pack_root, pack_dir_name, None, len(items))
+    return items, source_pack
+
+
+def reset_icons_surface() -> None:
+    for child in ICONS_ROOT.iterdir():
+        if child.name in {SCHEMA_PATH.name, GALLERY_PATH.name, README_PATH.name, CATALOG_PATH.name}:
+            continue
+        if child.is_dir():
+            shutil.rmtree(child)
+        else:
+            child.unlink()
+
+
+def build_catalog(items: list[dict], source_packs: list[dict]) -> dict:
+    bucket_counts = {bucket_id: 0 for bucket_id in BUCKETS}
+    for item in items:
+        bucket_counts[item["bucket"]] += 1
+
+    buckets = [
+        {
+            "id": bucket_id,
+            "label": meta["label"],
+            "description": meta["description"],
+            "count": bucket_counts[bucket_id],
+        }
+        for bucket_id, meta in BUCKETS.items()
+        if bucket_counts[bucket_id] > 0
+    ]
+
+    return {
+        "title": "AI Slop Trough Icon Catalog",
+        "generatedOn": TODAY,
+        "license": "CC0-1.0",
+        "totalIcons": len(items),
+        "sizes": [int(size) for size in SIZES],
+        "buckets": buckets,
+        "sourcePacks": source_packs,
+        "items": items,
+    }
 
 
 def main() -> None:
-    source_root = detect_source_root()
-    corrected_items, corrected_ids = build_corrected_items(source_root)
-    write_catalog(corrected_items)
-    print(f"Rebuilt {len(corrected_ids)} icons from {source_root!s}")
+    source_root = ensure_source_root()
+    reset_icons_surface()
+
+    all_items: list[dict] = []
+    source_packs: list[dict] = []
+
+    for pack in SOURCE_PACKS:
+        if pack.dir_name in EXCLUDED_PACKS:
+            continue
+        pack_root = source_root / pack.dir_name
+        if not pack_root.is_dir():
+            raise FileNotFoundError(f"Missing source pack: {pack_root}")
+        if pack.has_manifest:
+            items, source_pack = build_manifest_pack_items(pack_root, pack.dir_name)
+        else:
+            items, source_pack = build_fishlore_pack_items(pack_root, pack.dir_name)
+        all_items.extend(items)
+        source_packs.append(source_pack)
+
+    all_items.sort(key=lambda item: (item["bucket"], item["label"], item["id"]))
+    source_packs.sort(key=lambda pack: pack["name"])
+
+    catalog = build_catalog(all_items, source_packs)
+    CATALOG_PATH.write_text(json.dumps(catalog, indent=2) + "\n")
+
+    print(f"Imported {len(all_items)} icons from {len(source_packs)} clean source packs.")
+    for bucket in catalog["buckets"]:
+        print(f"{bucket['id']}: {bucket['count']}")
 
 
 if __name__ == "__main__":

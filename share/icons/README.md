@@ -1,16 +1,32 @@
 # Icon Share
 
-The public icon-share payload has been cleared. This surface is intentionally
-empty pending a fresh recreation pass.
+Curated clean PNG icon library rebuilt from vetted individual source files.
 
 ## Summary
 
-- `0` unique icons
-- `0` exported PNG assets
-- `0` public buckets
-- `1` machine-readable catalog scaffold: [`catalog.json`](catalog.json)
+- `430` unique icons
+- `1720` exported PNG assets across `64`, `128`, `256`, and `512` sizes
+- `5` public buckets
+- `7` included source packs
+- `1` excluded contaminated pack: `cuttlefish_aquarium_pack_2_transparent`
+- `1` machine-readable catalog: [`catalog.json`](catalog.json)
 - `1` catalog schema: [`catalog.schema.json`](catalog.schema.json)
-- `1` static gallery scaffold: [`index.html`](index.html)
+- `1` static gallery: [`index.html`](index.html)
+- Source pack provenance under [`_meta/source-packs/`](_meta/source-packs/)
+
+## Buckets
+
+| Bucket | Count | Use |
+| --- | --- | --- |
+| `aquatic-life` | `205` | Fish, crustaceans, turtles, marine mammals, and other aquatic animals |
+| `aquatic-habitats` | `14` | Aquariums, aquatic plants, coral, shells, and other habitat elements |
+| `nautical-items` | `11` | Boats, navigation gear, safety gear, and sea-adjacent objects |
+| `maker-workshop` | `50` | 3D printing, electronics, safety gear, sewing, welding, and maker-space tools |
+| `workshop-tools` | `150` | Garage, woodshop, hand-tool, and power-tool icons |
+
+This import used only provided individual PNG files. It did not cut sheets into
+public assets. The contaminated `cuttlefish_aquarium_pack_2_transparent` pack
+was excluded from the repo surface.
 
 ## Layout
 
@@ -19,22 +35,37 @@ share/icons/
   catalog.json
   catalog.schema.json
   index.html
+  aquatic-life/<size>/*.png
+  aquatic-habitats/<size>/*.png
+  nautical-items/<size>/*.png
+  maker-workshop/<size>/*.png
+  workshop-tools/<size>/*.png
+  _meta/source-packs/<pack>/
 ```
 
 ## Metadata
 
-[`catalog.json`](catalog.json) is intentionally empty right now. It remains in
-place as the machine-readable surface that the next import pass should refill.
+[`catalog.json`](catalog.json) includes one record per icon with:
+
+- `id` and `label`
+- `bucket`
+- `description`
+- search `tags`
+- `sourcePack`
+- `sourceSheet` and `sourceGrid`
+- `sizes`, `files`, and `preview`
 
 [`catalog.schema.json`](catalog.schema.json) documents the current catalog
 shape for tooling that wants to validate or consume it.
 
-The current catalog lists no icons, no buckets, and no source packs.
+The current catalog lists only the clean imported icons and the included source
+packs.
 
 ## Gallery
 
-[`index.html`](index.html) is still the static browser for the catalog. With an
-empty catalog it serves as an empty-state viewer until new assets are imported.
+[`index.html`](index.html) is a static browser for the catalog. It supports
+search, bucket filtering, preview-size switching, and one-click copy actions
+for direct file paths, Markdown snippets, and HTML `<img>` snippets.
 
 If you want to validate the machine-readable metadata locally, run:
 
@@ -51,8 +82,9 @@ To rebuild the public icon share from downloaded source material, run:
 python3 scripts/rebuild_icons.py
 ```
 
-The rebuild script is retained as a local helper, but the public repo surface
-has been fully cleared so the next import can start from zero.
+The rebuild script is retained as a local helper. It is wired to the vetted
+`Downloads/s\n` source folder, imports only individual PNG files, and keeps the
+contaminated aquarium pack excluded.
 
 ## License and Use
 

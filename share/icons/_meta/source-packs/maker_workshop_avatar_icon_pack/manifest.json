@@ -1,0 +1,1068 @@
+{
+  "name": "maker-workshop-avatar-icon-pack",
+  "version": "1.0.0",
+  "description": "Transparent individual maker-workshop PNG avatar/icon pack using the same Jinn-compatible layout style as prior packs.",
+  "targetRepo": "repo-makeover/jinn",
+  "assetRoot": "packages/web/public/avatars/maker-workshop",
+  "servedRoot": "/avatars/maker-workshop",
+  "sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "count": 50,
+  "transparentBackgrounds": true,
+  "icons": [
+    {
+      "id": "cartesian_3d_printer",
+      "label": "Cartesian 3D Printer",
+      "category": "3d_printer",
+      "description": "An open-frame cartesian 3D printer with visible gantry, heated build plate, and a small printed object.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/cartesian_3d_printer.png",
+        "128": "icons/128/cartesian_3d_printer.png",
+        "256": "icons/256/cartesian_3d_printer.png",
+        "512": "icons/512/cartesian_3d_printer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/cartesian_3d_printer.png",
+        "128": "/avatars/maker-workshop/128/cartesian_3d_printer.png",
+        "256": "/avatars/maker-workshop/256/cartesian_3d_printer.png",
+        "512": "/avatars/maker-workshop/512/cartesian_3d_printer.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "enclosed_3d_printer",
+      "label": "Enclosed 3D Printer",
+      "category": "3d_printer",
+      "description": "An enclosed 3D printer with transparent doors and a printed vase inside.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/enclosed_3d_printer.png",
+        "128": "icons/128/enclosed_3d_printer.png",
+        "256": "icons/256/enclosed_3d_printer.png",
+        "512": "icons/512/enclosed_3d_printer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/enclosed_3d_printer.png",
+        "128": "/avatars/maker-workshop/128/enclosed_3d_printer.png",
+        "256": "/avatars/maker-workshop/256/enclosed_3d_printer.png",
+        "512": "/avatars/maker-workshop/512/enclosed_3d_printer.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "delta_3d_printer",
+      "label": "Delta 3D Printer",
+      "category": "3d_printer",
+      "description": "A delta-style 3D printer with three vertical columns and a central print head printing a vase.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/delta_3d_printer.png",
+        "128": "icons/128/delta_3d_printer.png",
+        "256": "icons/256/delta_3d_printer.png",
+        "512": "icons/512/delta_3d_printer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/delta_3d_printer.png",
+        "128": "/avatars/maker-workshop/128/delta_3d_printer.png",
+        "256": "/avatars/maker-workshop/256/delta_3d_printer.png",
+        "512": "/avatars/maker-workshop/512/delta_3d_printer.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "desktop_cnc_router",
+      "label": "Desktop CNC Router",
+      "category": "cnc",
+      "description": "A desktop CNC router carving a gear pattern into a wooden workpiece.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/desktop_cnc_router.png",
+        "128": "icons/128/desktop_cnc_router.png",
+        "256": "icons/256/desktop_cnc_router.png",
+        "512": "icons/512/desktop_cnc_router.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/desktop_cnc_router.png",
+        "128": "/avatars/maker-workshop/128/desktop_cnc_router.png",
+        "256": "/avatars/maker-workshop/256/desktop_cnc_router.png",
+        "512": "/avatars/maker-workshop/512/desktop_cnc_router.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "benchtop_cnc_mill",
+      "label": "Benchtop CNC Mill",
+      "category": "cnc",
+      "description": "A compact benchtop CNC mill with a vertical spindle and metal work table.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/benchtop_cnc_mill.png",
+        "128": "icons/128/benchtop_cnc_mill.png",
+        "256": "icons/256/benchtop_cnc_mill.png",
+        "512": "icons/512/benchtop_cnc_mill.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/benchtop_cnc_mill.png",
+        "128": "/avatars/maker-workshop/128/benchtop_cnc_mill.png",
+        "256": "/avatars/maker-workshop/256/benchtop_cnc_mill.png",
+        "512": "/avatars/maker-workshop/512/benchtop_cnc_mill.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "open_frame_laser_engraver",
+      "label": "Open-Frame Laser Engraver",
+      "category": "laser_engraver",
+      "description": "An open-frame laser engraver working over a flat bed with a visible engraving point.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/open_frame_laser_engraver.png",
+        "128": "icons/128/open_frame_laser_engraver.png",
+        "256": "icons/256/open_frame_laser_engraver.png",
+        "512": "icons/512/open_frame_laser_engraver.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/open_frame_laser_engraver.png",
+        "128": "/avatars/maker-workshop/128/open_frame_laser_engraver.png",
+        "256": "/avatars/maker-workshop/256/open_frame_laser_engraver.png",
+        "512": "/avatars/maker-workshop/512/open_frame_laser_engraver.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "enclosed_laser_engraver",
+      "label": "Enclosed Laser Engraver",
+      "category": "laser_engraver",
+      "description": "An enclosed laser engraver / cutter with a windowed housing and internal laser head.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/enclosed_laser_engraver.png",
+        "128": "icons/128/enclosed_laser_engraver.png",
+        "256": "icons/256/enclosed_laser_engraver.png",
+        "512": "icons/512/enclosed_laser_engraver.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/enclosed_laser_engraver.png",
+        "128": "/avatars/maker-workshop/128/enclosed_laser_engraver.png",
+        "256": "/avatars/maker-workshop/256/enclosed_laser_engraver.png",
+        "512": "/avatars/maker-workshop/512/enclosed_laser_engraver.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "mig_welder",
+      "label": "MIG Welder",
+      "category": "welder",
+      "description": "A MIG welder machine with control panel, cables, and attached welding torch.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/mig_welder.png",
+        "128": "icons/128/mig_welder.png",
+        "256": "icons/256/mig_welder.png",
+        "512": "icons/512/mig_welder.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/mig_welder.png",
+        "128": "/avatars/maker-workshop/128/mig_welder.png",
+        "256": "/avatars/maker-workshop/256/mig_welder.png",
+        "512": "/avatars/maker-workshop/512/mig_welder.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "tig_welder",
+      "label": "TIG Welder",
+      "category": "welder",
+      "description": "A TIG welder machine with control panel, wheels, and a torch with pink ceramic tip.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/tig_welder.png",
+        "128": "icons/128/tig_welder.png",
+        "256": "icons/256/tig_welder.png",
+        "512": "icons/512/tig_welder.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/tig_welder.png",
+        "128": "/avatars/maker-workshop/128/tig_welder.png",
+        "256": "/avatars/maker-workshop/256/tig_welder.png",
+        "512": "/avatars/maker-workshop/512/tig_welder.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "rotary_tool",
+      "label": "Rotary Tool",
+      "category": "rotary_tool",
+      "description": "A handheld rotary tool with a small cutting or grinding disc attachment.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/rotary_tool.png",
+        "128": "icons/128/rotary_tool.png",
+        "256": "icons/256/rotary_tool.png",
+        "512": "icons/512/rotary_tool.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/rotary_tool.png",
+        "128": "/avatars/maker-workshop/128/rotary_tool.png",
+        "256": "/avatars/maker-workshop/256/rotary_tool.png",
+        "512": "/avatars/maker-workshop/512/rotary_tool.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_01_fabrication_machines.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "filament_spool_red",
+      "label": "Red Filament Spool",
+      "category": "filament",
+      "description": "A red 3D-printer filament spool on a black plastic reel.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/filament_spool_red.png",
+        "128": "icons/128/filament_spool_red.png",
+        "256": "icons/256/filament_spool_red.png",
+        "512": "icons/512/filament_spool_red.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/filament_spool_red.png",
+        "128": "/avatars/maker-workshop/128/filament_spool_red.png",
+        "256": "/avatars/maker-workshop/256/filament_spool_red.png",
+        "512": "/avatars/maker-workshop/512/filament_spool_red.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "filament_spool_blue",
+      "label": "Blue Filament Spool",
+      "category": "filament",
+      "description": "A blue 3D-printer filament spool on a black plastic reel.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/filament_spool_blue.png",
+        "128": "icons/128/filament_spool_blue.png",
+        "256": "icons/256/filament_spool_blue.png",
+        "512": "icons/512/filament_spool_blue.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/filament_spool_blue.png",
+        "128": "/avatars/maker-workshop/128/filament_spool_blue.png",
+        "256": "/avatars/maker-workshop/256/filament_spool_blue.png",
+        "512": "/avatars/maker-workshop/512/filament_spool_blue.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "filament_spool_green",
+      "label": "Green Filament Spool",
+      "category": "filament",
+      "description": "A green 3D-printer filament spool on a black plastic reel.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/filament_spool_green.png",
+        "128": "icons/128/filament_spool_green.png",
+        "256": "icons/256/filament_spool_green.png",
+        "512": "icons/512/filament_spool_green.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/filament_spool_green.png",
+        "128": "/avatars/maker-workshop/128/filament_spool_green.png",
+        "256": "/avatars/maker-workshop/256/filament_spool_green.png",
+        "512": "/avatars/maker-workshop/512/filament_spool_green.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "filament_spool_yellow",
+      "label": "Yellow Filament Spool",
+      "category": "filament",
+      "description": "A yellow 3D-printer filament spool on a black plastic reel.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/filament_spool_yellow.png",
+        "128": "icons/128/filament_spool_yellow.png",
+        "256": "icons/256/filament_spool_yellow.png",
+        "512": "icons/512/filament_spool_yellow.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/filament_spool_yellow.png",
+        "128": "/avatars/maker-workshop/128/filament_spool_yellow.png",
+        "256": "/avatars/maker-workshop/256/filament_spool_yellow.png",
+        "512": "/avatars/maker-workshop/512/filament_spool_yellow.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "filament_spool_black",
+      "label": "Black Filament Spool",
+      "category": "filament",
+      "description": "A black 3D-printer filament spool on a black plastic reel.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/filament_spool_black.png",
+        "128": "icons/128/filament_spool_black.png",
+        "256": "icons/256/filament_spool_black.png",
+        "512": "icons/512/filament_spool_black.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/filament_spool_black.png",
+        "128": "/avatars/maker-workshop/128/filament_spool_black.png",
+        "256": "/avatars/maker-workshop/256/filament_spool_black.png",
+        "512": "/avatars/maker-workshop/512/filament_spool_black.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "thread_spool_light_gray",
+      "label": "Light Gray Thread Spool",
+      "category": "sewing_thread",
+      "description": "A light gray sewing thread spool on a wooden bobbin.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/thread_spool_light_gray.png",
+        "128": "icons/128/thread_spool_light_gray.png",
+        "256": "icons/256/thread_spool_light_gray.png",
+        "512": "icons/512/thread_spool_light_gray.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/thread_spool_light_gray.png",
+        "128": "/avatars/maker-workshop/128/thread_spool_light_gray.png",
+        "256": "/avatars/maker-workshop/256/thread_spool_light_gray.png",
+        "512": "/avatars/maker-workshop/512/thread_spool_light_gray.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "thread_spool_red",
+      "label": "Red Thread Spool",
+      "category": "sewing_thread",
+      "description": "A red sewing thread spool on a wooden bobbin.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/thread_spool_red.png",
+        "128": "icons/128/thread_spool_red.png",
+        "256": "icons/256/thread_spool_red.png",
+        "512": "icons/512/thread_spool_red.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/thread_spool_red.png",
+        "128": "/avatars/maker-workshop/128/thread_spool_red.png",
+        "256": "/avatars/maker-workshop/256/thread_spool_red.png",
+        "512": "/avatars/maker-workshop/512/thread_spool_red.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "thread_spool_blue",
+      "label": "Blue Thread Spool",
+      "category": "sewing_thread",
+      "description": "A blue sewing thread spool on a wooden bobbin.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/thread_spool_blue.png",
+        "128": "icons/128/thread_spool_blue.png",
+        "256": "icons/256/thread_spool_blue.png",
+        "512": "icons/512/thread_spool_blue.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/thread_spool_blue.png",
+        "128": "/avatars/maker-workshop/128/thread_spool_blue.png",
+        "256": "/avatars/maker-workshop/256/thread_spool_blue.png",
+        "512": "/avatars/maker-workshop/512/thread_spool_blue.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "thread_spool_black",
+      "label": "Black Thread Spool",
+      "category": "sewing_thread",
+      "description": "A black sewing thread spool on a wooden bobbin.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/thread_spool_black.png",
+        "128": "icons/128/thread_spool_black.png",
+        "256": "icons/256/thread_spool_black.png",
+        "512": "icons/512/thread_spool_black.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/thread_spool_black.png",
+        "128": "/avatars/maker-workshop/128/thread_spool_black.png",
+        "256": "/avatars/maker-workshop/256/thread_spool_black.png",
+        "512": "/avatars/maker-workshop/512/thread_spool_black.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "thread_spool_white",
+      "label": "White Thread Spool",
+      "category": "sewing_thread",
+      "description": "A white sewing thread spool on a wooden bobbin.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/thread_spool_white.png",
+        "128": "icons/128/thread_spool_white.png",
+        "256": "icons/256/thread_spool_white.png",
+        "512": "icons/512/thread_spool_white.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/thread_spool_white.png",
+        "128": "/avatars/maker-workshop/128/thread_spool_white.png",
+        "256": "/avatars/maker-workshop/256/thread_spool_white.png",
+        "512": "/avatars/maker-workshop/512/thread_spool_white.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_02_materials_spools.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "vintage_sewing_machine",
+      "label": "Vintage Sewing Machine",
+      "category": "sewing_machine",
+      "description": "A vintage black sewing machine with gold flourishes and a wooden base.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/vintage_sewing_machine.png",
+        "128": "icons/128/vintage_sewing_machine.png",
+        "256": "icons/256/vintage_sewing_machine.png",
+        "512": "icons/512/vintage_sewing_machine.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/vintage_sewing_machine.png",
+        "128": "/avatars/maker-workshop/128/vintage_sewing_machine.png",
+        "256": "/avatars/maker-workshop/256/vintage_sewing_machine.png",
+        "512": "/avatars/maker-workshop/512/vintage_sewing_machine.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "modern_sewing_machine",
+      "label": "Modern Sewing Machine",
+      "category": "sewing_machine",
+      "description": "A modern domestic sewing machine in white with blue accents.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/modern_sewing_machine.png",
+        "128": "icons/128/modern_sewing_machine.png",
+        "256": "icons/256/modern_sewing_machine.png",
+        "512": "icons/512/modern_sewing_machine.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/modern_sewing_machine.png",
+        "128": "/avatars/maker-workshop/128/modern_sewing_machine.png",
+        "256": "/avatars/maker-workshop/256/modern_sewing_machine.png",
+        "512": "/avatars/maker-workshop/512/modern_sewing_machine.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "serger_overlock_machine",
+      "label": "Serger / Overlock Machine",
+      "category": "sewing_machine",
+      "description": "A serger / overlock sewing machine with multiple thread cones.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/serger_overlock_machine.png",
+        "128": "icons/128/serger_overlock_machine.png",
+        "256": "icons/256/serger_overlock_machine.png",
+        "512": "icons/512/serger_overlock_machine.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/serger_overlock_machine.png",
+        "128": "/avatars/maker-workshop/128/serger_overlock_machine.png",
+        "256": "/avatars/maker-workshop/256/serger_overlock_machine.png",
+        "512": "/avatars/maker-workshop/512/serger_overlock_machine.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "sewing_needles_case",
+      "label": "Sewing Needles Case",
+      "category": "sewing_need",
+      "description": "A case holding a set of sewing needles.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/sewing_needles_case.png",
+        "128": "icons/128/sewing_needles_case.png",
+        "256": "icons/256/sewing_needles_case.png",
+        "512": "icons/512/sewing_needles_case.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/sewing_needles_case.png",
+        "128": "/avatars/maker-workshop/128/sewing_needles_case.png",
+        "256": "/avatars/maker-workshop/256/sewing_needles_case.png",
+        "512": "/avatars/maker-workshop/512/sewing_needles_case.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "seam_ripper",
+      "label": "Seam Ripper",
+      "category": "sewing_need",
+      "description": "A seam ripper tool with a forked metal tip and wooden handle.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/seam_ripper.png",
+        "128": "icons/128/seam_ripper.png",
+        "256": "icons/256/seam_ripper.png",
+        "512": "icons/512/seam_ripper.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/seam_ripper.png",
+        "128": "/avatars/maker-workshop/128/seam_ripper.png",
+        "256": "/avatars/maker-workshop/256/seam_ripper.png",
+        "512": "/avatars/maker-workshop/512/seam_ripper.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "pincushion",
+      "label": "Pincushion",
+      "category": "sewing_need",
+      "description": "A round red pincushion with colorful pins inserted into it.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/pincushion.png",
+        "128": "icons/128/pincushion.png",
+        "256": "icons/256/pincushion.png",
+        "512": "icons/512/pincushion.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/pincushion.png",
+        "128": "/avatars/maker-workshop/128/pincushion.png",
+        "256": "/avatars/maker-workshop/256/pincushion.png",
+        "512": "/avatars/maker-workshop/512/pincushion.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "tailor_measuring_tape",
+      "label": "Tailor Measuring Tape",
+      "category": "measuring_device",
+      "description": "A flexible tailor measuring tape rolled in a loose coil.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/tailor_measuring_tape.png",
+        "128": "icons/128/tailor_measuring_tape.png",
+        "256": "icons/256/tailor_measuring_tape.png",
+        "512": "icons/512/tailor_measuring_tape.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/tailor_measuring_tape.png",
+        "128": "/avatars/maker-workshop/128/tailor_measuring_tape.png",
+        "256": "/avatars/maker-workshop/256/tailor_measuring_tape.png",
+        "512": "/avatars/maker-workshop/512/tailor_measuring_tape.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "tailor_chalk",
+      "label": "Tailor Chalk",
+      "category": "sewing_need",
+      "description": "A triangular piece of tailor chalk used for marking fabric.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/tailor_chalk.png",
+        "128": "icons/128/tailor_chalk.png",
+        "256": "icons/256/tailor_chalk.png",
+        "512": "icons/512/tailor_chalk.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/tailor_chalk.png",
+        "128": "/avatars/maker-workshop/128/tailor_chalk.png",
+        "256": "/avatars/maker-workshop/256/tailor_chalk.png",
+        "512": "/avatars/maker-workshop/512/tailor_chalk.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "thimble",
+      "label": "Thimble",
+      "category": "sewing_need",
+      "description": "A silver metal thimble used to protect fingers during hand sewing.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/thimble.png",
+        "128": "icons/128/thimble.png",
+        "256": "icons/256/thimble.png",
+        "512": "icons/512/thimble.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/thimble.png",
+        "128": "/avatars/maker-workshop/128/thimble.png",
+        "256": "/avatars/maker-workshop/256/thimble.png",
+        "512": "/avatars/maker-workshop/512/thimble.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "rotary_fabric_cutter",
+      "label": "Rotary Fabric Cutter",
+      "category": "sewing_need",
+      "description": "A rotary fabric cutter with a circular blade and yellow handle.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/rotary_fabric_cutter.png",
+        "128": "icons/128/rotary_fabric_cutter.png",
+        "256": "icons/256/rotary_fabric_cutter.png",
+        "512": "icons/512/rotary_fabric_cutter.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/rotary_fabric_cutter.png",
+        "128": "/avatars/maker-workshop/128/rotary_fabric_cutter.png",
+        "256": "/avatars/maker-workshop/256/rotary_fabric_cutter.png",
+        "512": "/avatars/maker-workshop/512/rotary_fabric_cutter.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_03_sewing_tools.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "pencil_soldering_iron",
+      "label": "Pencil-Style Soldering Iron",
+      "category": "soldering_iron",
+      "description": "A pencil-styled soldering iron with a metal tip and yellow barrel.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/pencil_soldering_iron.png",
+        "128": "icons/128/pencil_soldering_iron.png",
+        "256": "icons/256/pencil_soldering_iron.png",
+        "512": "icons/512/pencil_soldering_iron.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/pencil_soldering_iron.png",
+        "128": "/avatars/maker-workshop/128/pencil_soldering_iron.png",
+        "256": "/avatars/maker-workshop/256/pencil_soldering_iron.png",
+        "512": "/avatars/maker-workshop/512/pencil_soldering_iron.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "soldering_station",
+      "label": "Soldering Station",
+      "category": "soldering_iron",
+      "description": "A soldering station with base unit, iron, holder, and brass wool cleaner.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/soldering_station.png",
+        "128": "icons/128/soldering_station.png",
+        "256": "icons/256/soldering_station.png",
+        "512": "icons/512/soldering_station.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/soldering_station.png",
+        "128": "/avatars/maker-workshop/128/soldering_station.png",
+        "256": "/avatars/maker-workshop/256/soldering_station.png",
+        "512": "/avatars/maker-workshop/512/soldering_station.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "helping_hands_magnifier",
+      "label": "Helping Hands with Magnifier",
+      "category": "maker_tool",
+      "description": "A helping-hands stand with magnifying lens and alligator clips.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/helping_hands_magnifier.png",
+        "128": "icons/128/helping_hands_magnifier.png",
+        "256": "icons/256/helping_hands_magnifier.png",
+        "512": "icons/512/helping_hands_magnifier.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/helping_hands_magnifier.png",
+        "128": "/avatars/maker-workshop/128/helping_hands_magnifier.png",
+        "256": "/avatars/maker-workshop/256/helping_hands_magnifier.png",
+        "512": "/avatars/maker-workshop/512/helping_hands_magnifier.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "digital_caliper",
+      "label": "Digital Caliper",
+      "category": "measuring_device",
+      "description": "A digital caliper for precision measurement.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/digital_caliper.png",
+        "128": "icons/128/digital_caliper.png",
+        "256": "icons/256/digital_caliper.png",
+        "512": "icons/512/digital_caliper.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/digital_caliper.png",
+        "128": "/avatars/maker-workshop/128/digital_caliper.png",
+        "256": "/avatars/maker-workshop/256/digital_caliper.png",
+        "512": "/avatars/maker-workshop/512/digital_caliper.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "retractable_tape_measure",
+      "label": "Retractable Tape Measure",
+      "category": "measuring_device",
+      "description": "A retractable tape measure with black and yellow housing.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/retractable_tape_measure.png",
+        "128": "icons/128/retractable_tape_measure.png",
+        "256": "icons/256/retractable_tape_measure.png",
+        "512": "icons/512/retractable_tape_measure.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/retractable_tape_measure.png",
+        "128": "/avatars/maker-workshop/128/retractable_tape_measure.png",
+        "256": "/avatars/maker-workshop/256/retractable_tape_measure.png",
+        "512": "/avatars/maker-workshop/512/retractable_tape_measure.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "steel_ruler",
+      "label": "Steel Ruler",
+      "category": "measuring_device",
+      "description": "A steel ruler with engraved measurement markings.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/steel_ruler.png",
+        "128": "icons/128/steel_ruler.png",
+        "256": "icons/256/steel_ruler.png",
+        "512": "icons/512/steel_ruler.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/steel_ruler.png",
+        "128": "/avatars/maker-workshop/128/steel_ruler.png",
+        "256": "/avatars/maker-workshop/256/steel_ruler.png",
+        "512": "/avatars/maker-workshop/512/steel_ruler.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "digital_multimeter",
+      "label": "Digital Multimeter",
+      "category": "maker_tool",
+      "description": "A digital multimeter with display, selector dial, and test leads.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/digital_multimeter.png",
+        "128": "icons/128/digital_multimeter.png",
+        "256": "icons/256/digital_multimeter.png",
+        "512": "icons/512/digital_multimeter.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/digital_multimeter.png",
+        "128": "/avatars/maker-workshop/128/digital_multimeter.png",
+        "256": "/avatars/maker-workshop/256/digital_multimeter.png",
+        "512": "/avatars/maker-workshop/512/digital_multimeter.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "hot_glue_gun",
+      "label": "Hot Glue Gun",
+      "category": "maker_tool",
+      "description": "A hot glue gun with a glue stick inserted through the rear.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/hot_glue_gun.png",
+        "128": "icons/128/hot_glue_gun.png",
+        "256": "icons/256/hot_glue_gun.png",
+        "512": "icons/512/hot_glue_gun.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/hot_glue_gun.png",
+        "128": "/avatars/maker-workshop/128/hot_glue_gun.png",
+        "256": "/avatars/maker-workshop/256/hot_glue_gun.png",
+        "512": "/avatars/maker-workshop/512/hot_glue_gun.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "needle_nose_pliers",
+      "label": "Needle-Nose Pliers",
+      "category": "maker_tool",
+      "description": "A pair of needle-nose pliers with blue handles.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/needle_nose_pliers.png",
+        "128": "icons/128/needle_nose_pliers.png",
+        "256": "icons/256/needle_nose_pliers.png",
+        "512": "icons/512/needle_nose_pliers.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/needle_nose_pliers.png",
+        "128": "/avatars/maker-workshop/128/needle_nose_pliers.png",
+        "256": "/avatars/maker-workshop/256/needle_nose_pliers.png",
+        "512": "/avatars/maker-workshop/512/needle_nose_pliers.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "flush_cutters",
+      "label": "Flush Cutters",
+      "category": "maker_tool",
+      "description": "A pair of flush cutters / diagonal cutters with blue handles.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/flush_cutters.png",
+        "128": "icons/128/flush_cutters.png",
+        "256": "icons/256/flush_cutters.png",
+        "512": "icons/512/flush_cutters.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/flush_cutters.png",
+        "128": "/avatars/maker-workshop/128/flush_cutters.png",
+        "256": "/avatars/maker-workshop/256/flush_cutters.png",
+        "512": "/avatars/maker-workshop/512/flush_cutters.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_04_electronics_measuring_tools.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "safety_glasses",
+      "label": "Safety Glasses",
+      "category": "ppe",
+      "description": "A pair of clear safety glasses with a black frame.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/safety_glasses.png",
+        "128": "icons/128/safety_glasses.png",
+        "256": "icons/256/safety_glasses.png",
+        "512": "icons/512/safety_glasses.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/safety_glasses.png",
+        "128": "/avatars/maker-workshop/128/safety_glasses.png",
+        "256": "/avatars/maker-workshop/256/safety_glasses.png",
+        "512": "/avatars/maker-workshop/512/safety_glasses.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "safety_goggles",
+      "label": "Safety Goggles",
+      "category": "ppe",
+      "description": "A pair of clear safety goggles with an adjustable strap.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/safety_goggles.png",
+        "128": "icons/128/safety_goggles.png",
+        "256": "icons/256/safety_goggles.png",
+        "512": "icons/512/safety_goggles.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/safety_goggles.png",
+        "128": "/avatars/maker-workshop/128/safety_goggles.png",
+        "256": "/avatars/maker-workshop/256/safety_goggles.png",
+        "512": "/avatars/maker-workshop/512/safety_goggles.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "hearing_protection_earmuffs",
+      "label": "Hearing Protection Earmuffs",
+      "category": "ppe",
+      "description": "A set of earmuff-style hearing protection.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/hearing_protection_earmuffs.png",
+        "128": "icons/128/hearing_protection_earmuffs.png",
+        "256": "icons/256/hearing_protection_earmuffs.png",
+        "512": "icons/512/hearing_protection_earmuffs.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/hearing_protection_earmuffs.png",
+        "128": "/avatars/maker-workshop/128/hearing_protection_earmuffs.png",
+        "256": "/avatars/maker-workshop/256/hearing_protection_earmuffs.png",
+        "512": "/avatars/maker-workshop/512/hearing_protection_earmuffs.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "respirator_mask",
+      "label": "Respirator Mask",
+      "category": "ppe",
+      "description": "A respirator mask with dual filter cartridges.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/respirator_mask.png",
+        "128": "icons/128/respirator_mask.png",
+        "256": "icons/256/respirator_mask.png",
+        "512": "icons/512/respirator_mask.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/respirator_mask.png",
+        "128": "/avatars/maker-workshop/128/respirator_mask.png",
+        "256": "/avatars/maker-workshop/256/respirator_mask.png",
+        "512": "/avatars/maker-workshop/512/respirator_mask.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "welding_helmet",
+      "label": "Welding Helmet",
+      "category": "ppe",
+      "description": "A dark welding helmet with a rectangular viewing window.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/welding_helmet.png",
+        "128": "icons/128/welding_helmet.png",
+        "256": "icons/256/welding_helmet.png",
+        "512": "icons/512/welding_helmet.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/welding_helmet.png",
+        "128": "/avatars/maker-workshop/128/welding_helmet.png",
+        "256": "/avatars/maker-workshop/256/welding_helmet.png",
+        "512": "/avatars/maker-workshop/512/welding_helmet.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "face_shield",
+      "label": "Face Shield",
+      "category": "ppe",
+      "description": "A clear face shield with a protective headband.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/face_shield.png",
+        "128": "icons/128/face_shield.png",
+        "256": "icons/256/face_shield.png",
+        "512": "icons/512/face_shield.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/face_shield.png",
+        "128": "/avatars/maker-workshop/128/face_shield.png",
+        "256": "/avatars/maker-workshop/256/face_shield.png",
+        "512": "/avatars/maker-workshop/512/face_shield.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "work_gloves",
+      "label": "Work Gloves",
+      "category": "ppe",
+      "description": "A pair of tan work gloves.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/work_gloves.png",
+        "128": "icons/128/work_gloves.png",
+        "256": "icons/256/work_gloves.png",
+        "512": "icons/512/work_gloves.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/work_gloves.png",
+        "128": "/avatars/maker-workshop/128/work_gloves.png",
+        "256": "/avatars/maker-workshop/256/work_gloves.png",
+        "512": "/avatars/maker-workshop/512/work_gloves.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "welding_gloves",
+      "label": "Welding Gloves",
+      "category": "ppe",
+      "description": "A pair of dark heavy-duty welding gloves.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/welding_gloves.png",
+        "128": "icons/128/welding_gloves.png",
+        "256": "icons/256/welding_gloves.png",
+        "512": "icons/512/welding_gloves.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/welding_gloves.png",
+        "128": "/avatars/maker-workshop/128/welding_gloves.png",
+        "256": "/avatars/maker-workshop/256/welding_gloves.png",
+        "512": "/avatars/maker-workshop/512/welding_gloves.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "leather_shop_apron",
+      "label": "Leather Shop Apron",
+      "category": "ppe",
+      "description": "A brown leather workshop apron with pockets.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/leather_shop_apron.png",
+        "128": "icons/128/leather_shop_apron.png",
+        "256": "icons/256/leather_shop_apron.png",
+        "512": "icons/512/leather_shop_apron.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/leather_shop_apron.png",
+        "128": "/avatars/maker-workshop/128/leather_shop_apron.png",
+        "256": "/avatars/maker-workshop/256/leather_shop_apron.png",
+        "512": "/avatars/maker-workshop/512/leather_shop_apron.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "hard_hat",
+      "label": "Hard Hat",
+      "category": "ppe",
+      "description": "A yellow hard hat.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/hard_hat.png",
+        "128": "icons/128/hard_hat.png",
+        "256": "icons/256/hard_hat.png",
+        "512": "icons/512/hard_hat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/maker-workshop/64/hard_hat.png",
+        "128": "/avatars/maker-workshop/128/hard_hat.png",
+        "256": "/avatars/maker-workshop/256/hard_hat.png",
+        "512": "/avatars/maker-workshop/512/hard_hat.png"
+      },
+      "sourceSheet": "source-sheets/maker_sheet_05_ppe.png",
+      "sourceIndex": 9
+    }
+  ]
+}

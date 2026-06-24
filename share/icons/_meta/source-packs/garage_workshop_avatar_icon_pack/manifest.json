@@ -1,0 +1,1488 @@
+{
+  "name": "garage-workshop-avatar-icon-pack",
+  "version": "1.0.0",
+  "description": "Transparent individual garage workshop PNG avatar/icon pack using the same Jinn-compatible layout style as prior packs.",
+  "targetRepo": "repo-makeover/jinn",
+  "assetRoot": "packages/web/public/avatars/garage-workshop",
+  "servedRoot": "/avatars/garage-workshop",
+  "sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "count": 70,
+  "transparentBackgrounds": true,
+  "icons": [
+    {
+      "id": "portable_table_saw",
+      "label": "Portable Table Saw",
+      "category": "table_saw",
+      "description": "A portable jobsite table saw on a wheeled folding stand.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/portable_table_saw.png",
+        "128": "icons/128/portable_table_saw.png",
+        "256": "icons/256/portable_table_saw.png",
+        "512": "icons/512/portable_table_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/portable_table_saw.png",
+        "128": "/avatars/garage-workshop/128/portable_table_saw.png",
+        "256": "/avatars/garage-workshop/256/portable_table_saw.png",
+        "512": "/avatars/garage-workshop/512/portable_table_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "cabinet_table_saw",
+      "label": "Cabinet Table Saw",
+      "category": "table_saw",
+      "description": "A heavy cabinet-style table saw with enclosed base and extension fence rails.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/cabinet_table_saw.png",
+        "128": "icons/128/cabinet_table_saw.png",
+        "256": "icons/256/cabinet_table_saw.png",
+        "512": "icons/512/cabinet_table_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/cabinet_table_saw.png",
+        "128": "/avatars/garage-workshop/128/cabinet_table_saw.png",
+        "256": "/avatars/garage-workshop/256/cabinet_table_saw.png",
+        "512": "/avatars/garage-workshop/512/cabinet_table_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "contractor_table_saw",
+      "label": "Contractor Table Saw",
+      "category": "table_saw",
+      "description": "A contractor-style table saw on an open steel stand.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/contractor_table_saw.png",
+        "128": "icons/128/contractor_table_saw.png",
+        "256": "icons/256/contractor_table_saw.png",
+        "512": "icons/512/contractor_table_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/contractor_table_saw.png",
+        "128": "/avatars/garage-workshop/128/contractor_table_saw.png",
+        "256": "/avatars/garage-workshop/256/contractor_table_saw.png",
+        "512": "/avatars/garage-workshop/512/contractor_table_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "benchtop_table_saw",
+      "label": "Benchtop Table Saw",
+      "category": "table_saw",
+      "description": "A compact benchtop table saw with a clear blade guard.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/benchtop_table_saw.png",
+        "128": "icons/128/benchtop_table_saw.png",
+        "256": "icons/256/benchtop_table_saw.png",
+        "512": "icons/512/benchtop_table_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/benchtop_table_saw.png",
+        "128": "/avatars/garage-workshop/128/benchtop_table_saw.png",
+        "256": "/avatars/garage-workshop/256/benchtop_table_saw.png",
+        "512": "/avatars/garage-workshop/512/benchtop_table_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "sliding_miter_saw",
+      "label": "Sliding Miter Saw",
+      "category": "miter_saw",
+      "description": "A sliding compound miter saw with rails and wide base.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/sliding_miter_saw.png",
+        "128": "icons/128/sliding_miter_saw.png",
+        "256": "icons/256/sliding_miter_saw.png",
+        "512": "icons/512/sliding_miter_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/sliding_miter_saw.png",
+        "128": "/avatars/garage-workshop/128/sliding_miter_saw.png",
+        "256": "/avatars/garage-workshop/256/sliding_miter_saw.png",
+        "512": "/avatars/garage-workshop/512/sliding_miter_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "compound_miter_saw",
+      "label": "Compound Miter Saw",
+      "category": "miter_saw",
+      "description": "A compound miter saw with pivoting base and blade guard.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/compound_miter_saw.png",
+        "128": "icons/128/compound_miter_saw.png",
+        "256": "icons/256/compound_miter_saw.png",
+        "512": "icons/512/compound_miter_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/compound_miter_saw.png",
+        "128": "/avatars/garage-workshop/128/compound_miter_saw.png",
+        "256": "/avatars/garage-workshop/256/compound_miter_saw.png",
+        "512": "/avatars/garage-workshop/512/compound_miter_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "floor_drill_press",
+      "label": "Floor Drill Press",
+      "category": "drill_press",
+      "description": "A full-height floor drill press with adjustable table and heavy base.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/floor_drill_press.png",
+        "128": "icons/128/floor_drill_press.png",
+        "256": "icons/256/floor_drill_press.png",
+        "512": "icons/512/floor_drill_press.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/floor_drill_press.png",
+        "128": "/avatars/garage-workshop/128/floor_drill_press.png",
+        "256": "/avatars/garage-workshop/256/floor_drill_press.png",
+        "512": "/avatars/garage-workshop/512/floor_drill_press.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "benchtop_drill_press",
+      "label": "Benchtop Drill Press",
+      "category": "drill_press",
+      "description": "A benchtop drill press with compact base and feed handles.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/benchtop_drill_press.png",
+        "128": "icons/128/benchtop_drill_press.png",
+        "256": "icons/256/benchtop_drill_press.png",
+        "512": "icons/512/benchtop_drill_press.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/benchtop_drill_press.png",
+        "128": "/avatars/garage-workshop/128/benchtop_drill_press.png",
+        "256": "/avatars/garage-workshop/256/benchtop_drill_press.png",
+        "512": "/avatars/garage-workshop/512/benchtop_drill_press.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "bandsaw_on_stand",
+      "label": "Bandsaw on Stand",
+      "category": "bandsaw",
+      "description": "A vertical bandsaw mounted on a stand.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/bandsaw_on_stand.png",
+        "128": "icons/128/bandsaw_on_stand.png",
+        "256": "icons/256/bandsaw_on_stand.png",
+        "512": "icons/512/bandsaw_on_stand.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/bandsaw_on_stand.png",
+        "128": "/avatars/garage-workshop/128/bandsaw_on_stand.png",
+        "256": "/avatars/garage-workshop/256/bandsaw_on_stand.png",
+        "512": "/avatars/garage-workshop/512/bandsaw_on_stand.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "benchtop_bandsaw",
+      "label": "Benchtop Bandsaw",
+      "category": "bandsaw",
+      "description": "A compact benchtop bandsaw.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/benchtop_bandsaw.png",
+        "128": "icons/128/benchtop_bandsaw.png",
+        "256": "icons/256/benchtop_bandsaw.png",
+        "512": "icons/512/benchtop_bandsaw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/benchtop_bandsaw.png",
+        "128": "/avatars/garage-workshop/128/benchtop_bandsaw.png",
+        "256": "/avatars/garage-workshop/256/benchtop_bandsaw.png",
+        "512": "/avatars/garage-workshop/512/benchtop_bandsaw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_01_saws_drillpress_bandsaw.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "thickness_planer",
+      "label": "Thickness Planer",
+      "category": "wood_planer",
+      "description": "A thickness planer with infeed and outfeed surfaces.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/thickness_planer.png",
+        "128": "icons/128/thickness_planer.png",
+        "256": "icons/256/thickness_planer.png",
+        "512": "icons/512/thickness_planer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/thickness_planer.png",
+        "128": "/avatars/garage-workshop/128/thickness_planer.png",
+        "256": "/avatars/garage-workshop/256/thickness_planer.png",
+        "512": "/avatars/garage-workshop/512/thickness_planer.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "benchtop_planer",
+      "label": "Benchtop Planer",
+      "category": "wood_planer",
+      "description": "A compact benchtop wood planer.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/benchtop_planer.png",
+        "128": "icons/128/benchtop_planer.png",
+        "256": "icons/256/benchtop_planer.png",
+        "512": "icons/512/benchtop_planer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/benchtop_planer.png",
+        "128": "/avatars/garage-workshop/128/benchtop_planer.png",
+        "256": "/avatars/garage-workshop/256/benchtop_planer.png",
+        "512": "/avatars/garage-workshop/512/benchtop_planer.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "handheld_power_planer",
+      "label": "Handheld Power Planer",
+      "category": "wood_planer",
+      "description": "A handheld power planer with front knob and rear handle.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/handheld_power_planer.png",
+        "128": "icons/128/handheld_power_planer.png",
+        "256": "icons/256/handheld_power_planer.png",
+        "512": "icons/512/handheld_power_planer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/handheld_power_planer.png",
+        "128": "/avatars/garage-workshop/128/handheld_power_planer.png",
+        "256": "/avatars/garage-workshop/256/handheld_power_planer.png",
+        "512": "/avatars/garage-workshop/512/handheld_power_planer.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "jointer",
+      "label": "Jointer",
+      "category": "jointer",
+      "description": "A jointer with fence and long flat infeed and outfeed tables.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/jointer.png",
+        "128": "icons/128/jointer.png",
+        "256": "icons/256/jointer.png",
+        "512": "icons/512/jointer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/jointer.png",
+        "128": "/avatars/garage-workshop/128/jointer.png",
+        "256": "/avatars/garage-workshop/256/jointer.png",
+        "512": "/avatars/garage-workshop/512/jointer.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "benchtop_jointer",
+      "label": "Benchtop Jointer",
+      "category": "jointer",
+      "description": "A compact benchtop jointer.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/benchtop_jointer.png",
+        "128": "icons/128/benchtop_jointer.png",
+        "256": "icons/256/benchtop_jointer.png",
+        "512": "icons/512/benchtop_jointer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/benchtop_jointer.png",
+        "128": "/avatars/garage-workshop/128/benchtop_jointer.png",
+        "256": "/avatars/garage-workshop/256/benchtop_jointer.png",
+        "512": "/avatars/garage-workshop/512/benchtop_jointer.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "wood_lathe",
+      "label": "Wood Lathe",
+      "category": "lathe",
+      "description": "A full-size wood lathe with workpiece mounted between centers.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wood_lathe.png",
+        "128": "icons/128/wood_lathe.png",
+        "256": "icons/256/wood_lathe.png",
+        "512": "icons/512/wood_lathe.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wood_lathe.png",
+        "128": "/avatars/garage-workshop/128/wood_lathe.png",
+        "256": "/avatars/garage-workshop/256/wood_lathe.png",
+        "512": "/avatars/garage-workshop/512/wood_lathe.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "mini_wood_lathe",
+      "label": "Mini Wood Lathe",
+      "category": "lathe",
+      "description": "A compact mini wood lathe.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/mini_wood_lathe.png",
+        "128": "icons/128/mini_wood_lathe.png",
+        "256": "icons/256/mini_wood_lathe.png",
+        "512": "icons/512/mini_wood_lathe.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/mini_wood_lathe.png",
+        "128": "/avatars/garage-workshop/128/mini_wood_lathe.png",
+        "256": "/avatars/garage-workshop/256/mini_wood_lathe.png",
+        "512": "/avatars/garage-workshop/512/mini_wood_lathe.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "circular_saw",
+      "label": "Circular Saw",
+      "category": "circular_saw",
+      "description": "A handheld circular saw with visible blade and base plate.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/circular_saw.png",
+        "128": "icons/128/circular_saw.png",
+        "256": "icons/256/circular_saw.png",
+        "512": "icons/512/circular_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/circular_saw.png",
+        "128": "/avatars/garage-workshop/128/circular_saw.png",
+        "256": "/avatars/garage-workshop/256/circular_saw.png",
+        "512": "/avatars/garage-workshop/512/circular_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "scroll_saw",
+      "label": "Scroll Saw",
+      "category": "scroll_saw",
+      "description": "A scroll saw with fine vertical blade and table surface.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/scroll_saw.png",
+        "128": "icons/128/scroll_saw.png",
+        "256": "icons/256/scroll_saw.png",
+        "512": "icons/512/scroll_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/scroll_saw.png",
+        "128": "/avatars/garage-workshop/128/scroll_saw.png",
+        "256": "/avatars/garage-workshop/256/scroll_saw.png",
+        "512": "/avatars/garage-workshop/512/scroll_saw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "jigsaw",
+      "label": "Jigsaw",
+      "category": "jigsaw",
+      "description": "A handheld jigsaw with metal shoe and slim blade.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/jigsaw.png",
+        "128": "icons/128/jigsaw.png",
+        "256": "icons/256/jigsaw.png",
+        "512": "icons/512/jigsaw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/jigsaw.png",
+        "128": "/avatars/garage-workshop/128/jigsaw.png",
+        "256": "/avatars/garage-workshop/256/jigsaw.png",
+        "512": "/avatars/garage-workshop/512/jigsaw.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_02_planer_jointer_lathe_saws.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "folding_roller_stand",
+      "label": "Folding Roller Stand",
+      "category": "stand",
+      "description": "A folding roller support stand for long boards and stock.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/folding_roller_stand.png",
+        "128": "icons/128/folding_roller_stand.png",
+        "256": "icons/256/folding_roller_stand.png",
+        "512": "icons/512/folding_roller_stand.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/folding_roller_stand.png",
+        "128": "/avatars/garage-workshop/128/folding_roller_stand.png",
+        "256": "/avatars/garage-workshop/256/folding_roller_stand.png",
+        "512": "/avatars/garage-workshop/512/folding_roller_stand.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "roller_outfeed_stand",
+      "label": "Roller Outfeed Stand",
+      "category": "stand",
+      "description": "A multi-roller outfeed support stand.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/roller_outfeed_stand.png",
+        "128": "icons/128/roller_outfeed_stand.png",
+        "256": "icons/256/roller_outfeed_stand.png",
+        "512": "icons/512/roller_outfeed_stand.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/roller_outfeed_stand.png",
+        "128": "/avatars/garage-workshop/128/roller_outfeed_stand.png",
+        "256": "/avatars/garage-workshop/256/roller_outfeed_stand.png",
+        "512": "/avatars/garage-workshop/512/roller_outfeed_stand.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "wooden_sawhorse",
+      "label": "Wooden Sawhorse",
+      "category": "stand",
+      "description": "A wooden sawhorse for temporary support and cutting setups.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wooden_sawhorse.png",
+        "128": "icons/128/wooden_sawhorse.png",
+        "256": "icons/256/wooden_sawhorse.png",
+        "512": "icons/512/wooden_sawhorse.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wooden_sawhorse.png",
+        "128": "/avatars/garage-workshop/128/wooden_sawhorse.png",
+        "256": "/avatars/garage-workshop/256/wooden_sawhorse.png",
+        "512": "/avatars/garage-workshop/512/wooden_sawhorse.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "metal_shelving_unit",
+      "label": "Metal Shelving Unit",
+      "category": "shelving",
+      "description": "A steel garage shelving rack with multiple shelves.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/metal_shelving_unit.png",
+        "128": "icons/128/metal_shelving_unit.png",
+        "256": "icons/256/metal_shelving_unit.png",
+        "512": "icons/512/metal_shelving_unit.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/metal_shelving_unit.png",
+        "128": "/avatars/garage-workshop/128/metal_shelving_unit.png",
+        "256": "/avatars/garage-workshop/256/metal_shelving_unit.png",
+        "512": "/avatars/garage-workshop/512/metal_shelving_unit.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "wooden_shelving_unit",
+      "label": "Wooden Shelving Unit",
+      "category": "shelving",
+      "description": "A wooden shelving unit with open shelves.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wooden_shelving_unit.png",
+        "128": "icons/128/wooden_shelving_unit.png",
+        "256": "icons/256/wooden_shelving_unit.png",
+        "512": "icons/512/wooden_shelving_unit.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wooden_shelving_unit.png",
+        "128": "/avatars/garage-workshop/128/wooden_shelving_unit.png",
+        "256": "/avatars/garage-workshop/256/wooden_shelving_unit.png",
+        "512": "/avatars/garage-workshop/512/wooden_shelving_unit.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "wall_hook_shelf",
+      "label": "Wall Hook Shelf",
+      "category": "shelving",
+      "description": "A wall-mounted wooden shelf with hooks underneath.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wall_hook_shelf.png",
+        "128": "icons/128/wall_hook_shelf.png",
+        "256": "icons/256/wall_hook_shelf.png",
+        "512": "icons/512/wall_hook_shelf.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wall_hook_shelf.png",
+        "128": "/avatars/garage-workshop/128/wall_hook_shelf.png",
+        "256": "/avatars/garage-workshop/256/wall_hook_shelf.png",
+        "512": "/avatars/garage-workshop/512/wall_hook_shelf.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "storage_tote_yellow_lid",
+      "label": "Storage Tote with Yellow Lid",
+      "category": "storage_container",
+      "description": "A heavy-duty storage tote with a yellow snap-on lid.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/storage_tote_yellow_lid.png",
+        "128": "icons/128/storage_tote_yellow_lid.png",
+        "256": "icons/256/storage_tote_yellow_lid.png",
+        "512": "icons/512/storage_tote_yellow_lid.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/storage_tote_yellow_lid.png",
+        "128": "/avatars/garage-workshop/128/storage_tote_yellow_lid.png",
+        "256": "/avatars/garage-workshop/256/storage_tote_yellow_lid.png",
+        "512": "/avatars/garage-workshop/512/storage_tote_yellow_lid.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "storage_tote_red_latches",
+      "label": "Storage Tote with Red Latches",
+      "category": "storage_container",
+      "description": "A rugged storage tote with red side latches.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/storage_tote_red_latches.png",
+        "128": "icons/128/storage_tote_red_latches.png",
+        "256": "icons/256/storage_tote_red_latches.png",
+        "512": "icons/512/storage_tote_red_latches.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/storage_tote_red_latches.png",
+        "128": "/avatars/garage-workshop/128/storage_tote_red_latches.png",
+        "256": "/avatars/garage-workshop/256/storage_tote_red_latches.png",
+        "512": "/avatars/garage-workshop/512/storage_tote_red_latches.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "clear_parts_organizer",
+      "label": "Clear Parts Organizer",
+      "category": "parts_bin",
+      "description": "A clear compartment organizer filled with small hardware.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/clear_parts_organizer.png",
+        "128": "icons/128/clear_parts_organizer.png",
+        "256": "icons/256/clear_parts_organizer.png",
+        "512": "icons/512/clear_parts_organizer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/clear_parts_organizer.png",
+        "128": "/avatars/garage-workshop/128/clear_parts_organizer.png",
+        "256": "/avatars/garage-workshop/256/clear_parts_organizer.png",
+        "512": "/avatars/garage-workshop/512/clear_parts_organizer.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "wall_parts_bin_rack",
+      "label": "Wall Parts Bin Rack",
+      "category": "parts_bin",
+      "description": "A wall-mounted parts bin rack with red and blue bins.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wall_parts_bin_rack.png",
+        "128": "icons/128/wall_parts_bin_rack.png",
+        "256": "icons/256/wall_parts_bin_rack.png",
+        "512": "icons/512/wall_parts_bin_rack.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wall_parts_bin_rack.png",
+        "128": "/avatars/garage-workshop/128/wall_parts_bin_rack.png",
+        "256": "/avatars/garage-workshop/256/wall_parts_bin_rack.png",
+        "512": "/avatars/garage-workshop/512/wall_parts_bin_rack.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_03_stands_shelving_bins.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "lumber_stack",
+      "label": "Lumber Stack",
+      "category": "wood_lumber",
+      "description": "A stack of dimensional lumber boards.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/lumber_stack.png",
+        "128": "icons/128/lumber_stack.png",
+        "256": "icons/256/lumber_stack.png",
+        "512": "icons/512/lumber_stack.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/lumber_stack.png",
+        "128": "/avatars/garage-workshop/128/lumber_stack.png",
+        "256": "/avatars/garage-workshop/256/lumber_stack.png",
+        "512": "/avatars/garage-workshop/512/lumber_stack.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "plywood_sheet_stack",
+      "label": "Plywood Sheet Stack",
+      "category": "wood_lumber",
+      "description": "A stacked sheet of plywood or panel stock.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/plywood_sheet_stack.png",
+        "128": "icons/128/plywood_sheet_stack.png",
+        "256": "icons/256/plywood_sheet_stack.png",
+        "512": "icons/512/plywood_sheet_stack.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/plywood_sheet_stack.png",
+        "128": "/avatars/garage-workshop/128/plywood_sheet_stack.png",
+        "256": "/avatars/garage-workshop/256/plywood_sheet_stack.png",
+        "512": "/avatars/garage-workshop/512/plywood_sheet_stack.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "scrap_wood_pile",
+      "label": "Scrap Wood Pile",
+      "category": "wood_lumber",
+      "description": "A pile of scrap wood offcuts.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/scrap_wood_pile.png",
+        "128": "icons/128/scrap_wood_pile.png",
+        "256": "icons/256/scrap_wood_pile.png",
+        "512": "icons/512/scrap_wood_pile.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/scrap_wood_pile.png",
+        "128": "/avatars/garage-workshop/128/scrap_wood_pile.png",
+        "256": "/avatars/garage-workshop/256/scrap_wood_pile.png",
+        "512": "/avatars/garage-workshop/512/scrap_wood_pile.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "classic_workbench",
+      "label": "Classic Workbench",
+      "category": "workbench",
+      "description": "A classic wooden workbench with integrated vise and lower shelf.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/classic_workbench.png",
+        "128": "icons/128/classic_workbench.png",
+        "256": "icons/256/classic_workbench.png",
+        "512": "icons/512/classic_workbench.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/classic_workbench.png",
+        "128": "/avatars/garage-workshop/128/classic_workbench.png",
+        "256": "/avatars/garage-workshop/256/classic_workbench.png",
+        "512": "/avatars/garage-workshop/512/classic_workbench.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "cabinet_workbench",
+      "label": "Cabinet Workbench",
+      "category": "workbench",
+      "description": "A cabinet-style workbench with drawers and storage cabinet.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/cabinet_workbench.png",
+        "128": "icons/128/cabinet_workbench.png",
+        "256": "icons/256/cabinet_workbench.png",
+        "512": "icons/512/cabinet_workbench.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/cabinet_workbench.png",
+        "128": "/avatars/garage-workshop/128/cabinet_workbench.png",
+        "256": "/avatars/garage-workshop/256/cabinet_workbench.png",
+        "512": "/avatars/garage-workshop/512/cabinet_workbench.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "rolling_workbench_cart",
+      "label": "Rolling Workbench Cart",
+      "category": "workbench",
+      "description": "A rolling workbench cart with shelf and casters.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/rolling_workbench_cart.png",
+        "128": "icons/128/rolling_workbench_cart.png",
+        "256": "icons/256/rolling_workbench_cart.png",
+        "512": "icons/512/rolling_workbench_cart.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/rolling_workbench_cart.png",
+        "128": "/avatars/garage-workshop/128/rolling_workbench_cart.png",
+        "256": "/avatars/garage-workshop/256/rolling_workbench_cart.png",
+        "512": "/avatars/garage-workshop/512/rolling_workbench_cart.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "industrial_shop_light",
+      "label": "Industrial Shop Light",
+      "category": "shop_light",
+      "description": "A hanging industrial dome shop light.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/industrial_shop_light.png",
+        "128": "icons/128/industrial_shop_light.png",
+        "256": "icons/256/industrial_shop_light.png",
+        "512": "icons/512/industrial_shop_light.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/industrial_shop_light.png",
+        "128": "/avatars/garage-workshop/128/industrial_shop_light.png",
+        "256": "/avatars/garage-workshop/256/industrial_shop_light.png",
+        "512": "/avatars/garage-workshop/512/industrial_shop_light.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "led_shop_light_bar",
+      "label": "LED Shop Light Bar",
+      "category": "shop_light",
+      "description": "A long LED-style shop light bar fixture.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/led_shop_light_bar.png",
+        "128": "icons/128/led_shop_light_bar.png",
+        "256": "icons/256/led_shop_light_bar.png",
+        "512": "icons/512/led_shop_light_bar.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/led_shop_light_bar.png",
+        "128": "/avatars/garage-workshop/128/led_shop_light_bar.png",
+        "256": "/avatars/garage-workshop/256/led_shop_light_bar.png",
+        "512": "/avatars/garage-workshop/512/led_shop_light_bar.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "wet_dry_shop_vac",
+      "label": "Wet/Dry Shop Vacuum",
+      "category": "shop_vacuum",
+      "description": "A large wet/dry shop vacuum with hose and floor nozzle.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wet_dry_shop_vac.png",
+        "128": "icons/128/wet_dry_shop_vac.png",
+        "256": "icons/256/wet_dry_shop_vac.png",
+        "512": "icons/512/wet_dry_shop_vac.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wet_dry_shop_vac.png",
+        "128": "/avatars/garage-workshop/128/wet_dry_shop_vac.png",
+        "256": "/avatars/garage-workshop/256/wet_dry_shop_vac.png",
+        "512": "/avatars/garage-workshop/512/wet_dry_shop_vac.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "portable_shop_vac",
+      "label": "Portable Shop Vacuum",
+      "category": "shop_vacuum",
+      "description": "A compact portable shop vacuum.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/portable_shop_vac.png",
+        "128": "icons/128/portable_shop_vac.png",
+        "256": "icons/256/portable_shop_vac.png",
+        "512": "icons/512/portable_shop_vac.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/portable_shop_vac.png",
+        "128": "/avatars/garage-workshop/128/portable_shop_vac.png",
+        "256": "/avatars/garage-workshop/256/portable_shop_vac.png",
+        "512": "/avatars/garage-workshop/512/portable_shop_vac.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_04_lumber_workbenches_lights_vacuums.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "canister_dust_collector",
+      "label": "Canister Dust Collector",
+      "category": "dust_collector",
+      "description": "A canister-style dust collector with pleated filter and hose.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/canister_dust_collector.png",
+        "128": "icons/128/canister_dust_collector.png",
+        "256": "icons/256/canister_dust_collector.png",
+        "512": "icons/512/canister_dust_collector.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/canister_dust_collector.png",
+        "128": "/avatars/garage-workshop/128/canister_dust_collector.png",
+        "256": "/avatars/garage-workshop/256/canister_dust_collector.png",
+        "512": "/avatars/garage-workshop/512/canister_dust_collector.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "wall_dust_collector",
+      "label": "Wall Dust Collector",
+      "category": "dust_collector",
+      "description": "A wall-mounted dust collector with bag and hose.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wall_dust_collector.png",
+        "128": "icons/128/wall_dust_collector.png",
+        "256": "icons/256/wall_dust_collector.png",
+        "512": "icons/512/wall_dust_collector.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wall_dust_collector.png",
+        "128": "/avatars/garage-workshop/128/wall_dust_collector.png",
+        "256": "/avatars/garage-workshop/256/wall_dust_collector.png",
+        "512": "/avatars/garage-workshop/512/wall_dust_collector.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "paint_spray_gun",
+      "label": "Paint Spray Gun",
+      "category": "paint_sprayer",
+      "description": "A standalone paint spray gun with top-mounted cup.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/paint_spray_gun.png",
+        "128": "icons/128/paint_spray_gun.png",
+        "256": "icons/256/paint_spray_gun.png",
+        "512": "icons/512/paint_spray_gun.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/paint_spray_gun.png",
+        "128": "/avatars/garage-workshop/128/paint_spray_gun.png",
+        "256": "/avatars/garage-workshop/256/paint_spray_gun.png",
+        "512": "/avatars/garage-workshop/512/paint_spray_gun.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "hvlp_sprayer_system",
+      "label": "HVLP Sprayer System",
+      "category": "paint_sprayer",
+      "description": "An HVLP sprayer turbine system with hose and spray gun.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/hvlp_sprayer_system.png",
+        "128": "icons/128/hvlp_sprayer_system.png",
+        "256": "icons/256/hvlp_sprayer_system.png",
+        "512": "icons/512/hvlp_sprayer_system.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/hvlp_sprayer_system.png",
+        "128": "/avatars/garage-workshop/128/hvlp_sprayer_system.png",
+        "256": "/avatars/garage-workshop/256/hvlp_sprayer_system.png",
+        "512": "/avatars/garage-workshop/512/hvlp_sprayer_system.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "belt_sander_handheld",
+      "label": "Handheld Belt Sander",
+      "category": "belt_sander",
+      "description": "A handheld belt sander with dust bag.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/belt_sander_handheld.png",
+        "128": "icons/128/belt_sander_handheld.png",
+        "256": "icons/256/belt_sander_handheld.png",
+        "512": "icons/512/belt_sander_handheld.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/belt_sander_handheld.png",
+        "128": "/avatars/garage-workshop/128/belt_sander_handheld.png",
+        "256": "/avatars/garage-workshop/256/belt_sander_handheld.png",
+        "512": "/avatars/garage-workshop/512/belt_sander_handheld.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "bench_belt_disc_sander",
+      "label": "Bench Belt/Disc Sander",
+      "category": "belt_sander",
+      "description": "A benchtop combination belt and disc sander.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/bench_belt_disc_sander.png",
+        "128": "icons/128/bench_belt_disc_sander.png",
+        "256": "icons/256/bench_belt_disc_sander.png",
+        "512": "icons/512/bench_belt_disc_sander.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/bench_belt_disc_sander.png",
+        "128": "/avatars/garage-workshop/128/bench_belt_disc_sander.png",
+        "256": "/avatars/garage-workshop/256/bench_belt_disc_sander.png",
+        "512": "/avatars/garage-workshop/512/bench_belt_disc_sander.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "random_orbital_sander",
+      "label": "Random Orbital Sander",
+      "category": "rotary_sander",
+      "description": "A random orbital sander.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/random_orbital_sander.png",
+        "128": "icons/128/random_orbital_sander.png",
+        "256": "icons/256/random_orbital_sander.png",
+        "512": "icons/512/random_orbital_sander.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/random_orbital_sander.png",
+        "128": "/avatars/garage-workshop/128/random_orbital_sander.png",
+        "256": "/avatars/garage-workshop/256/random_orbital_sander.png",
+        "512": "/avatars/garage-workshop/512/random_orbital_sander.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "detail_sander",
+      "label": "Detail Sander",
+      "category": "rotary_sander",
+      "description": "A detail sander with pointed sanding pad.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/detail_sander.png",
+        "128": "icons/128/detail_sander.png",
+        "256": "icons/256/detail_sander.png",
+        "512": "icons/512/detail_sander.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/detail_sander.png",
+        "128": "/avatars/garage-workshop/128/detail_sander.png",
+        "256": "/avatars/garage-workshop/256/detail_sander.png",
+        "512": "/avatars/garage-workshop/512/detail_sander.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "oscillating_multi_tool",
+      "label": "Oscillating Multi-Tool",
+      "category": "oscillating_tool",
+      "description": "An oscillating multi-tool with flat blade attachment.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/oscillating_multi_tool.png",
+        "128": "icons/128/oscillating_multi_tool.png",
+        "256": "icons/256/oscillating_multi_tool.png",
+        "512": "icons/512/oscillating_multi_tool.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/oscillating_multi_tool.png",
+        "128": "/avatars/garage-workshop/128/oscillating_multi_tool.png",
+        "256": "/avatars/garage-workshop/256/oscillating_multi_tool.png",
+        "512": "/avatars/garage-workshop/512/oscillating_multi_tool.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "sandpaper_sheets",
+      "label": "Sandpaper Sheets",
+      "category": "sandpaper",
+      "description": "A fanned stack of sandpaper sheets in multiple grits.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/sandpaper_sheets.png",
+        "128": "icons/128/sandpaper_sheets.png",
+        "256": "icons/256/sandpaper_sheets.png",
+        "512": "icons/512/sandpaper_sheets.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/sandpaper_sheets.png",
+        "128": "/avatars/garage-workshop/128/sandpaper_sheets.png",
+        "256": "/avatars/garage-workshop/256/sandpaper_sheets.png",
+        "512": "/avatars/garage-workshop/512/sandpaper_sheets.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_05_dustcollectors_sprayers_sanders.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "paint_bucket_red",
+      "label": "Red Paint Bucket",
+      "category": "paint_bucket",
+      "description": "A red paint bucket with dripping paint at the rim.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/paint_bucket_red.png",
+        "128": "icons/128/paint_bucket_red.png",
+        "256": "icons/256/paint_bucket_red.png",
+        "512": "icons/512/paint_bucket_red.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/paint_bucket_red.png",
+        "128": "/avatars/garage-workshop/128/paint_bucket_red.png",
+        "256": "/avatars/garage-workshop/256/paint_bucket_red.png",
+        "512": "/avatars/garage-workshop/512/paint_bucket_red.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "paint_bucket_blue",
+      "label": "Blue Paint Bucket",
+      "category": "paint_bucket",
+      "description": "A blue paint bucket with dripping paint at the rim.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/paint_bucket_blue.png",
+        "128": "icons/128/paint_bucket_blue.png",
+        "256": "icons/256/paint_bucket_blue.png",
+        "512": "icons/512/paint_bucket_blue.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/paint_bucket_blue.png",
+        "128": "/avatars/garage-workshop/128/paint_bucket_blue.png",
+        "256": "/avatars/garage-workshop/256/paint_bucket_blue.png",
+        "512": "/avatars/garage-workshop/512/paint_bucket_blue.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "paint_bucket_yellow",
+      "label": "Yellow Paint Bucket",
+      "category": "paint_bucket",
+      "description": "A yellow paint bucket with dripping paint at the rim.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/paint_bucket_yellow.png",
+        "128": "icons/128/paint_bucket_yellow.png",
+        "256": "icons/256/paint_bucket_yellow.png",
+        "512": "icons/512/paint_bucket_yellow.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/paint_bucket_yellow.png",
+        "128": "/avatars/garage-workshop/128/paint_bucket_yellow.png",
+        "256": "/avatars/garage-workshop/256/paint_bucket_yellow.png",
+        "512": "/avatars/garage-workshop/512/paint_bucket_yellow.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "wide_paint_brush",
+      "label": "Wide Paint Brush",
+      "category": "paint_brush",
+      "description": "A wide flat paint brush.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wide_paint_brush.png",
+        "128": "icons/128/wide_paint_brush.png",
+        "256": "icons/256/wide_paint_brush.png",
+        "512": "icons/512/wide_paint_brush.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/wide_paint_brush.png",
+        "128": "/avatars/garage-workshop/128/wide_paint_brush.png",
+        "256": "/avatars/garage-workshop/256/wide_paint_brush.png",
+        "512": "/avatars/garage-workshop/512/wide_paint_brush.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "angled_paint_brush",
+      "label": "Angled Paint Brush",
+      "category": "paint_brush",
+      "description": "An angled trim paint brush.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/angled_paint_brush.png",
+        "128": "icons/128/angled_paint_brush.png",
+        "256": "icons/256/angled_paint_brush.png",
+        "512": "icons/512/angled_paint_brush.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/angled_paint_brush.png",
+        "128": "/avatars/garage-workshop/128/angled_paint_brush.png",
+        "256": "/avatars/garage-workshop/256/angled_paint_brush.png",
+        "512": "/avatars/garage-workshop/512/angled_paint_brush.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "foam_brush",
+      "label": "Foam Brush",
+      "category": "paint_brush",
+      "description": "A foam brush with wooden handle.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/foam_brush.png",
+        "128": "icons/128/foam_brush.png",
+        "256": "icons/256/foam_brush.png",
+        "512": "icons/512/foam_brush.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/foam_brush.png",
+        "128": "/avatars/garage-workshop/128/foam_brush.png",
+        "256": "/avatars/garage-workshop/256/foam_brush.png",
+        "512": "/avatars/garage-workshop/512/foam_brush.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "spray_paint_red",
+      "label": "Red Spray Paint Can",
+      "category": "spray_paint",
+      "description": "A red spray paint can.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/spray_paint_red.png",
+        "128": "icons/128/spray_paint_red.png",
+        "256": "icons/256/spray_paint_red.png",
+        "512": "icons/512/spray_paint_red.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/spray_paint_red.png",
+        "128": "/avatars/garage-workshop/128/spray_paint_red.png",
+        "256": "/avatars/garage-workshop/256/spray_paint_red.png",
+        "512": "/avatars/garage-workshop/512/spray_paint_red.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "spray_paint_blue",
+      "label": "Blue Spray Paint Can",
+      "category": "spray_paint",
+      "description": "A blue spray paint can.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/spray_paint_blue.png",
+        "128": "icons/128/spray_paint_blue.png",
+        "256": "icons/256/spray_paint_blue.png",
+        "512": "icons/512/spray_paint_blue.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/spray_paint_blue.png",
+        "128": "/avatars/garage-workshop/128/spray_paint_blue.png",
+        "256": "/avatars/garage-workshop/256/spray_paint_blue.png",
+        "512": "/avatars/garage-workshop/512/spray_paint_blue.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "spray_paint_green",
+      "label": "Green Spray Paint Can",
+      "category": "spray_paint",
+      "description": "A green spray paint can.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/spray_paint_green.png",
+        "128": "icons/128/spray_paint_green.png",
+        "256": "icons/256/spray_paint_green.png",
+        "512": "icons/512/spray_paint_green.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/spray_paint_green.png",
+        "128": "/avatars/garage-workshop/128/spray_paint_green.png",
+        "256": "/avatars/garage-workshop/256/spray_paint_green.png",
+        "512": "/avatars/garage-workshop/512/spray_paint_green.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "spray_paint_black",
+      "label": "Black Spray Paint Can",
+      "category": "spray_paint",
+      "description": "A black spray paint can.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/spray_paint_black.png",
+        "128": "icons/128/spray_paint_black.png",
+        "256": "icons/256/spray_paint_black.png",
+        "512": "icons/512/spray_paint_black.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/spray_paint_black.png",
+        "128": "/avatars/garage-workshop/128/spray_paint_black.png",
+        "256": "/avatars/garage-workshop/256/spray_paint_black.png",
+        "512": "/avatars/garage-workshop/512/spray_paint_black.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_06_paint_buckets_brushes_spraypaint.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "c_clamp",
+      "label": "C-Clamp",
+      "category": "clamp",
+      "description": "A classic blue C-clamp with threaded screw.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/c_clamp.png",
+        "128": "icons/128/c_clamp.png",
+        "256": "icons/256/c_clamp.png",
+        "512": "icons/512/c_clamp.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/c_clamp.png",
+        "128": "/avatars/garage-workshop/128/c_clamp.png",
+        "256": "/avatars/garage-workshop/256/c_clamp.png",
+        "512": "/avatars/garage-workshop/512/c_clamp.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "f_clamp",
+      "label": "F-Clamp",
+      "category": "clamp",
+      "description": "An F-style bar clamp.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/f_clamp.png",
+        "128": "icons/128/f_clamp.png",
+        "256": "icons/256/f_clamp.png",
+        "512": "icons/512/f_clamp.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/f_clamp.png",
+        "128": "/avatars/garage-workshop/128/f_clamp.png",
+        "256": "/avatars/garage-workshop/256/f_clamp.png",
+        "512": "/avatars/garage-workshop/512/f_clamp.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "spring_clamp",
+      "label": "Spring Clamp",
+      "category": "clamp",
+      "description": "A spring clamp with red jaw pads.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/spring_clamp.png",
+        "128": "icons/128/spring_clamp.png",
+        "256": "icons/256/spring_clamp.png",
+        "512": "icons/512/spring_clamp.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/spring_clamp.png",
+        "128": "/avatars/garage-workshop/128/spring_clamp.png",
+        "256": "/avatars/garage-workshop/256/spring_clamp.png",
+        "512": "/avatars/garage-workshop/512/spring_clamp.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "pipe_clamp",
+      "label": "Pipe Clamp",
+      "category": "clamp",
+      "description": "A pipe clamp with screw handle.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/pipe_clamp.png",
+        "128": "icons/128/pipe_clamp.png",
+        "256": "icons/256/pipe_clamp.png",
+        "512": "icons/512/pipe_clamp.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/pipe_clamp.png",
+        "128": "/avatars/garage-workshop/128/pipe_clamp.png",
+        "256": "/avatars/garage-workshop/256/pipe_clamp.png",
+        "512": "/avatars/garage-workshop/512/pipe_clamp.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "locking_pliers",
+      "label": "Locking Pliers",
+      "category": "vise_grip",
+      "description": "A pair of locking pliers / vise grips.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/locking_pliers.png",
+        "128": "icons/128/locking_pliers.png",
+        "256": "icons/256/locking_pliers.png",
+        "512": "icons/512/locking_pliers.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/locking_pliers.png",
+        "128": "/avatars/garage-workshop/128/locking_pliers.png",
+        "256": "/avatars/garage-workshop/256/locking_pliers.png",
+        "512": "/avatars/garage-workshop/512/locking_pliers.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "anvil",
+      "label": "Anvil",
+      "category": "anvil",
+      "description": "A blacksmith-style anvil.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/anvil.png",
+        "128": "icons/128/anvil.png",
+        "256": "icons/256/anvil.png",
+        "512": "icons/512/anvil.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/anvil.png",
+        "128": "/avatars/garage-workshop/128/anvil.png",
+        "256": "/avatars/garage-workshop/256/anvil.png",
+        "512": "/avatars/garage-workshop/512/anvil.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "rolling_tool_chest",
+      "label": "Rolling Tool Chest",
+      "category": "garage_misc",
+      "description": "A rolling tool chest with multiple drawers.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/rolling_tool_chest.png",
+        "128": "icons/128/rolling_tool_chest.png",
+        "256": "icons/256/rolling_tool_chest.png",
+        "512": "icons/512/rolling_tool_chest.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/rolling_tool_chest.png",
+        "128": "/avatars/garage-workshop/128/rolling_tool_chest.png",
+        "256": "/avatars/garage-workshop/256/rolling_tool_chest.png",
+        "512": "/avatars/garage-workshop/512/rolling_tool_chest.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "extension_cord_reel",
+      "label": "Extension Cord Reel",
+      "category": "garage_misc",
+      "description": "A portable extension cord reel with outlets.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/extension_cord_reel.png",
+        "128": "icons/128/extension_cord_reel.png",
+        "256": "icons/256/extension_cord_reel.png",
+        "512": "icons/512/extension_cord_reel.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/extension_cord_reel.png",
+        "128": "/avatars/garage-workshop/128/extension_cord_reel.png",
+        "256": "/avatars/garage-workshop/256/extension_cord_reel.png",
+        "512": "/avatars/garage-workshop/512/extension_cord_reel.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "rolling_shop_stool",
+      "label": "Rolling Shop Stool",
+      "category": "garage_misc",
+      "description": "A rolling shop stool with red padded seat.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/rolling_shop_stool.png",
+        "128": "icons/128/rolling_shop_stool.png",
+        "256": "icons/256/rolling_shop_stool.png",
+        "512": "icons/512/rolling_shop_stool.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/rolling_shop_stool.png",
+        "128": "/avatars/garage-workshop/128/rolling_shop_stool.png",
+        "256": "/avatars/garage-workshop/256/rolling_shop_stool.png",
+        "512": "/avatars/garage-workshop/512/rolling_shop_stool.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "pegboard_tool_wall",
+      "label": "Pegboard Tool Wall",
+      "category": "garage_misc",
+      "description": "A pegboard tool wall with hand tools and small bins.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/pegboard_tool_wall.png",
+        "128": "icons/128/pegboard_tool_wall.png",
+        "256": "icons/256/pegboard_tool_wall.png",
+        "512": "icons/512/pegboard_tool_wall.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/garage-workshop/64/pegboard_tool_wall.png",
+        "128": "/avatars/garage-workshop/128/pegboard_tool_wall.png",
+        "256": "/avatars/garage-workshop/256/pegboard_tool_wall.png",
+        "512": "/avatars/garage-workshop/512/pegboard_tool_wall.png"
+      },
+      "sourceSheet": "source-sheets/garage_sheet_07_clamps_visegrips_anvil_misc.png",
+      "sourceIndex": 9
+    }
+  ]
+}

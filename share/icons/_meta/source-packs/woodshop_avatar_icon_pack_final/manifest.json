@@ -1,0 +1,858 @@
+{
+  "name": "woodshop-avatar-icon-pack",
+  "version": "1.0.0",
+  "description": "Transparent individual woodshop hand-tool avatar/icon PNG pack using the same Jinn-compatible layout as prior packs.",
+  "targetRepo": "repo-makeover/jinn",
+  "assetRoot": "packages/web/public/avatars/woodshop-hand-tools",
+  "servedRoot": "/avatars/woodshop-hand-tools",
+  "sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "count": 40,
+  "transparentBackgrounds": true,
+  "icons": [
+    {
+      "id": "wheel_marking_gauge",
+      "label": "Wheel Marking Gauge",
+      "category": "marking",
+      "description": "A wheel marking gauge for laying out precise parallel lines and joinery shoulders.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wheel_marking_gauge.png",
+        "128": "icons/128/wheel_marking_gauge.png",
+        "256": "icons/256/wheel_marking_gauge.png",
+        "512": "icons/512/wheel_marking_gauge.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/wheel_marking_gauge.png",
+        "128": "/avatars/woodshop-hand-tools/128/wheel_marking_gauge.png",
+        "256": "/avatars/woodshop-hand-tools/256/wheel_marking_gauge.png",
+        "512": "/avatars/woodshop-hand-tools/512/wheel_marking_gauge.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "wheel_marking_gauge_alt",
+      "label": "Wheel Marking Gauge Alt",
+      "category": "marking",
+      "description": "A second wheel marking gauge variant for preserving multiple settings during layout work.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wheel_marking_gauge_alt.png",
+        "128": "icons/128/wheel_marking_gauge_alt.png",
+        "256": "icons/256/wheel_marking_gauge_alt.png",
+        "512": "icons/512/wheel_marking_gauge_alt.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/wheel_marking_gauge_alt.png",
+        "128": "/avatars/woodshop-hand-tools/128/wheel_marking_gauge_alt.png",
+        "256": "/avatars/woodshop-hand-tools/256/wheel_marking_gauge_alt.png",
+        "512": "/avatars/woodshop-hand-tools/512/wheel_marking_gauge_alt.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "sliding_bevel_gauge",
+      "label": "Sliding Bevel Gauge",
+      "category": "marking",
+      "description": "A sliding bevel gauge used to transfer and set non-90-degree angles.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/sliding_bevel_gauge.png",
+        "128": "icons/128/sliding_bevel_gauge.png",
+        "256": "icons/256/sliding_bevel_gauge.png",
+        "512": "icons/512/sliding_bevel_gauge.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/sliding_bevel_gauge.png",
+        "128": "/avatars/woodshop-hand-tools/128/sliding_bevel_gauge.png",
+        "256": "/avatars/woodshop-hand-tools/256/sliding_bevel_gauge.png",
+        "512": "/avatars/woodshop-hand-tools/512/sliding_bevel_gauge.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "try_square",
+      "label": "Try Square",
+      "category": "marking",
+      "description": "A try square for checking and striking accurate 90-degree lines.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/try_square.png",
+        "128": "icons/128/try_square.png",
+        "256": "icons/256/try_square.png",
+        "512": "icons/512/try_square.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/try_square.png",
+        "128": "/avatars/woodshop-hand-tools/128/try_square.png",
+        "256": "/avatars/woodshop-hand-tools/256/try_square.png",
+        "512": "/avatars/woodshop-hand-tools/512/try_square.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "marking_knife",
+      "label": "Marking Knife",
+      "category": "marking",
+      "description": "A marking knife used instead of a pencil for crisp, accurate joinery layout lines.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/marking_knife.png",
+        "128": "icons/128/marking_knife.png",
+        "256": "icons/256/marking_knife.png",
+        "512": "icons/512/marking_knife.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/marking_knife.png",
+        "128": "/avatars/woodshop-hand-tools/128/marking_knife.png",
+        "256": "/avatars/woodshop-hand-tools/256/marking_knife.png",
+        "512": "/avatars/woodshop-hand-tools/512/marking_knife.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "scratch_awl",
+      "label": "Scratch Awl",
+      "category": "marking",
+      "description": "A scratch awl for pricking layout points, starting holes, and fine marking.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/scratch_awl.png",
+        "128": "icons/128/scratch_awl.png",
+        "256": "icons/256/scratch_awl.png",
+        "512": "icons/512/scratch_awl.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/scratch_awl.png",
+        "128": "/avatars/woodshop-hand-tools/128/scratch_awl.png",
+        "256": "/avatars/woodshop-hand-tools/256/scratch_awl.png",
+        "512": "/avatars/woodshop-hand-tools/512/scratch_awl.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "dividers",
+      "label": "Dividers",
+      "category": "marking",
+      "description": "A pair of dividers for stepping off dimensions, arcs, and traditional geometric layout.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/dividers.png",
+        "128": "icons/128/dividers.png",
+        "256": "icons/256/dividers.png",
+        "512": "icons/512/dividers.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/dividers.png",
+        "128": "/avatars/woodshop-hand-tools/128/dividers.png",
+        "256": "/avatars/woodshop-hand-tools/256/dividers.png",
+        "512": "/avatars/woodshop-hand-tools/512/dividers.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "block_plane",
+      "label": "Block Plane",
+      "category": "plane",
+      "description": "A compact block plane for small trimming operations, end grain, and quick touch-up work.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/block_plane.png",
+        "128": "icons/128/block_plane.png",
+        "256": "icons/256/block_plane.png",
+        "512": "icons/512/block_plane.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/block_plane.png",
+        "128": "/avatars/woodshop-hand-tools/128/block_plane.png",
+        "256": "/avatars/woodshop-hand-tools/256/block_plane.png",
+        "512": "/avatars/woodshop-hand-tools/512/block_plane.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "spokeshave",
+      "label": "Spokeshave",
+      "category": "plane",
+      "description": "A spokeshave for shaping curves, edges, and small contoured wooden parts.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/spokeshave.png",
+        "128": "icons/128/spokeshave.png",
+        "256": "icons/256/spokeshave.png",
+        "512": "icons/512/spokeshave.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/spokeshave.png",
+        "128": "/avatars/woodshop-hand-tools/128/spokeshave.png",
+        "256": "/avatars/woodshop-hand-tools/256/spokeshave.png",
+        "512": "/avatars/woodshop-hand-tools/512/spokeshave.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "cabinet_scraper",
+      "label": "Cabinet Scraper",
+      "category": "surface_finishing",
+      "description": "A cabinet scraper used to refine surfaces, remove tear-out, and finish figured wood.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/cabinet_scraper.png",
+        "128": "icons/128/cabinet_scraper.png",
+        "256": "icons/256/cabinet_scraper.png",
+        "512": "icons/512/cabinet_scraper.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/cabinet_scraper.png",
+        "128": "/avatars/woodshop-hand-tools/128/cabinet_scraper.png",
+        "256": "/avatars/woodshop-hand-tools/256/cabinet_scraper.png",
+        "512": "/avatars/woodshop-hand-tools/512/cabinet_scraper.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_01_marking_layout_misc.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "claw_hammer",
+      "label": "Claw Hammer",
+      "category": "hammer",
+      "description": "A classic claw hammer with a wooden handle and curved steel claw for driving and pulling nails.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/claw_hammer.png",
+        "128": "icons/128/claw_hammer.png",
+        "256": "icons/256/claw_hammer.png",
+        "512": "icons/512/claw_hammer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/claw_hammer.png",
+        "128": "/avatars/woodshop-hand-tools/128/claw_hammer.png",
+        "256": "/avatars/woodshop-hand-tools/256/claw_hammer.png",
+        "512": "/avatars/woodshop-hand-tools/512/claw_hammer.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "cross_peen_hammer",
+      "label": "Cross-Peen Hammer",
+      "category": "hammer",
+      "description": "A cross-peen hammer with a wooden handle and narrow peen for precise striking and shaping work.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/cross_peen_hammer.png",
+        "128": "icons/128/cross_peen_hammer.png",
+        "256": "icons/256/cross_peen_hammer.png",
+        "512": "icons/512/cross_peen_hammer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/cross_peen_hammer.png",
+        "128": "/avatars/woodshop-hand-tools/128/cross_peen_hammer.png",
+        "256": "/avatars/woodshop-hand-tools/256/cross_peen_hammer.png",
+        "512": "/avatars/woodshop-hand-tools/512/cross_peen_hammer.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "flathead_screwdriver",
+      "label": "Flathead Screwdriver",
+      "category": "screwdriver",
+      "description": "A slotted flathead screwdriver with a wooden handle for driving standard slotted screws.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/flathead_screwdriver.png",
+        "128": "icons/128/flathead_screwdriver.png",
+        "256": "icons/256/flathead_screwdriver.png",
+        "512": "icons/512/flathead_screwdriver.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/flathead_screwdriver.png",
+        "128": "/avatars/woodshop-hand-tools/128/flathead_screwdriver.png",
+        "256": "/avatars/woodshop-hand-tools/256/flathead_screwdriver.png",
+        "512": "/avatars/woodshop-hand-tools/512/flathead_screwdriver.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "phillips_screwdriver",
+      "label": "Phillips Screwdriver",
+      "category": "screwdriver",
+      "description": "A Phillips screwdriver with a wooden handle for driving cross-head screws.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/phillips_screwdriver.png",
+        "128": "icons/128/phillips_screwdriver.png",
+        "256": "icons/256/phillips_screwdriver.png",
+        "512": "icons/512/phillips_screwdriver.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/phillips_screwdriver.png",
+        "128": "/avatars/woodshop-hand-tools/128/phillips_screwdriver.png",
+        "256": "/avatars/woodshop-hand-tools/256/phillips_screwdriver.png",
+        "512": "/avatars/woodshop-hand-tools/512/phillips_screwdriver.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "nail_puller_nippers",
+      "label": "Nail Puller Nippers",
+      "category": "fastener_tool",
+      "description": "End-nipper style pincers used to grip and pull nails cleanly from wood.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/nail_puller_nippers.png",
+        "128": "icons/128/nail_puller_nippers.png",
+        "256": "icons/256/nail_puller_nippers.png",
+        "512": "icons/512/nail_puller_nippers.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/nail_puller_nippers.png",
+        "128": "/avatars/woodshop-hand-tools/128/nail_puller_nippers.png",
+        "256": "/avatars/woodshop-hand-tools/256/nail_puller_nippers.png",
+        "512": "/avatars/woodshop-hand-tools/512/nail_puller_nippers.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "common_nail",
+      "label": "Common Nail",
+      "category": "fastener",
+      "description": "A traditional common nail for general wood fastening.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/common_nail.png",
+        "128": "icons/128/common_nail.png",
+        "256": "icons/256/common_nail.png",
+        "512": "icons/512/common_nail.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/common_nail.png",
+        "128": "/avatars/woodshop-hand-tools/128/common_nail.png",
+        "256": "/avatars/woodshop-hand-tools/256/common_nail.png",
+        "512": "/avatars/woodshop-hand-tools/512/common_nail.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "slotted_wood_screw",
+      "label": "Slotted Wood Screw",
+      "category": "fastener",
+      "description": "A slotted wood screw with coarse threads for wood joinery and fastening.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/slotted_wood_screw.png",
+        "128": "icons/128/slotted_wood_screw.png",
+        "256": "icons/256/slotted_wood_screw.png",
+        "512": "icons/512/slotted_wood_screw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/slotted_wood_screw.png",
+        "128": "/avatars/woodshop-hand-tools/128/slotted_wood_screw.png",
+        "256": "/avatars/woodshop-hand-tools/256/slotted_wood_screw.png",
+        "512": "/avatars/woodshop-hand-tools/512/slotted_wood_screw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "phillips_wood_screw",
+      "label": "Phillips Wood Screw",
+      "category": "fastener",
+      "description": "A Phillips-head wood screw with coarse threads for general woodworking fastening.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/phillips_wood_screw.png",
+        "128": "icons/128/phillips_wood_screw.png",
+        "256": "icons/256/phillips_wood_screw.png",
+        "512": "icons/512/phillips_wood_screw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/phillips_wood_screw.png",
+        "128": "/avatars/woodshop-hand-tools/128/phillips_wood_screw.png",
+        "256": "/avatars/woodshop-hand-tools/256/phillips_wood_screw.png",
+        "512": "/avatars/woodshop-hand-tools/512/phillips_wood_screw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "wooden_handscrew_clamp",
+      "label": "Wooden Handscrew Clamp",
+      "category": "clamp",
+      "description": "An old-style wooden handscrew clamp used for holding awkward workpieces and gentle clamping.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/wooden_handscrew_clamp.png",
+        "128": "icons/128/wooden_handscrew_clamp.png",
+        "256": "icons/256/wooden_handscrew_clamp.png",
+        "512": "icons/512/wooden_handscrew_clamp.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/wooden_handscrew_clamp.png",
+        "128": "/avatars/woodshop-hand-tools/128/wooden_handscrew_clamp.png",
+        "256": "/avatars/woodshop-hand-tools/256/wooden_handscrew_clamp.png",
+        "512": "/avatars/woodshop-hand-tools/512/wooden_handscrew_clamp.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "forged_holdfast",
+      "label": "Forged Holdfast",
+      "category": "clamp",
+      "description": "A forged bench holdfast used as an old-style clamp for securing work to a woodworking bench.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/forged_holdfast.png",
+        "128": "icons/128/forged_holdfast.png",
+        "256": "icons/256/forged_holdfast.png",
+        "512": "icons/512/forged_holdfast.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/forged_holdfast.png",
+        "128": "/avatars/woodshop-hand-tools/128/forged_holdfast.png",
+        "256": "/avatars/woodshop-hand-tools/256/forged_holdfast.png",
+        "512": "/avatars/woodshop-hand-tools/512/forged_holdfast.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_02_hammers_fasteners_clamps.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "scrub_plane",
+      "label": "Scrub Plane",
+      "category": "plane",
+      "description": "A short-bodied wooden scrub plane for aggressive stock removal and rapid thicknessing.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/scrub_plane.png",
+        "128": "icons/128/scrub_plane.png",
+        "256": "icons/256/scrub_plane.png",
+        "512": "icons/512/scrub_plane.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/scrub_plane.png",
+        "128": "/avatars/woodshop-hand-tools/128/scrub_plane.png",
+        "256": "/avatars/woodshop-hand-tools/256/scrub_plane.png",
+        "512": "/avatars/woodshop-hand-tools/512/scrub_plane.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "jointer_plane",
+      "label": "Jointer Plane",
+      "category": "plane",
+      "description": "A long jointer plane used to flatten and true board faces and edges.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/jointer_plane.png",
+        "128": "icons/128/jointer_plane.png",
+        "256": "icons/256/jointer_plane.png",
+        "512": "icons/512/jointer_plane.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/jointer_plane.png",
+        "128": "/avatars/woodshop-hand-tools/128/jointer_plane.png",
+        "256": "/avatars/woodshop-hand-tools/256/jointer_plane.png",
+        "512": "/avatars/woodshop-hand-tools/512/jointer_plane.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "smoothing_plane",
+      "label": "Smoothing Plane",
+      "category": "plane",
+      "description": "A smoothing plane for fine finishing cuts and preparing a surface in place of sandpaper.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/smoothing_plane.png",
+        "128": "icons/128/smoothing_plane.png",
+        "256": "icons/256/smoothing_plane.png",
+        "512": "icons/512/smoothing_plane.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/smoothing_plane.png",
+        "128": "/avatars/woodshop-hand-tools/128/smoothing_plane.png",
+        "256": "/avatars/woodshop-hand-tools/256/smoothing_plane.png",
+        "512": "/avatars/woodshop-hand-tools/512/smoothing_plane.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "router_plane",
+      "label": "Router Plane",
+      "category": "plane",
+      "description": "A router plane for leveling the bottoms of dados, rabbets, tenons, and other joinery recesses.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/router_plane.png",
+        "128": "icons/128/router_plane.png",
+        "256": "icons/256/router_plane.png",
+        "512": "icons/512/router_plane.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/router_plane.png",
+        "128": "/avatars/woodshop-hand-tools/128/router_plane.png",
+        "256": "/avatars/woodshop-hand-tools/256/router_plane.png",
+        "512": "/avatars/woodshop-hand-tools/512/router_plane.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "panel_saw",
+      "label": "Panel Saw",
+      "category": "saw",
+      "description": "A general-purpose panel saw for breaking down stock and larger hand-saw work.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/panel_saw.png",
+        "128": "icons/128/panel_saw.png",
+        "256": "icons/256/panel_saw.png",
+        "512": "icons/512/panel_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/panel_saw.png",
+        "128": "/avatars/woodshop-hand-tools/128/panel_saw.png",
+        "256": "/avatars/woodshop-hand-tools/256/panel_saw.png",
+        "512": "/avatars/woodshop-hand-tools/512/panel_saw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "rip_hand_saw",
+      "label": "Rip Hand Saw",
+      "category": "saw",
+      "description": "A rip-filed hand saw for cutting with the grain during ripping operations.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/rip_hand_saw.png",
+        "128": "icons/128/rip_hand_saw.png",
+        "256": "icons/256/rip_hand_saw.png",
+        "512": "icons/512/rip_hand_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/rip_hand_saw.png",
+        "128": "/avatars/woodshop-hand-tools/128/rip_hand_saw.png",
+        "256": "/avatars/woodshop-hand-tools/256/rip_hand_saw.png",
+        "512": "/avatars/woodshop-hand-tools/512/rip_hand_saw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "crosscut_hand_saw",
+      "label": "Crosscut Hand Saw",
+      "category": "saw",
+      "description": "A crosscut hand saw for cutting rough stock to length across the grain.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/crosscut_hand_saw.png",
+        "128": "icons/128/crosscut_hand_saw.png",
+        "256": "icons/256/crosscut_hand_saw.png",
+        "512": "icons/512/crosscut_hand_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/crosscut_hand_saw.png",
+        "128": "/avatars/woodshop-hand-tools/128/crosscut_hand_saw.png",
+        "256": "/avatars/woodshop-hand-tools/256/crosscut_hand_saw.png",
+        "512": "/avatars/woodshop-hand-tools/512/crosscut_hand_saw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "tenon_saw",
+      "label": "Tenon Saw",
+      "category": "saw",
+      "description": "A deeper backsaw suited for tenons and other medium joinery cuts.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/tenon_saw.png",
+        "128": "icons/128/tenon_saw.png",
+        "256": "icons/256/tenon_saw.png",
+        "512": "icons/512/tenon_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/tenon_saw.png",
+        "128": "/avatars/woodshop-hand-tools/128/tenon_saw.png",
+        "256": "/avatars/woodshop-hand-tools/256/tenon_saw.png",
+        "512": "/avatars/woodshop-hand-tools/512/tenon_saw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "carcass_saw",
+      "label": "Carcass Saw",
+      "category": "saw",
+      "description": "A smaller backsaw for accurate bench-top joinery and final dimensioning cuts.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/carcass_saw.png",
+        "128": "icons/128/carcass_saw.png",
+        "256": "icons/256/carcass_saw.png",
+        "512": "icons/512/carcass_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/carcass_saw.png",
+        "128": "/avatars/woodshop-hand-tools/128/carcass_saw.png",
+        "256": "/avatars/woodshop-hand-tools/256/carcass_saw.png",
+        "512": "/avatars/woodshop-hand-tools/512/carcass_saw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "dovetail_saw",
+      "label": "Dovetail Saw",
+      "category": "saw",
+      "description": "A fine-toothed dovetail saw for precise small joinery cuts and delicate detail work.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/dovetail_saw.png",
+        "128": "icons/128/dovetail_saw.png",
+        "256": "icons/256/dovetail_saw.png",
+        "512": "icons/512/dovetail_saw.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/dovetail_saw.png",
+        "128": "/avatars/woodshop-hand-tools/128/dovetail_saw.png",
+        "256": "/avatars/woodshop-hand-tools/256/dovetail_saw.png",
+        "512": "/avatars/woodshop-hand-tools/512/dovetail_saw.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_03_planes_saws.png",
+      "sourceIndex": 9
+    },
+    {
+      "id": "bench_chisel_1_8",
+      "label": "Bench Chisel 1/8",
+      "category": "chisel",
+      "description": "A narrow 1/8 inch bench chisel for fine cleanup, corners, and light chopping.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/bench_chisel_1_8.png",
+        "128": "icons/128/bench_chisel_1_8.png",
+        "256": "icons/256/bench_chisel_1_8.png",
+        "512": "icons/512/bench_chisel_1_8.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/bench_chisel_1_8.png",
+        "128": "/avatars/woodshop-hand-tools/128/bench_chisel_1_8.png",
+        "256": "/avatars/woodshop-hand-tools/256/bench_chisel_1_8.png",
+        "512": "/avatars/woodshop-hand-tools/512/bench_chisel_1_8.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 0
+    },
+    {
+      "id": "bench_chisel_1_4",
+      "label": "Bench Chisel 1/4",
+      "category": "chisel",
+      "description": "A 1/4 inch bench chisel, one of the core shop workhorse sizes for joinery.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/bench_chisel_1_4.png",
+        "128": "icons/128/bench_chisel_1_4.png",
+        "256": "icons/256/bench_chisel_1_4.png",
+        "512": "icons/512/bench_chisel_1_4.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/bench_chisel_1_4.png",
+        "128": "/avatars/woodshop-hand-tools/128/bench_chisel_1_4.png",
+        "256": "/avatars/woodshop-hand-tools/256/bench_chisel_1_4.png",
+        "512": "/avatars/woodshop-hand-tools/512/bench_chisel_1_4.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 1
+    },
+    {
+      "id": "bench_chisel_3_8",
+      "label": "Bench Chisel 3/8",
+      "category": "chisel",
+      "description": "A 3/8 inch bench chisel for general-purpose chopping, paring, and trimming.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/bench_chisel_3_8.png",
+        "128": "icons/128/bench_chisel_3_8.png",
+        "256": "icons/256/bench_chisel_3_8.png",
+        "512": "icons/512/bench_chisel_3_8.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/bench_chisel_3_8.png",
+        "128": "/avatars/woodshop-hand-tools/128/bench_chisel_3_8.png",
+        "256": "/avatars/woodshop-hand-tools/256/bench_chisel_3_8.png",
+        "512": "/avatars/woodshop-hand-tools/512/bench_chisel_3_8.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 2
+    },
+    {
+      "id": "bench_chisel_1_2",
+      "label": "Bench Chisel 1/2",
+      "category": "chisel",
+      "description": "A 1/2 inch bench chisel for versatile everyday joinery work.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/bench_chisel_1_2.png",
+        "128": "icons/128/bench_chisel_1_2.png",
+        "256": "icons/256/bench_chisel_1_2.png",
+        "512": "icons/512/bench_chisel_1_2.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/bench_chisel_1_2.png",
+        "128": "/avatars/woodshop-hand-tools/128/bench_chisel_1_2.png",
+        "256": "/avatars/woodshop-hand-tools/256/bench_chisel_1_2.png",
+        "512": "/avatars/woodshop-hand-tools/512/bench_chisel_1_2.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 3
+    },
+    {
+      "id": "paring_chisel_wide",
+      "label": "Wide Paring Chisel",
+      "category": "chisel",
+      "description": "A wide paring chisel used to define edges, trim waste, chamfer, and flatten joinery surfaces.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/paring_chisel_wide.png",
+        "128": "icons/128/paring_chisel_wide.png",
+        "256": "icons/256/paring_chisel_wide.png",
+        "512": "icons/512/paring_chisel_wide.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/paring_chisel_wide.png",
+        "128": "/avatars/woodshop-hand-tools/128/paring_chisel_wide.png",
+        "256": "/avatars/woodshop-hand-tools/256/paring_chisel_wide.png",
+        "512": "/avatars/woodshop-hand-tools/512/paring_chisel_wide.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 4
+    },
+    {
+      "id": "round_carving_mallet",
+      "label": "Round Carving Mallet",
+      "category": "mallet",
+      "description": "A round carving-style wooden mallet for controlled striking of chisels and carving tools.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/round_carving_mallet.png",
+        "128": "icons/128/round_carving_mallet.png",
+        "256": "icons/256/round_carving_mallet.png",
+        "512": "icons/512/round_carving_mallet.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/round_carving_mallet.png",
+        "128": "/avatars/woodshop-hand-tools/128/round_carving_mallet.png",
+        "256": "/avatars/woodshop-hand-tools/256/round_carving_mallet.png",
+        "512": "/avatars/woodshop-hand-tools/512/round_carving_mallet.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 5
+    },
+    {
+      "id": "cabinetmakers_mallet",
+      "label": "Cabinetmaker's Mallet",
+      "category": "mallet",
+      "description": "A square-faced cabinetmaker\u2019s mallet for bench work, chisels, and joinery assembly.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/cabinetmakers_mallet.png",
+        "128": "icons/128/cabinetmakers_mallet.png",
+        "256": "icons/256/cabinetmakers_mallet.png",
+        "512": "icons/512/cabinetmakers_mallet.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/cabinetmakers_mallet.png",
+        "128": "/avatars/woodshop-hand-tools/128/cabinetmakers_mallet.png",
+        "256": "/avatars/woodshop-hand-tools/256/cabinetmakers_mallet.png",
+        "512": "/avatars/woodshop-hand-tools/512/cabinetmakers_mallet.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 6
+    },
+    {
+      "id": "brace_and_bit",
+      "label": "Brace and Bit",
+      "category": "boring",
+      "description": "A hand brace used for traditional boring and drilling operations in woodworking.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/brace_and_bit.png",
+        "128": "icons/128/brace_and_bit.png",
+        "256": "icons/256/brace_and_bit.png",
+        "512": "icons/512/brace_and_bit.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/brace_and_bit.png",
+        "128": "/avatars/woodshop-hand-tools/128/brace_and_bit.png",
+        "256": "/avatars/woodshop-hand-tools/256/brace_and_bit.png",
+        "512": "/avatars/woodshop-hand-tools/512/brace_and_bit.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 7
+    },
+    {
+      "id": "jennings_bit_1_4",
+      "label": "Jennings Bit 1/4",
+      "category": "boring",
+      "description": "A 1/4 inch Jennings-pattern auger bit for peg holes, mortises, and general brace drilling.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/jennings_bit_1_4.png",
+        "128": "icons/128/jennings_bit_1_4.png",
+        "256": "icons/256/jennings_bit_1_4.png",
+        "512": "icons/512/jennings_bit_1_4.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/jennings_bit_1_4.png",
+        "128": "/avatars/woodshop-hand-tools/128/jennings_bit_1_4.png",
+        "256": "/avatars/woodshop-hand-tools/256/jennings_bit_1_4.png",
+        "512": "/avatars/woodshop-hand-tools/512/jennings_bit_1_4.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 8
+    },
+    {
+      "id": "jennings_bit_3_8",
+      "label": "Jennings Bit 3/8",
+      "category": "boring",
+      "description": "A 3/8 inch Jennings-pattern auger bit for mortises and heavier hand-boring work.",
+      "transparentBackground": true,
+      "files": {
+        "64": "icons/64/jennings_bit_3_8.png",
+        "128": "icons/128/jennings_bit_3_8.png",
+        "256": "icons/256/jennings_bit_3_8.png",
+        "512": "icons/512/jennings_bit_3_8.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/woodshop-hand-tools/64/jennings_bit_3_8.png",
+        "128": "/avatars/woodshop-hand-tools/128/jennings_bit_3_8.png",
+        "256": "/avatars/woodshop-hand-tools/256/jennings_bit_3_8.png",
+        "512": "/avatars/woodshop-hand-tools/512/jennings_bit_3_8.png"
+      },
+      "sourceSheet": "source-sheets/woodshop_sheet_04_chisels_mallets_brace_bits.png",
+      "sourceIndex": 9
+    }
+  ]
+}

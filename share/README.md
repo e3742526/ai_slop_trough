@@ -6,7 +6,7 @@
 
 | Path | Summary | Status |
 | --- | --- | --- |
-| [`icons/`](icons/) | Empty icon-share reset surface with catalog and gallery scaffolding | Reset |
+| [`icons/`](icons/) | Curated clean-icon library with catalog, gallery, and source-pack provenance | Active |
 | [`links/`](links/) | “Other People's Slop,” a curated index of external icon packs and generation tools | Active |
 
 ## Contributing
