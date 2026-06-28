@@ -1,0 +1,1468 @@
+{
+  "name": "ocean-nautical-avatar-icon-pack-transparent-fixed",
+  "version": "1.1.0",
+  "description": "Fixed Cuttlefish/Jinn nautical avatar icons with true transparent RGBA backgrounds; checkerboard pixels removed.",
+  "targetRepo": "repo-makeover/jinn",
+  "assetRoot": "packages/web/public/avatars/nautical",
+  "servedRoot": "/avatars/nautical",
+  "sizes": [
+    64,
+    512
+  ],
+  "count": 52,
+  "transparentBackgrounds": true,
+  "checkerboardRemoved": true,
+  "safeCirclePadding": true,
+  "icons": [
+    {
+      "id": "life_ring",
+      "label": "Life Ring",
+      "category": "nautical",
+      "description": "Classic red-and-white ring buoy with rope, re-cropped/recreated with safe circular-avatar margins.",
+      "tags": [
+        "rescue",
+        "safety"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/life_ring.png",
+        "512": "icons/512/life_ring.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/life_ring.png",
+        "512": "/avatars/nautical/512/life_ring.png"
+      },
+      "source": "programmatic_safe_area_replacement"
+    },
+    {
+      "id": "aircraft_carrier",
+      "label": "Aircraft Carrier",
+      "category": "nautical",
+      "description": "Gray flat-top naval aircraft carrier with island superstructure, tiny jets, and low waterline.",
+      "tags": [
+        "navy",
+        "jets"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/aircraft_carrier.png",
+        "512": "icons/512/aircraft_carrier.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/aircraft_carrier.png",
+        "512": "/avatars/nautical/512/aircraft_carrier.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        15,
+        20,
+        214,
+        181
+      ]
+    },
+    {
+      "id": "battleship",
+      "label": "Battleship",
+      "category": "nautical",
+      "description": "Gray modern naval warship with gun turrets and radar mast.",
+      "tags": [
+        "navy",
+        "warship"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/battleship.png",
+        "512": "icons/512/battleship.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/battleship.png",
+        "512": "/avatars/nautical/512/battleship.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        228,
+        11,
+        427,
+        183
+      ]
+    },
+    {
+      "id": "wooden_ship",
+      "label": "Wooden Ship",
+      "category": "nautical",
+      "description": "Old-fashioned wooden tall sailing ship with brown hull and cream sails.",
+      "tags": [
+        "sailing",
+        "old"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/wooden_ship.png",
+        "512": "icons/512/wooden_ship.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/wooden_ship.png",
+        "512": "/avatars/nautical/512/wooden_ship.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        435,
+        4,
+        619,
+        189
+      ]
+    },
+    {
+      "id": "pirate_ship",
+      "label": "Pirate Ship",
+      "category": "nautical",
+      "description": "Dark wooden pirate galleon with black sails and small skull-and-crossbones flag.",
+      "tags": [
+        "pirate",
+        "jolly"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/pirate_ship.png",
+        "512": "icons/512/pirate_ship.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/pirate_ship.png",
+        "512": "/avatars/nautical/512/pirate_ship.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        649,
+        11,
+        814,
+        193
+      ]
+    },
+    {
+      "id": "warship_cannons",
+      "label": "Warship Cannons",
+      "category": "nautical",
+      "description": "Old broadside frigate/man-o-war with open cannon ports and cannon muzzles.",
+      "tags": [
+        "frigate",
+        "cannons"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/warship_cannons.png",
+        "512": "icons/512/warship_cannons.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/warship_cannons.png",
+        "512": "/avatars/nautical/512/warship_cannons.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        851,
+        11,
+        1041,
+        189
+      ]
+    },
+    {
+      "id": "steamboat",
+      "label": "Steamboat",
+      "category": "nautical",
+      "description": "Small vintage steam launch with tall smokestack, puff of smoke, and side paddlewheel.",
+      "tags": [
+        "steam",
+        "river"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/steamboat.png",
+        "512": "icons/512/steamboat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/steamboat.png",
+        "512": "/avatars/nautical/512/steamboat.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1064,
+        7,
+        1275,
+        195
+      ]
+    },
+    {
+      "id": "riverboat",
+      "label": "Riverboat",
+      "category": "nautical",
+      "description": "Large Mississippi-style paddle-wheeler with white decks, red trim, rear paddlewheel, and twin smokestacks.",
+      "tags": [
+        "paddle",
+        "river"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/riverboat.png",
+        "512": "icons/512/riverboat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/riverboat.png",
+        "512": "/avatars/nautical/512/riverboat.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1293,
+        12,
+        1525,
+        194
+      ]
+    },
+    {
+      "id": "ferry",
+      "label": "Ferry",
+      "category": "nautical",
+      "description": "Modern blocky passenger/car ferry with multiple decks, bow ramp, and portholes.",
+      "tags": [
+        "transport",
+        "commute"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/ferry.png",
+        "512": "icons/512/ferry.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/ferry.png",
+        "512": "/avatars/nautical/512/ferry.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        9,
+        191,
+        217,
+        341
+      ]
+    },
+    {
+      "id": "tugboat",
+      "label": "Tugboat",
+      "category": "nautical",
+      "description": "Small stout tugboat with dark hull, rubber fenders, wheelhouse, and smokestack.",
+      "tags": [
+        "tug",
+        "harbor"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/tugboat.png",
+        "512": "icons/512/tugboat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/tugboat.png",
+        "512": "/avatars/nautical/512/tugboat.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        229,
+        197,
+        416,
+        348
+      ]
+    },
+    {
+      "id": "trash_barge",
+      "label": "Trash Barge",
+      "category": "nautical",
+      "description": "Flat industrial garbage barge piled with trash bags and junk.",
+      "tags": [
+        "garbage",
+        "cleanup"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/trash_barge.png",
+        "512": "icons/512/trash_barge.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/trash_barge.png",
+        "512": "/avatars/nautical/512/trash_barge.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        430,
+        206,
+        627,
+        337
+      ]
+    },
+    {
+      "id": "yacht",
+      "label": "Yacht",
+      "category": "nautical",
+      "description": "Sleek white luxury motor yacht with tinted windows.",
+      "tags": [
+        "luxury",
+        "fast"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/yacht.png",
+        "512": "icons/512/yacht.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/yacht.png",
+        "512": "/avatars/nautical/512/yacht.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        640,
+        204,
+        845,
+        344
+      ]
+    },
+    {
+      "id": "cruise_liner",
+      "label": "Cruise Liner",
+      "category": "nautical",
+      "description": "Large white modern cruise ship with many decks, portholes, and funnel.",
+      "tags": [
+        "cruise",
+        "vacation"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/cruise_liner.png",
+        "512": "icons/512/cruise_liner.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/cruise_liner.png",
+        "512": "/avatars/nautical/512/cruise_liner.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        833,
+        190,
+        1072,
+        345
+      ]
+    },
+    {
+      "id": "fishing_boat",
+      "label": "Fishing Boat",
+      "category": "nautical",
+      "description": "Small fishing trawler with weathered hull, rigging, net, and buoys.",
+      "tags": [
+        "fishing",
+        "trawler"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/fishing_boat.png",
+        "512": "icons/512/fishing_boat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/fishing_boat.png",
+        "512": "/avatars/nautical/512/fishing_boat.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1083,
+        190,
+        1308,
+        344
+      ]
+    },
+    {
+      "id": "lifeboat",
+      "label": "Lifeboat",
+      "category": "nautical",
+      "description": "Bright orange-and-white rescue lifeboat/dinghy with rope handholds.",
+      "tags": [
+        "rescue",
+        "safety"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/lifeboat.png",
+        "512": "icons/512/lifeboat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/lifeboat.png",
+        "512": "/avatars/nautical/512/lifeboat.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1318,
+        210,
+        1524,
+        338
+      ]
+    },
+    {
+      "id": "canoe",
+      "label": "Canoe",
+      "category": "nautical",
+      "description": "Single wooden canoe with a paddle resting across it.",
+      "tags": [
+        "paddle",
+        "quiet"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/canoe.png",
+        "512": "icons/512/canoe.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/canoe.png",
+        "512": "/avatars/nautical/512/canoe.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        20,
+        367,
+        212,
+        496
+      ]
+    },
+    {
+      "id": "surfboard",
+      "label": "Surfboard",
+      "category": "nautical",
+      "description": "Upright stylized surfboard with colorful retro stripe and fin.",
+      "tags": [
+        "surf",
+        "wave"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/surfboard.png",
+        "512": "icons/512/surfboard.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/surfboard.png",
+        "512": "/avatars/nautical/512/surfboard.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        285,
+        351,
+        352,
+        499
+      ]
+    },
+    {
+      "id": "open_treasure_chest",
+      "label": "Open Treasure Chest",
+      "category": "nautical",
+      "description": "Open wooden treasure chest with brass fittings, gold coins, and gems inside.",
+      "tags": [
+        "loot",
+        "reward"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/open_treasure_chest.png",
+        "512": "icons/512/open_treasure_chest.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/open_treasure_chest.png",
+        "512": "/avatars/nautical/512/open_treasure_chest.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        421,
+        348,
+        590,
+        504
+      ]
+    },
+    {
+      "id": "palm_island",
+      "label": "Palm Island",
+      "category": "nautical",
+      "description": "Tiny sand island with a curved palm tree and water around the base.",
+      "tags": [
+        "island",
+        "tropical"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/palm_island.png",
+        "512": "icons/512/palm_island.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/palm_island.png",
+        "512": "/avatars/nautical/512/palm_island.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        619,
+        349,
+        816,
+        506
+      ]
+    },
+    {
+      "id": "volcano_island",
+      "label": "Volcano Island",
+      "category": "nautical",
+      "description": "Small island with a cone volcano, lava glow, smoke, and water around the base.",
+      "tags": [
+        "volcano",
+        "danger"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/volcano_island.png",
+        "512": "icons/512/volcano_island.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/volcano_island.png",
+        "512": "/avatars/nautical/512/volcano_island.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        833,
+        340,
+        1072,
+        510
+      ]
+    },
+    {
+      "id": "lighthouse_beam",
+      "label": "Lighthouse Beam",
+      "category": "nautical",
+      "description": "Lighthouse emitting a visible cone of light from its lamp.",
+      "tags": [
+        "guidance",
+        "signal"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/lighthouse_beam.png",
+        "512": "icons/512/lighthouse_beam.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/lighthouse_beam.png",
+        "512": "/avatars/nautical/512/lighthouse_beam.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1118,
+        342,
+        1300,
+        506
+      ]
+    },
+    {
+      "id": "shipwreck",
+      "label": "Shipwreck",
+      "category": "nautical",
+      "description": "Broken boat wreckage half-sunk in ocean waves with tilted hull and snapped mast.",
+      "tags": [
+        "wreck",
+        "sunk"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/shipwreck.png",
+        "512": "icons/512/shipwreck.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/shipwreck.png",
+        "512": "/avatars/nautical/512/shipwreck.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1298,
+        348,
+        1518,
+        506
+      ]
+    },
+    {
+      "id": "whirlpool",
+      "label": "Whirlpool",
+      "category": "nautical",
+      "description": "Swirling ocean vortex with foam in a top-down spiral.",
+      "tags": [
+        "vortex",
+        "danger"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/whirlpool.png",
+        "512": "icons/512/whirlpool.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/whirlpool.png",
+        "512": "/avatars/nautical/512/whirlpool.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        11,
+        510,
+        221,
+        650
+      ]
+    },
+    {
+      "id": "clam",
+      "label": "Clam",
+      "category": "nautical",
+      "description": "Smooth open clam shell with pearl inside.",
+      "tags": [
+        "shell",
+        "pearl"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/clam.png",
+        "512": "icons/512/clam.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/clam.png",
+        "512": "/avatars/nautical/512/clam.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        253,
+        513,
+        389,
+        655
+      ]
+    },
+    {
+      "id": "school_of_fish",
+      "label": "School of Fish",
+      "category": "nautical",
+      "description": "Cluster of several small fish swimming together in one direction.",
+      "tags": [
+        "group",
+        "swarm"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/school_of_fish.png",
+        "512": "icons/512/school_of_fish.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/school_of_fish.png",
+        "512": "/avatars/nautical/512/school_of_fish.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        421,
+        516,
+        608,
+        643
+      ]
+    },
+    {
+      "id": "ship_cannon",
+      "label": "Ship Cannon",
+      "category": "nautical",
+      "description": "Old black iron ship cannon on a wooden carriage with wheels.",
+      "tags": [
+        "cannon",
+        "fire"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/ship_cannon.png",
+        "512": "icons/512/ship_cannon.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/ship_cannon.png",
+        "512": "/avatars/nautical/512/ship_cannon.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        633,
+        512,
+        813,
+        656
+      ]
+    },
+    {
+      "id": "compass",
+      "label": "Compass",
+      "category": "nautical",
+      "description": "Brass mariner's compass.",
+      "tags": [
+        "navigation",
+        "brass"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/compass.png",
+        "512": "icons/512/compass.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/compass.png",
+        "512": "/avatars/nautical/512/compass.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        865,
+        510,
+        991,
+        655
+      ]
+    },
+    {
+      "id": "spyglass",
+      "label": "Spyglass",
+      "category": "nautical",
+      "description": "Brass spyglass telescope with blue lens.",
+      "tags": [
+        "telescope",
+        "brass"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/spyglass.png",
+        "512": "icons/512/spyglass.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/spyglass.png",
+        "512": "/avatars/nautical/512/spyglass.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1042,
+        512,
+        1217,
+        648
+      ]
+    },
+    {
+      "id": "ship_in_bottle",
+      "label": "Ship in Bottle",
+      "category": "nautical",
+      "description": "Miniature sailing ship sealed inside a glass bottle.",
+      "tags": [
+        "bottle",
+        "display"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/ship_in_bottle.png",
+        "512": "icons/512/ship_in_bottle.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/ship_in_bottle.png",
+        "512": "/avatars/nautical/512/ship_in_bottle.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1297,
+        524,
+        1501,
+        647
+      ]
+    },
+    {
+      "id": "diving_helmet",
+      "label": "Diving Helmet",
+      "category": "nautical",
+      "description": "Old brass deep-sea diving helmet.",
+      "tags": [
+        "deepsea",
+        "brass"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/diving_helmet.png",
+        "512": "icons/512/diving_helmet.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/diving_helmet.png",
+        "512": "/avatars/nautical/512/diving_helmet.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        31,
+        652,
+        149,
+        788
+      ]
+    },
+    {
+      "id": "sextant",
+      "label": "Sextant",
+      "category": "nautical",
+      "description": "Brass sextant navigation instrument.",
+      "tags": [
+        "navigation",
+        "brass"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/sextant.png",
+        "512": "icons/512/sextant.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/sextant.png",
+        "512": "/avatars/nautical/512/sextant.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        198,
+        656,
+        328,
+        783
+      ]
+    },
+    {
+      "id": "anchor_rope_knot",
+      "label": "Anchor Rope Knot",
+      "category": "nautical",
+      "description": "Coiled nautical rope knot.",
+      "tags": [
+        "rope",
+        "knot"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/anchor_rope_knot.png",
+        "512": "icons/512/anchor_rope_knot.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/anchor_rope_knot.png",
+        "512": "/avatars/nautical/512/anchor_rope_knot.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        376,
+        674,
+        554,
+        771
+      ]
+    },
+    {
+      "id": "harpoon",
+      "label": "Harpoon",
+      "category": "nautical",
+      "description": "Harpoon spear with rope line.",
+      "tags": [
+        "spear",
+        "line"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/harpoon.png",
+        "512": "icons/512/harpoon.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/harpoon.png",
+        "512": "/avatars/nautical/512/harpoon.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        558,
+        664,
+        734,
+        786
+      ]
+    },
+    {
+      "id": "fishing_net",
+      "label": "Fishing Net",
+      "category": "nautical",
+      "description": "Weighted fishing net in a loose pile.",
+      "tags": [
+        "net",
+        "fishing"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/fishing_net.png",
+        "512": "icons/512/fishing_net.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/fishing_net.png",
+        "512": "/avatars/nautical/512/fishing_net.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        757,
+        662,
+        954,
+        781
+      ]
+    },
+    {
+      "id": "oar",
+      "label": "Oar",
+      "category": "nautical",
+      "description": "Crossed wooden oars/paddles.",
+      "tags": [
+        "paddle",
+        "rowing"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/oar.png",
+        "512": "icons/512/oar.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/oar.png",
+        "512": "/avatars/nautical/512/oar.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        981,
+        657,
+        1114,
+        781
+      ]
+    },
+    {
+      "id": "treasure_map",
+      "label": "Treasure Map",
+      "category": "nautical",
+      "description": "Rolled parchment treasure map with marked route.",
+      "tags": [
+        "map",
+        "x"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/treasure_map.png",
+        "512": "icons/512/treasure_map.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/treasure_map.png",
+        "512": "/avatars/nautical/512/treasure_map.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1134,
+        663,
+        1289,
+        782
+      ]
+    },
+    {
+      "id": "gold_coins",
+      "label": "Gold Coins",
+      "category": "nautical",
+      "description": "Pile of gold doubloons.",
+      "tags": [
+        "doubloons",
+        "loot"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/gold_coins.png",
+        "512": "icons/512/gold_coins.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/gold_coins.png",
+        "512": "/avatars/nautical/512/gold_coins.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1318,
+        664,
+        1501,
+        775
+      ]
+    },
+    {
+      "id": "pearl",
+      "label": "Pearl",
+      "category": "nautical",
+      "description": "Single glossy pearl.",
+      "tags": [
+        "gem",
+        "shell"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/pearl.png",
+        "512": "icons/512/pearl.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/pearl.png",
+        "512": "/avatars/nautical/512/pearl.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        27,
+        816,
+        112,
+        904
+      ]
+    },
+    {
+      "id": "seashell",
+      "label": "Seashell",
+      "category": "nautical",
+      "description": "Spiral conch-style seashell.",
+      "tags": [
+        "conch",
+        "shell"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/seashell.png",
+        "512": "icons/512/seashell.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/seashell.png",
+        "512": "/avatars/nautical/512/seashell.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        165,
+        799,
+        276,
+        914
+      ]
+    },
+    {
+      "id": "coral",
+      "label": "Coral",
+      "category": "nautical",
+      "description": "Red coral cluster with small reef stones.",
+      "tags": [
+        "reef",
+        "red"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/coral.png",
+        "512": "icons/512/coral.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/coral.png",
+        "512": "/avatars/nautical/512/coral.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        320,
+        790,
+        453,
+        917
+      ]
+    },
+    {
+      "id": "kraken",
+      "label": "Kraken",
+      "category": "nautical",
+      "description": "Cartoon sea-monster tentacle rising from water.",
+      "tags": [
+        "tentacle",
+        "monster"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/kraken.png",
+        "512": "icons/512/kraken.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/kraken.png",
+        "512": "/avatars/nautical/512/kraken.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        483,
+        788,
+        627,
+        925
+      ]
+    },
+    {
+      "id": "mermaid",
+      "label": "Mermaid",
+      "category": "nautical",
+      "description": "Cartoon mermaid sitting on a rock.",
+      "tags": [
+        "fantasy",
+        "sea"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/mermaid.png",
+        "512": "icons/512/mermaid.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/mermaid.png",
+        "512": "/avatars/nautical/512/mermaid.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        675,
+        765,
+        846,
+        927
+      ]
+    },
+    {
+      "id": "iceberg",
+      "label": "Iceberg",
+      "category": "nautical",
+      "description": "Small blue-white iceberg floating in water.",
+      "tags": [
+        "ice",
+        "cold"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/iceberg.png",
+        "512": "icons/512/iceberg.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/iceberg.png",
+        "512": "/avatars/nautical/512/iceberg.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        863,
+        789,
+        1029,
+        923
+      ]
+    },
+    {
+      "id": "buoy_bell",
+      "label": "Buoy Bell",
+      "category": "nautical",
+      "description": "Red buoy with brass bell.",
+      "tags": [
+        "bell",
+        "buoy"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/buoy_bell.png",
+        "512": "icons/512/buoy_bell.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/buoy_bell.png",
+        "512": "/avatars/nautical/512/buoy_bell.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1055,
+        786,
+        1166,
+        926
+      ]
+    },
+    {
+      "id": "dock",
+      "label": "Dock",
+      "category": "nautical",
+      "description": "Small wooden dock or pier in the water.",
+      "tags": [
+        "pier",
+        "wood"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/dock.png",
+        "512": "icons/512/dock.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/dock.png",
+        "512": "/avatars/nautical/512/dock.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1196,
+        812,
+        1360,
+        920
+      ]
+    },
+    {
+      "id": "ocean_wave",
+      "label": "Ocean Wave",
+      "category": "nautical",
+      "description": "Single curling ocean wave with foam.",
+      "tags": [
+        "wave",
+        "surf"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/ocean_wave.png",
+        "512": "icons/512/ocean_wave.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/ocean_wave.png",
+        "512": "/avatars/nautical/512/ocean_wave.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1382,
+        800,
+        1525,
+        921
+      ]
+    },
+    {
+      "id": "raft",
+      "label": "Raft",
+      "category": "nautical",
+      "description": "Simple log raft tied together with rope.",
+      "tags": [
+        "logs",
+        "floating"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/raft.png",
+        "512": "icons/512/raft.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/raft.png",
+        "512": "/avatars/nautical/512/raft.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        91,
+        932,
+        275,
+        1022
+      ]
+    },
+    {
+      "id": "kayak",
+      "label": "Kayak",
+      "category": "nautical",
+      "description": "Orange kayak with paddle.",
+      "tags": [
+        "paddle",
+        "sport"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/kayak.png",
+        "512": "icons/512/kayak.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/kayak.png",
+        "512": "/avatars/nautical/512/kayak.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        325,
+        929,
+        488,
+        1015
+      ]
+    },
+    {
+      "id": "jet_ski",
+      "label": "Jet Ski",
+      "category": "nautical",
+      "description": "Blue personal watercraft / jet ski.",
+      "tags": [
+        "watercraft",
+        "fast"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/jet_ski.png",
+        "512": "icons/512/jet_ski.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/jet_ski.png",
+        "512": "/avatars/nautical/512/jet_ski.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        571,
+        928,
+        737,
+        1020
+      ]
+    },
+    {
+      "id": "rowboat",
+      "label": "Rowboat",
+      "category": "nautical",
+      "description": "Small wooden rowboat with oars.",
+      "tags": [
+        "boat",
+        "oars"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/rowboat.png",
+        "512": "icons/512/rowboat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/rowboat.png",
+        "512": "/avatars/nautical/512/rowboat.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        816,
+        930,
+        972,
+        1020
+      ]
+    },
+    {
+      "id": "captains_hat",
+      "label": "Captain's Hat",
+      "category": "nautical",
+      "description": "White captain's hat with dark brim and anchor badge.",
+      "tags": [
+        "captain",
+        "navy"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/captains_hat.png",
+        "512": "icons/512/captains_hat.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/captains_hat.png",
+        "512": "/avatars/nautical/512/captains_hat.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1053,
+        932,
+        1173,
+        1015
+      ]
+    },
+    {
+      "id": "seaplane",
+      "label": "Seaplane",
+      "category": "nautical",
+      "description": "Small white seaplane with floats.",
+      "tags": [
+        "plane",
+        "float"
+      ],
+      "transparentBackground": true,
+      "checkerboardRemoved": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/seaplane.png",
+        "512": "icons/512/seaplane.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/nautical/64/seaplane.png",
+        "512": "/avatars/nautical/512/seaplane.png"
+      },
+      "sourceSheet": "source-sheets/nautical_generated_source_sheet.png",
+      "sourceCropBox": [
+        1188,
+        918,
+        1393,
+        1023
+      ]
+    }
+  ]
+}

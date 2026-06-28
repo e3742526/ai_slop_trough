@@ -4,10 +4,11 @@ Curated clean PNG icon library rebuilt from vetted individual source files.
 
 ## Summary
 
-- `430` unique icons
-- `1720` exported PNG assets across `64`, `128`, `256`, and `512` sizes
+- `482` unique icons
+- `1824` exported PNG assets (`64`/`128`/`256`/`512` for most packs; `64`/`512`
+  only for `ocean-nautical-avatar-icon-pack`)
 - `5` public buckets
-- `7` included source packs
+- `8` included source packs
 - `1` excluded contaminated pack: `cuttlefish_aquarium_pack_2_transparent`
 - `1` machine-readable catalog: [`catalog.json`](catalog.json)
 - `1` catalog schema: [`catalog.schema.json`](catalog.schema.json)
@@ -18,15 +19,22 @@ Curated clean PNG icon library rebuilt from vetted individual source files.
 
 | Bucket | Count | Use |
 | --- | --- | --- |
-| `aquatic-life` | `205` | Fish, crustaceans, turtles, marine mammals, and other aquatic animals |
-| `aquatic-habitats` | `14` | Aquariums, aquatic plants, coral, shells, and other habitat elements |
-| `nautical-items` | `11` | Boats, navigation gear, safety gear, and sea-adjacent objects |
+| `aquatic-life` | `208` | Fish, crustaceans, turtles, marine mammals, sea legends, and other aquatic animals |
+| `aquatic-habitats` | `23` | Aquariums, aquatic plants, coral, shells, seascape features, and other habitat elements |
+| `nautical-items` | `51` | Boats, navigation gear, safety gear, and sea-adjacent objects |
 | `maker-workshop` | `50` | 3D printing, electronics, safety gear, sewing, welding, and maker-space tools |
 | `workshop-tools` | `150` | Garage, woodshop, hand-tool, and power-tool icons |
 
 This import used only provided individual PNG files. It did not cut sheets into
 public assets. The contaminated `cuttlefish_aquarium_pack_2_transparent` pack
 was excluded from the repo surface.
+
+The `ocean-nautical-avatar-icon-pack` ships only `64` and `512` assets, so its
+catalog entries carry `sizes: [64, 512]`. Its `life_ring` and `coral` collided
+with existing ids and were imported as `life_ring_safe` and `coral_reef`; the
+originals were left untouched. See
+[`_meta/source-packs/ocean_nautical_avatar_icon_pack/`](_meta/source-packs/ocean_nautical_avatar_icon_pack/)
+for the full import notes.
 
 ## Layout
 

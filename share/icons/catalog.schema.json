@@ -192,10 +192,9 @@
         },
         "files": {
           "type": "object",
+          "description": "Exported asset paths keyed by pixel size. 64 and 512 are always present; 128 and 256 are optional and may be absent for packs that ship only the base sizes.",
           "required": [
             "64",
-            "128",
-            "256",
             "512"
           ],
           "additionalProperties": false,

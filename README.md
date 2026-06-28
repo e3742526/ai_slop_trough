@@ -68,9 +68,9 @@ The current collection under `share/icons/` contains:
 
 | Metric | Value |
 | --- | --- |
-| Unique icons | `430` |
-| Exported PNG assets | `1720` |
-| Size lanes | `64`, `128`, `256`, `512` |
+| Unique icons | `482` |
+| Exported PNG assets | `1824` |
+| Size lanes | `64`, `128`, `256`, `512` (newest pack ships `64` and `512` only) |
 | Public buckets | `aquatic-life`, `aquatic-habitats`, `nautical-items`, `maker-workshop`, `workshop-tools` |
 | Gallery | [`share/icons/index.html`](share/icons/index.html) |
 | Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
@@ -80,6 +80,11 @@ The current share was rebuilt from the vetted individual PNG files under the
 source folder in `Downloads`. The contaminated
 `cuttlefish_aquarium_pack_2_transparent` pack was intentionally excluded, and
 no source sheets were cut into public assets during this pass.
+
+The most recent addition is the `ocean-nautical-avatar-icon-pack` (52
+transparent nautical avatars), imported into the existing buckets. It ships
+only `64` and `512` assets; the catalog and gallery treat the `128`/`256` lanes
+as optional and fall back to the nearest available size.
 
 The gallery includes copy actions for direct asset paths, Markdown image
 snippets, and HTML `<img>` snippets.

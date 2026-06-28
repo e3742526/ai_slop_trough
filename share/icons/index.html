@@ -221,6 +221,19 @@
         image-rendering: auto;
       }
 
+      .thumb-missing {
+        font-size: 0.78rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        opacity: 0.65;
+      }
+
+      .meta-note {
+        color: var(--accent);
+        opacity: 0.85;
+      }
+
       .body {
         padding: 16px;
       }
@@ -325,7 +338,7 @@
           </div>
           <div class="pill-list">
             <div class="pill">CC0-1.0</div>
-            <div class="pill">430 icons</div>
+            <div class="pill">482 icons</div>
             <div class="pill">5 buckets</div>
             <div class="pill">4 sizes</div>
           </div>
@@ -396,6 +409,31 @@
           .replaceAll(">", "&gt;")
           .replaceAll('"', "&quot;")
           .replaceAll("'", "&#39;");
+      }
+
+      const SIZE_ORDER = [64, 128, 256, 512];
+
+      // Not every icon ships every size. Resolve the requested preview size to
+      // the best available one: exact match first, otherwise the smallest size
+      // at least as large as requested, otherwise the largest available.
+      function resolveSize(item, preferred) {
+        const files = item.files || {};
+        if (files[preferred] != null) {
+          return preferred;
+        }
+        const target = Number(preferred);
+        const available = SIZE_ORDER.filter((s) => files[String(s)] != null);
+        if (available.length === 0) {
+          return null;
+        }
+        const larger = available.filter((s) => s >= target).sort((a, b) => a - b);
+        const chosen = larger.length ? larger[0] : available.sort((a, b) => b - a)[0];
+        return String(chosen);
+      }
+
+      function resolvePath(item, preferred) {
+        const size = resolveSize(item, preferred);
+        return size == null ? null : item.files[size];
       }
 
       function markdownSnippet(item, path) {
@@ -499,23 +537,36 @@
 
         setSummary(
           `${filtered.length} matching icons from ${state.catalog.totalIcons} total. ` +
-            `Showing ${size}px preview paths.`
+            `Showing ${size}px previews; icons without that size fall back to the nearest available.`
         );
 
         galleryEl.innerHTML = filtered
           .map((item) => {
-            const path = item.files[size];
+            const resolved = resolveSize(item, size);
+            const path = resolved == null ? null : item.files[resolved];
+            const fallbackNote =
+              resolved != null && resolved !== size
+                ? ` <span class="meta-note">(${resolved}px — no ${size}px asset)</span>`
+                : "";
             const tags = (item.tags || []).slice(0, 6);
             return `
               <article class="card">
                 <div class="thumb">
-                  <img src="${escapeHtml(path)}" alt="${escapeHtml(item.label)}">
+                  ${
+                    path
+                      ? `<img src="${escapeHtml(path)}" alt="${escapeHtml(item.label)}" loading="lazy">`
+                      : `<div class="thumb-missing">no asset</div>`
+                  }
                 </div>
                 <div class="body">
                   <h3>${escapeHtml(item.label)}</h3>
-                  <div class="meta">${escapeHtml(item.bucket)} / ${escapeHtml(item.sourcePack)}</div>
+                  <div class="meta">${escapeHtml(item.bucket)} / ${escapeHtml(item.sourcePack)}${fallbackNote}</div>
                   <p>${escapeHtml(item.description)}</p>
-                  <a class="path" href="${escapeHtml(path)}">${escapeHtml(path)}</a>
+                  ${
+                    path
+                      ? `<a class="path" href="${escapeHtml(path)}">${escapeHtml(path)}</a>`
+                      : `<span class="path">unavailable at this size</span>`
+                  }
                   <div class="actions">
                     <button class="copy-button" type="button" data-action="path" data-id="${escapeHtml(item.id)}">Copy Path</button>
                     <button class="copy-button" type="button" data-action="markdown" data-id="${escapeHtml(item.id)}">Copy Markdown</button>
@@ -536,7 +587,10 @@
             if (!item) {
               return;
             }
-            const path = item.files[state.size];
+            const path = resolvePath(item, state.size);
+            if (!path) {
+              return;
+            }
             const action = button.getAttribute("data-action");
             copyText(clipboardValue(item, path, action), button);
           });
