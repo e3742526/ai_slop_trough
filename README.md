@@ -68,10 +68,10 @@ The current collection under `share/icons/` contains:
 
 | Metric | Value |
 | --- | --- |
-| Unique icons | `482` |
-| Exported PNG assets | `1824` |
-| Size lanes | `64`, `128`, `256`, `512` (newest pack ships `64` and `512` only) |
-| Public buckets | `aquatic-life`, `aquatic-habitats`, `nautical-items`, `maker-workshop`, `workshop-tools` |
+| Unique icons | `532` |
+| Exported PNG assets | `1924` |
+| Size lanes | `64`, `128`, `256`, `512` (`ocean-nautical` and `kitchen-cuttlefish` packs ship `64` and `512` only) |
+| Public buckets | `aquatic-life`, `aquatic-habitats`, `nautical-items`, `maker-workshop`, `workshop-tools`, `kitchen-items` |
 | Gallery | [`share/icons/index.html`](share/icons/index.html) |
 | Metadata | [`share/icons/catalog.json`](share/icons/catalog.json) |
 | Schema | [`share/icons/catalog.schema.json`](share/icons/catalog.schema.json) |
@@ -81,10 +81,11 @@ source folder in `Downloads`. The contaminated
 `cuttlefish_aquarium_pack_2_transparent` pack was intentionally excluded, and
 no source sheets were cut into public assets during this pass.
 
-The most recent addition is the `ocean-nautical-avatar-icon-pack` (52
-transparent nautical avatars), imported into the existing buckets. It ships
-only `64` and `512` assets; the catalog and gallery treat the `128`/`256` lanes
-as optional and fall back to the nearest available size.
+The most recent addition is the `kitchen-cuttlefish-avatar-icon-pack` (50
+transparent kitchen avatars), added as the new `kitchen-items` bucket. Like the
+`ocean-nautical-avatar-icon-pack`, it ships only `64` and `512` assets; the
+catalog and gallery treat the `128`/`256` lanes as optional and fall back to the
+nearest available size.
 
 The gallery includes copy actions for direct asset paths, Markdown image
 snippets, and HTML `<img>` snippets.
@@ -113,6 +114,7 @@ share/
     nautical-items/
     maker-workshop/
     workshop-tools/
+    kitchen-items/
     _meta/
   links/
     README.md

@@ -2,7 +2,7 @@
   "title": "AI Slop Trough Icon Catalog",
   "generatedOn": "2026-06-28",
   "license": "CC0-1.0",
-  "totalIcons": 482,
+  "totalIcons": 532,
   "sizes": [
     64,
     128,
@@ -39,6 +39,12 @@
       "label": "Workshop Tools",
       "description": "Garage, woodshop, and handheld or powered workshop tools and fixtures.",
       "count": 150
+    },
+    {
+      "id": "kitchen-items",
+      "label": "Kitchen Items",
+      "description": "Kitchen appliances, cookware, tableware, tools, furniture, and other kitchen and dining items.",
+      "count": 50
     }
   ],
   "sourcePacks": [
@@ -158,6 +164,19 @@
       ],
       "sourceReadme": "_meta/source-packs/woodworking_power_tool_icon_pack/README.md",
       "sourceManifest": "_meta/source-packs/woodworking_power_tool_icon_pack/manifest.json",
+      "previewFiles": []
+    },
+    {
+      "id": "kitchen_cuttlefish_avatar_icon_pack",
+      "name": "kitchen-cuttlefish-avatar-icon-pack",
+      "created": "2026-06-28",
+      "iconCount": 50,
+      "sizes": [
+        64,
+        512
+      ],
+      "sourceReadme": "_meta/source-packs/kitchen_cuttlefish_avatar_icon_pack/README.md",
+      "sourceManifest": "_meta/source-packs/kitchen_cuttlefish_avatar_icon_pack/manifest.json",
       "previewFiles": []
     }
   ],
@@ -15434,6 +15453,1406 @@
         "512": "workshop-tools/512/wooden_shelving_unit.png"
       },
       "preview": "workshop-tools/128/wooden_shelving_unit.png"
+    },
+    {
+      "id": "blender",
+      "label": "Blender",
+      "bucket": "kitchen-items",
+      "description": "Glossy countertop blender with glass jar and rounded base.",
+      "tags": [
+        "blender",
+        "countertop",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/blender.png",
+        "512": "kitchen-items/512/blender.png"
+      },
+      "preview": "kitchen-items/64/blender.png"
+    },
+    {
+      "id": "stand_mixer",
+      "label": "Stand Mixer",
+      "bucket": "kitchen-items",
+      "description": "Chunky stand mixer with tilted head and mixing bowl.",
+      "tags": [
+        "mixer",
+        "baking",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/stand_mixer.png",
+        "512": "kitchen-items/512/stand_mixer.png"
+      },
+      "preview": "kitchen-items/64/stand_mixer.png"
+    },
+    {
+      "id": "hand_mixer",
+      "label": "Hand Mixer",
+      "bucket": "kitchen-items",
+      "description": "Portable hand mixer with twin beaters.",
+      "tags": [
+        "mixer",
+        "portable",
+        "baking",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/hand_mixer.png",
+        "512": "kitchen-items/512/hand_mixer.png"
+      },
+      "preview": "kitchen-items/64/hand_mixer.png"
+    },
+    {
+      "id": "wall_oven",
+      "label": "Wall Oven",
+      "bucket": "kitchen-items",
+      "description": "Modern built-in oven with glass door and warm control knobs.",
+      "tags": [
+        "oven",
+        "baking",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/wall_oven.png",
+        "512": "kitchen-items/512/wall_oven.png"
+      },
+      "preview": "kitchen-items/64/wall_oven.png"
+    },
+    {
+      "id": "cooktop_range",
+      "label": "Cooktop Range",
+      "bucket": "kitchen-items",
+      "description": "Freestanding kitchen range with burners and oven door.",
+      "tags": [
+        "range",
+        "stove",
+        "oven",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/cooktop_range.png",
+        "512": "kitchen-items/512/cooktop_range.png"
+      },
+      "preview": "kitchen-items/64/cooktop_range.png"
+    },
+    {
+      "id": "farmhouse_sink",
+      "label": "Farmhouse Sink",
+      "bucket": "kitchen-items",
+      "description": "Deep farmhouse sink with faucet and rounded basin.",
+      "tags": [
+        "sink",
+        "faucet",
+        "fixture",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/farmhouse_sink.png",
+        "512": "kitchen-items/512/farmhouse_sink.png"
+      },
+      "preview": "kitchen-items/64/farmhouse_sink.png"
+    },
+    {
+      "id": "stacked_dishes",
+      "label": "Stacked Dishes",
+      "bucket": "kitchen-items",
+      "description": "Neat stack of glossy plates and bowls.",
+      "tags": [
+        "plates",
+        "dishes",
+        "tableware",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/stacked_dishes.png",
+        "512": "kitchen-items/512/stacked_dishes.png"
+      },
+      "preview": "kitchen-items/64/stacked_dishes.png"
+    },
+    {
+      "id": "silverware_bundle",
+      "label": "Silverware Bundle",
+      "bucket": "kitchen-items",
+      "description": "Fork, spoon, and knife grouped as a single silverware icon.",
+      "tags": [
+        "fork",
+        "spoon",
+        "knife",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/silverware_bundle.png",
+        "512": "kitchen-items/512/silverware_bundle.png"
+      },
+      "preview": "kitchen-items/64/silverware_bundle.png"
+    },
+    {
+      "id": "dining_table",
+      "label": "Dining Table",
+      "bucket": "kitchen-items",
+      "description": "Round dining table with central pedestal and soft wood finish.",
+      "tags": [
+        "table",
+        "dining",
+        "furniture",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/dining_table.png",
+        "512": "kitchen-items/512/dining_table.png"
+      },
+      "preview": "kitchen-items/64/dining_table.png"
+    },
+    {
+      "id": "refrigerator",
+      "label": "Refrigerator",
+      "bucket": "kitchen-items",
+      "description": "Tall rounded refrigerator with freezer door and chrome handles.",
+      "tags": [
+        "fridge",
+        "refrigerator",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/refrigerator.png",
+        "512": "kitchen-items/512/refrigerator.png"
+      },
+      "preview": "kitchen-items/64/refrigerator.png"
+    },
+    {
+      "id": "microwave",
+      "label": "Microwave",
+      "bucket": "kitchen-items",
+      "description": "Compact microwave with dark window and side controls.",
+      "tags": [
+        "microwave",
+        "countertop",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/microwave.png",
+        "512": "kitchen-items/512/microwave.png"
+      },
+      "preview": "kitchen-items/64/microwave.png"
+    },
+    {
+      "id": "toaster",
+      "label": "Toaster",
+      "bucket": "kitchen-items",
+      "description": "Two-slot toaster with lever and warm metallic body.",
+      "tags": [
+        "toaster",
+        "breakfast",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/toaster.png",
+        "512": "kitchen-items/512/toaster.png"
+      },
+      "preview": "kitchen-items/64/toaster.png"
+    },
+    {
+      "id": "coffee_maker",
+      "label": "Coffee Maker",
+      "bucket": "kitchen-items",
+      "description": "Countertop drip coffee maker with glass carafe.",
+      "tags": [
+        "coffee",
+        "countertop",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/coffee_maker.png",
+        "512": "kitchen-items/512/coffee_maker.png"
+      },
+      "preview": "kitchen-items/64/coffee_maker.png"
+    },
+    {
+      "id": "electric_kettle",
+      "label": "Electric Kettle",
+      "bucket": "kitchen-items",
+      "description": "Rounded electric kettle with handle and spout.",
+      "tags": [
+        "kettle",
+        "tea",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/electric_kettle.png",
+        "512": "kitchen-items/512/electric_kettle.png"
+      },
+      "preview": "kitchen-items/64/electric_kettle.png"
+    },
+    {
+      "id": "air_fryer",
+      "label": "Air Fryer",
+      "bucket": "kitchen-items",
+      "description": "Compact air fryer with glossy front basket and dial.",
+      "tags": [
+        "air fryer",
+        "countertop",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/air_fryer.png",
+        "512": "kitchen-items/512/air_fryer.png"
+      },
+      "preview": "kitchen-items/64/air_fryer.png"
+    },
+    {
+      "id": "slow_cooker",
+      "label": "Slow Cooker",
+      "bucket": "kitchen-items",
+      "description": "Oval slow cooker with lid, handles, and front knob.",
+      "tags": [
+        "slow cooker",
+        "crock",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/slow_cooker.png",
+        "512": "kitchen-items/512/slow_cooker.png"
+      },
+      "preview": "kitchen-items/64/slow_cooker.png"
+    },
+    {
+      "id": "rice_cooker",
+      "label": "Rice Cooker",
+      "bucket": "kitchen-items",
+      "description": "Rounded rice cooker with lid latch and small display.",
+      "tags": [
+        "rice cooker",
+        "countertop",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/rice_cooker.png",
+        "512": "kitchen-items/512/rice_cooker.png"
+      },
+      "preview": "kitchen-items/64/rice_cooker.png"
+    },
+    {
+      "id": "pressure_cooker",
+      "label": "Pressure Cooker",
+      "bucket": "kitchen-items",
+      "description": "Electric pressure cooker with lid, handles, and control panel.",
+      "tags": [
+        "pressure cooker",
+        "countertop",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/pressure_cooker.png",
+        "512": "kitchen-items/512/pressure_cooker.png"
+      },
+      "preview": "kitchen-items/64/pressure_cooker.png"
+    },
+    {
+      "id": "food_processor",
+      "label": "Food Processor",
+      "bucket": "kitchen-items",
+      "description": "Food processor with clear work bowl and feeder tube.",
+      "tags": [
+        "processor",
+        "prep",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/food_processor.png",
+        "512": "kitchen-items/512/food_processor.png"
+      },
+      "preview": "kitchen-items/64/food_processor.png"
+    },
+    {
+      "id": "waffle_maker",
+      "label": "Waffle Maker",
+      "bucket": "kitchen-items",
+      "description": "Rounded waffle maker with hinged top and grid detail.",
+      "tags": [
+        "waffle",
+        "breakfast",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/waffle_maker.png",
+        "512": "kitchen-items/512/waffle_maker.png"
+      },
+      "preview": "kitchen-items/64/waffle_maker.png"
+    },
+    {
+      "id": "tabletop_griddle",
+      "label": "Tabletop Griddle",
+      "bucket": "kitchen-items",
+      "description": "Low rectangular tabletop griddle with handles and glossy cook surface.",
+      "tags": [
+        "griddle",
+        "countertop",
+        "appliance",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/tabletop_griddle.png",
+        "512": "kitchen-items/512/tabletop_griddle.png"
+      },
+      "preview": "kitchen-items/64/tabletop_griddle.png"
+    },
+    {
+      "id": "outdoor_grill",
+      "label": "Outdoor Grill",
+      "bucket": "kitchen-items",
+      "description": "Rounded outdoor grill with lid, grate, and small legs.",
+      "tags": [
+        "grill",
+        "barbecue",
+        "outdoor",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/outdoor_grill.png",
+        "512": "kitchen-items/512/outdoor_grill.png"
+      },
+      "preview": "kitchen-items/64/outdoor_grill.png"
+    },
+    {
+      "id": "grill_brush",
+      "label": "Grill Brush",
+      "bucket": "kitchen-items",
+      "description": "Long-handled grill brush with bristle head.",
+      "tags": [
+        "brush",
+        "grill",
+        "accessory",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/grill_brush.png",
+        "512": "kitchen-items/512/grill_brush.png"
+      },
+      "preview": "kitchen-items/64/grill_brush.png"
+    },
+    {
+      "id": "bbq_tongs",
+      "label": "BBQ Tongs",
+      "bucket": "kitchen-items",
+      "description": "Springy barbecue tongs with scalloped tips.",
+      "tags": [
+        "tongs",
+        "grill",
+        "accessory",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/bbq_tongs.png",
+        "512": "kitchen-items/512/bbq_tongs.png"
+      },
+      "preview": "kitchen-items/64/bbq_tongs.png"
+    },
+    {
+      "id": "grill_spatula",
+      "label": "Grill Spatula",
+      "bucket": "kitchen-items",
+      "description": "Wide slotted grill spatula with long handle.",
+      "tags": [
+        "spatula",
+        "grill",
+        "accessory",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/grill_spatula.png",
+        "512": "kitchen-items/512/grill_spatula.png"
+      },
+      "preview": "kitchen-items/64/grill_spatula.png"
+    },
+    {
+      "id": "chef_knife",
+      "label": "Chef Knife",
+      "bucket": "kitchen-items",
+      "description": "Chef knife with shiny blade and rounded handle.",
+      "tags": [
+        "knife",
+        "prep",
+        "tool",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/chef_knife.png",
+        "512": "kitchen-items/512/chef_knife.png"
+      },
+      "preview": "kitchen-items/64/chef_knife.png"
+    },
+    {
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "bucket": "kitchen-items",
+      "description": "Wood cutting board with beveled edge and handle hole.",
+      "tags": [
+        "board",
+        "prep",
+        "wood",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/cutting_board.png",
+        "512": "kitchen-items/512/cutting_board.png"
+      },
+      "preview": "kitchen-items/64/cutting_board.png"
+    },
+    {
+      "id": "saucepan",
+      "label": "Saucepan",
+      "bucket": "kitchen-items",
+      "description": "Small saucepan with lid and side handle.",
+      "tags": [
+        "pan",
+        "cookware",
+        "saucepan",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/saucepan.png",
+        "512": "kitchen-items/512/saucepan.png"
+      },
+      "preview": "kitchen-items/64/saucepan.png"
+    },
+    {
+      "id": "frying_pan",
+      "label": "Frying Pan",
+      "bucket": "kitchen-items",
+      "description": "Shallow frying pan with long handle and glossy interior.",
+      "tags": [
+        "pan",
+        "skillet",
+        "cookware",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/frying_pan.png",
+        "512": "kitchen-items/512/frying_pan.png"
+      },
+      "preview": "kitchen-items/64/frying_pan.png"
+    },
+    {
+      "id": "stock_pot",
+      "label": "Stock Pot",
+      "bucket": "kitchen-items",
+      "description": "Tall stock pot with lid and side handles.",
+      "tags": [
+        "pot",
+        "cookware",
+        "stock",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/stock_pot.png",
+        "512": "kitchen-items/512/stock_pot.png"
+      },
+      "preview": "kitchen-items/64/stock_pot.png"
+    },
+    {
+      "id": "baking_sheet",
+      "label": "Baking Sheet",
+      "bucket": "kitchen-items",
+      "description": "Rimmed baking sheet with golden cookies.",
+      "tags": [
+        "baking sheet",
+        "cookies",
+        "bakeware",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/baking_sheet.png",
+        "512": "kitchen-items/512/baking_sheet.png"
+      },
+      "preview": "kitchen-items/64/baking_sheet.png"
+    },
+    {
+      "id": "rolling_pin",
+      "label": "Rolling Pin",
+      "bucket": "kitchen-items",
+      "description": "Wood rolling pin with rounded handles.",
+      "tags": [
+        "rolling pin",
+        "baking",
+        "tool",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/rolling_pin.png",
+        "512": "kitchen-items/512/rolling_pin.png"
+      },
+      "preview": "kitchen-items/64/rolling_pin.png"
+    },
+    {
+      "id": "measuring_cups",
+      "label": "Measuring Cups",
+      "bucket": "kitchen-items",
+      "description": "Nested measuring cups on a ring.",
+      "tags": [
+        "measuring",
+        "cups",
+        "baking",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/measuring_cups.png",
+        "512": "kitchen-items/512/measuring_cups.png"
+      },
+      "preview": "kitchen-items/64/measuring_cups.png"
+    },
+    {
+      "id": "mixing_bowl",
+      "label": "Mixing Bowl",
+      "bucket": "kitchen-items",
+      "description": "Glossy mixing bowl with batter swirl.",
+      "tags": [
+        "bowl",
+        "mixing",
+        "baking",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/mixing_bowl.png",
+        "512": "kitchen-items/512/mixing_bowl.png"
+      },
+      "preview": "kitchen-items/64/mixing_bowl.png"
+    },
+    {
+      "id": "colander",
+      "label": "Colander",
+      "bucket": "kitchen-items",
+      "description": "Rounded colander with handles and drain holes.",
+      "tags": [
+        "colander",
+        "strainer",
+        "tool",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/colander.png",
+        "512": "kitchen-items/512/colander.png"
+      },
+      "preview": "kitchen-items/64/colander.png"
+    },
+    {
+      "id": "spice_jars",
+      "label": "Spice Jars",
+      "bucket": "kitchen-items",
+      "description": "Three small spice jars with colored contents and blank lids.",
+      "tags": [
+        "spices",
+        "jars",
+        "pantry",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/spice_jars.png",
+        "512": "kitchen-items/512/spice_jars.png"
+      },
+      "preview": "kitchen-items/64/spice_jars.png"
+    },
+    {
+      "id": "salt_pepper_shakers",
+      "label": "Salt and Pepper Shakers",
+      "bucket": "kitchen-items",
+      "description": "Paired salt and pepper shakers with rounded caps.",
+      "tags": [
+        "salt",
+        "pepper",
+        "tableware",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/salt_pepper_shakers.png",
+        "512": "kitchen-items/512/salt_pepper_shakers.png"
+      },
+      "preview": "kitchen-items/64/salt_pepper_shakers.png"
+    },
+    {
+      "id": "kitchen_scale",
+      "label": "Kitchen Scale",
+      "bucket": "kitchen-items",
+      "description": "Digital kitchen scale with shallow tray and display shape.",
+      "tags": [
+        "scale",
+        "measure",
+        "tool",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/kitchen_scale.png",
+        "512": "kitchen-items/512/kitchen_scale.png"
+      },
+      "preview": "kitchen-items/64/kitchen_scale.png"
+    },
+    {
+      "id": "dishwasher",
+      "label": "Dishwasher",
+      "bucket": "kitchen-items",
+      "description": "Front-load dishwasher with handle and control dots.",
+      "tags": [
+        "dishwasher",
+        "appliance",
+        "cleaning",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/dishwasher.png",
+        "512": "kitchen-items/512/dishwasher.png"
+      },
+      "preview": "kitchen-items/64/dishwasher.png"
+    },
+    {
+      "id": "range_hood",
+      "label": "Range Hood",
+      "bucket": "kitchen-items",
+      "description": "Kitchen range hood with vent lip and underside glow.",
+      "tags": [
+        "hood",
+        "vent",
+        "fixture",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/range_hood.png",
+        "512": "kitchen-items/512/range_hood.png"
+      },
+      "preview": "kitchen-items/64/range_hood.png"
+    },
+    {
+      "id": "base_cabinet",
+      "label": "Base Cabinet",
+      "bucket": "kitchen-items",
+      "description": "Rounded kitchen base cabinet with two doors and drawer.",
+      "tags": [
+        "cabinet",
+        "storage",
+        "kitchen",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/base_cabinet.png",
+        "512": "kitchen-items/512/base_cabinet.png"
+      },
+      "preview": "kitchen-items/64/base_cabinet.png"
+    },
+    {
+      "id": "kitchen_island",
+      "label": "Kitchen Island",
+      "bucket": "kitchen-items",
+      "description": "Kitchen island with countertop, drawers, and small overhang.",
+      "tags": [
+        "island",
+        "counter",
+        "furniture",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/kitchen_island.png",
+        "512": "kitchen-items/512/kitchen_island.png"
+      },
+      "preview": "kitchen-items/64/kitchen_island.png"
+    },
+    {
+      "id": "pantry_shelf",
+      "label": "Pantry Shelf",
+      "bucket": "kitchen-items",
+      "description": "Compact pantry shelf with boxes and jars.",
+      "tags": [
+        "pantry",
+        "shelf",
+        "storage",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/pantry_shelf.png",
+        "512": "kitchen-items/512/pantry_shelf.png"
+      },
+      "preview": "kitchen-items/64/pantry_shelf.png"
+    },
+    {
+      "id": "mug_set",
+      "label": "Mug Set",
+      "bucket": "kitchen-items",
+      "description": "Two glossy mugs nested as a friendly tableware icon.",
+      "tags": [
+        "mugs",
+        "coffee",
+        "tableware",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/mug_set.png",
+        "512": "kitchen-items/512/mug_set.png"
+      },
+      "preview": "kitchen-items/64/mug_set.png"
+    },
+    {
+      "id": "teapot",
+      "label": "Teapot",
+      "bucket": "kitchen-items",
+      "description": "Rounded teapot with spout, handle, and lid.",
+      "tags": [
+        "teapot",
+        "tea",
+        "tableware",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/teapot.png",
+        "512": "kitchen-items/512/teapot.png"
+      },
+      "preview": "kitchen-items/64/teapot.png"
+    },
+    {
+      "id": "dining_chair",
+      "label": "Dining Chair",
+      "bucket": "kitchen-items",
+      "description": "Simple rounded dining chair with padded seat.",
+      "tags": [
+        "chair",
+        "dining",
+        "furniture",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/dining_chair.png",
+        "512": "kitchen-items/512/dining_chair.png"
+      },
+      "preview": "kitchen-items/64/dining_chair.png"
+    },
+    {
+      "id": "bar_stool",
+      "label": "Bar Stool",
+      "bucket": "kitchen-items",
+      "description": "Tall bar stool with round seat and footrest.",
+      "tags": [
+        "stool",
+        "chair",
+        "furniture",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/bar_stool.png",
+        "512": "kitchen-items/512/bar_stool.png"
+      },
+      "preview": "kitchen-items/64/bar_stool.png"
+    },
+    {
+      "id": "trash_bin",
+      "label": "Kitchen Trash Bin",
+      "bucket": "kitchen-items",
+      "description": "Rounded kitchen trash bin with swing lid.",
+      "tags": [
+        "trash",
+        "bin",
+        "kitchen",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/trash_bin.png",
+        "512": "kitchen-items/512/trash_bin.png"
+      },
+      "preview": "kitchen-items/64/trash_bin.png"
+    },
+    {
+      "id": "paper_towel_holder",
+      "label": "Paper Towel Holder",
+      "bucket": "kitchen-items",
+      "description": "Paper towel roll on a small countertop holder.",
+      "tags": [
+        "paper towel",
+        "holder",
+        "kitchen",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/paper_towel_holder.png",
+        "512": "kitchen-items/512/paper_towel_holder.png"
+      },
+      "preview": "kitchen-items/64/paper_towel_holder.png"
+    },
+    {
+      "id": "dish_soap_bottle",
+      "label": "Dish Soap Bottle",
+      "bucket": "kitchen-items",
+      "description": "Pump dish soap bottle with glossy translucent body.",
+      "tags": [
+        "soap",
+        "sink",
+        "cleaning",
+        "kitchen items",
+        "kitchen cuttlefish avatar icon pack"
+      ],
+      "sourcePack": "kitchen_cuttlefish_avatar_icon_pack",
+      "sourceSheet": "source-sheets/kitchen_cuttlefish_preview.png",
+      "sourceGrid": {
+        "row": 1,
+        "column": 1
+      },
+      "sizes": [
+        64,
+        512
+      ],
+      "files": {
+        "64": "kitchen-items/64/dish_soap_bottle.png",
+        "512": "kitchen-items/512/dish_soap_bottle.png"
+      },
+      "preview": "kitchen-items/64/dish_soap_bottle.png"
     }
   ]
 }

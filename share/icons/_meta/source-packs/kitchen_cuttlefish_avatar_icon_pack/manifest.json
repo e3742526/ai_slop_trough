@@ -1,0 +1,1067 @@
+{
+  "name": "Kitchen_Cuttlefish_Avatar_Icon_Pack",
+  "version": "1.0.0",
+  "description": "Glossy transparent kitchen-themed avatar icon pack for Cuttlefish/Jinn.",
+  "targetRepo": "repo-makeover/jinn",
+  "assetRoot": "packages/web/public/avatars/kitchen_cuttlefish",
+  "servedRoot": "/avatars/kitchen_cuttlefish",
+  "sizes": [
+    64,
+    512
+  ],
+  "count": 50,
+  "transparentBackgrounds": true,
+  "safeCirclePadding": true,
+  "icons": [
+    {
+      "id": "blender",
+      "label": "Blender",
+      "category": "appliances",
+      "description": "Glossy countertop blender with glass jar and rounded base.",
+      "tags": [
+        "blender",
+        "countertop",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/blender.png",
+        "512": "icons/512/blender.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/blender.png",
+        "512": "/avatars/kitchen_cuttlefish/512/blender.png"
+      }
+    },
+    {
+      "id": "stand_mixer",
+      "label": "Stand Mixer",
+      "category": "appliances",
+      "description": "Chunky stand mixer with tilted head and mixing bowl.",
+      "tags": [
+        "mixer",
+        "baking",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/stand_mixer.png",
+        "512": "icons/512/stand_mixer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/stand_mixer.png",
+        "512": "/avatars/kitchen_cuttlefish/512/stand_mixer.png"
+      }
+    },
+    {
+      "id": "hand_mixer",
+      "label": "Hand Mixer",
+      "category": "appliances",
+      "description": "Portable hand mixer with twin beaters.",
+      "tags": [
+        "mixer",
+        "portable",
+        "baking"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/hand_mixer.png",
+        "512": "icons/512/hand_mixer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/hand_mixer.png",
+        "512": "/avatars/kitchen_cuttlefish/512/hand_mixer.png"
+      }
+    },
+    {
+      "id": "wall_oven",
+      "label": "Wall Oven",
+      "category": "appliances",
+      "description": "Modern built-in oven with glass door and warm control knobs.",
+      "tags": [
+        "oven",
+        "baking",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/wall_oven.png",
+        "512": "icons/512/wall_oven.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/wall_oven.png",
+        "512": "/avatars/kitchen_cuttlefish/512/wall_oven.png"
+      }
+    },
+    {
+      "id": "cooktop_range",
+      "label": "Cooktop Range",
+      "category": "appliances",
+      "description": "Freestanding kitchen range with burners and oven door.",
+      "tags": [
+        "range",
+        "stove",
+        "oven"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/cooktop_range.png",
+        "512": "icons/512/cooktop_range.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/cooktop_range.png",
+        "512": "/avatars/kitchen_cuttlefish/512/cooktop_range.png"
+      }
+    },
+    {
+      "id": "farmhouse_sink",
+      "label": "Farmhouse Sink",
+      "category": "fixtures",
+      "description": "Deep farmhouse sink with faucet and rounded basin.",
+      "tags": [
+        "sink",
+        "faucet",
+        "fixture"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/farmhouse_sink.png",
+        "512": "icons/512/farmhouse_sink.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/farmhouse_sink.png",
+        "512": "/avatars/kitchen_cuttlefish/512/farmhouse_sink.png"
+      }
+    },
+    {
+      "id": "stacked_dishes",
+      "label": "Stacked Dishes",
+      "category": "dishes",
+      "description": "Neat stack of glossy plates and bowls.",
+      "tags": [
+        "plates",
+        "dishes",
+        "tableware"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/stacked_dishes.png",
+        "512": "icons/512/stacked_dishes.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/stacked_dishes.png",
+        "512": "/avatars/kitchen_cuttlefish/512/stacked_dishes.png"
+      }
+    },
+    {
+      "id": "silverware_bundle",
+      "label": "Silverware Bundle",
+      "category": "tableware",
+      "description": "Fork, spoon, and knife grouped as a single silverware icon.",
+      "tags": [
+        "fork",
+        "spoon",
+        "knife"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/silverware_bundle.png",
+        "512": "icons/512/silverware_bundle.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/silverware_bundle.png",
+        "512": "/avatars/kitchen_cuttlefish/512/silverware_bundle.png"
+      }
+    },
+    {
+      "id": "dining_table",
+      "label": "Dining Table",
+      "category": "furniture",
+      "description": "Round dining table with central pedestal and soft wood finish.",
+      "tags": [
+        "table",
+        "dining",
+        "furniture"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/dining_table.png",
+        "512": "icons/512/dining_table.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/dining_table.png",
+        "512": "/avatars/kitchen_cuttlefish/512/dining_table.png"
+      }
+    },
+    {
+      "id": "refrigerator",
+      "label": "Refrigerator",
+      "category": "appliances",
+      "description": "Tall rounded refrigerator with freezer door and chrome handles.",
+      "tags": [
+        "fridge",
+        "refrigerator",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/refrigerator.png",
+        "512": "icons/512/refrigerator.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/refrigerator.png",
+        "512": "/avatars/kitchen_cuttlefish/512/refrigerator.png"
+      }
+    },
+    {
+      "id": "microwave",
+      "label": "Microwave",
+      "category": "appliances",
+      "description": "Compact microwave with dark window and side controls.",
+      "tags": [
+        "microwave",
+        "countertop",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/microwave.png",
+        "512": "icons/512/microwave.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/microwave.png",
+        "512": "/avatars/kitchen_cuttlefish/512/microwave.png"
+      }
+    },
+    {
+      "id": "toaster",
+      "label": "Toaster",
+      "category": "appliances",
+      "description": "Two-slot toaster with lever and warm metallic body.",
+      "tags": [
+        "toaster",
+        "breakfast",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/toaster.png",
+        "512": "icons/512/toaster.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/toaster.png",
+        "512": "/avatars/kitchen_cuttlefish/512/toaster.png"
+      }
+    },
+    {
+      "id": "coffee_maker",
+      "label": "Coffee Maker",
+      "category": "appliances",
+      "description": "Countertop drip coffee maker with glass carafe.",
+      "tags": [
+        "coffee",
+        "countertop",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/coffee_maker.png",
+        "512": "icons/512/coffee_maker.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/coffee_maker.png",
+        "512": "/avatars/kitchen_cuttlefish/512/coffee_maker.png"
+      }
+    },
+    {
+      "id": "electric_kettle",
+      "label": "Electric Kettle",
+      "category": "appliances",
+      "description": "Rounded electric kettle with handle and spout.",
+      "tags": [
+        "kettle",
+        "tea",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/electric_kettle.png",
+        "512": "icons/512/electric_kettle.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/electric_kettle.png",
+        "512": "/avatars/kitchen_cuttlefish/512/electric_kettle.png"
+      }
+    },
+    {
+      "id": "air_fryer",
+      "label": "Air Fryer",
+      "category": "appliances",
+      "description": "Compact air fryer with glossy front basket and dial.",
+      "tags": [
+        "air fryer",
+        "countertop",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/air_fryer.png",
+        "512": "icons/512/air_fryer.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/air_fryer.png",
+        "512": "/avatars/kitchen_cuttlefish/512/air_fryer.png"
+      }
+    },
+    {
+      "id": "slow_cooker",
+      "label": "Slow Cooker",
+      "category": "appliances",
+      "description": "Oval slow cooker with lid, handles, and front knob.",
+      "tags": [
+        "slow cooker",
+        "crock",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/slow_cooker.png",
+        "512": "icons/512/slow_cooker.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/slow_cooker.png",
+        "512": "/avatars/kitchen_cuttlefish/512/slow_cooker.png"
+      }
+    },
+    {
+      "id": "rice_cooker",
+      "label": "Rice Cooker",
+      "category": "appliances",
+      "description": "Rounded rice cooker with lid latch and small display.",
+      "tags": [
+        "rice cooker",
+        "countertop",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/rice_cooker.png",
+        "512": "icons/512/rice_cooker.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/rice_cooker.png",
+        "512": "/avatars/kitchen_cuttlefish/512/rice_cooker.png"
+      }
+    },
+    {
+      "id": "pressure_cooker",
+      "label": "Pressure Cooker",
+      "category": "appliances",
+      "description": "Electric pressure cooker with lid, handles, and control panel.",
+      "tags": [
+        "pressure cooker",
+        "countertop",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/pressure_cooker.png",
+        "512": "icons/512/pressure_cooker.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/pressure_cooker.png",
+        "512": "/avatars/kitchen_cuttlefish/512/pressure_cooker.png"
+      }
+    },
+    {
+      "id": "food_processor",
+      "label": "Food Processor",
+      "category": "appliances",
+      "description": "Food processor with clear work bowl and feeder tube.",
+      "tags": [
+        "processor",
+        "prep",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/food_processor.png",
+        "512": "icons/512/food_processor.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/food_processor.png",
+        "512": "/avatars/kitchen_cuttlefish/512/food_processor.png"
+      }
+    },
+    {
+      "id": "waffle_maker",
+      "label": "Waffle Maker",
+      "category": "appliances",
+      "description": "Rounded waffle maker with hinged top and grid detail.",
+      "tags": [
+        "waffle",
+        "breakfast",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/waffle_maker.png",
+        "512": "icons/512/waffle_maker.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/waffle_maker.png",
+        "512": "/avatars/kitchen_cuttlefish/512/waffle_maker.png"
+      }
+    },
+    {
+      "id": "tabletop_griddle",
+      "label": "Tabletop Griddle",
+      "category": "appliances",
+      "description": "Low rectangular tabletop griddle with handles and glossy cook surface.",
+      "tags": [
+        "griddle",
+        "countertop",
+        "appliance"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/tabletop_griddle.png",
+        "512": "icons/512/tabletop_griddle.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/tabletop_griddle.png",
+        "512": "/avatars/kitchen_cuttlefish/512/tabletop_griddle.png"
+      }
+    },
+    {
+      "id": "outdoor_grill",
+      "label": "Outdoor Grill",
+      "category": "grilling",
+      "description": "Rounded outdoor grill with lid, grate, and small legs.",
+      "tags": [
+        "grill",
+        "barbecue",
+        "outdoor"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/outdoor_grill.png",
+        "512": "icons/512/outdoor_grill.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/outdoor_grill.png",
+        "512": "/avatars/kitchen_cuttlefish/512/outdoor_grill.png"
+      }
+    },
+    {
+      "id": "grill_brush",
+      "label": "Grill Brush",
+      "category": "grilling",
+      "description": "Long-handled grill brush with bristle head.",
+      "tags": [
+        "brush",
+        "grill",
+        "accessory"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/grill_brush.png",
+        "512": "icons/512/grill_brush.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/grill_brush.png",
+        "512": "/avatars/kitchen_cuttlefish/512/grill_brush.png"
+      }
+    },
+    {
+      "id": "bbq_tongs",
+      "label": "BBQ Tongs",
+      "category": "grilling",
+      "description": "Springy barbecue tongs with scalloped tips.",
+      "tags": [
+        "tongs",
+        "grill",
+        "accessory"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/bbq_tongs.png",
+        "512": "icons/512/bbq_tongs.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/bbq_tongs.png",
+        "512": "/avatars/kitchen_cuttlefish/512/bbq_tongs.png"
+      }
+    },
+    {
+      "id": "grill_spatula",
+      "label": "Grill Spatula",
+      "category": "grilling",
+      "description": "Wide slotted grill spatula with long handle.",
+      "tags": [
+        "spatula",
+        "grill",
+        "accessory"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/grill_spatula.png",
+        "512": "icons/512/grill_spatula.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/grill_spatula.png",
+        "512": "/avatars/kitchen_cuttlefish/512/grill_spatula.png"
+      }
+    },
+    {
+      "id": "chef_knife",
+      "label": "Chef Knife",
+      "category": "tools",
+      "description": "Chef knife with shiny blade and rounded handle.",
+      "tags": [
+        "knife",
+        "prep",
+        "tool"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/chef_knife.png",
+        "512": "icons/512/chef_knife.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/chef_knife.png",
+        "512": "/avatars/kitchen_cuttlefish/512/chef_knife.png"
+      }
+    },
+    {
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "category": "tools",
+      "description": "Wood cutting board with beveled edge and handle hole.",
+      "tags": [
+        "board",
+        "prep",
+        "wood"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/cutting_board.png",
+        "512": "icons/512/cutting_board.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/cutting_board.png",
+        "512": "/avatars/kitchen_cuttlefish/512/cutting_board.png"
+      }
+    },
+    {
+      "id": "saucepan",
+      "label": "Saucepan",
+      "category": "cookware",
+      "description": "Small saucepan with lid and side handle.",
+      "tags": [
+        "pan",
+        "cookware",
+        "saucepan"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/saucepan.png",
+        "512": "icons/512/saucepan.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/saucepan.png",
+        "512": "/avatars/kitchen_cuttlefish/512/saucepan.png"
+      }
+    },
+    {
+      "id": "frying_pan",
+      "label": "Frying Pan",
+      "category": "cookware",
+      "description": "Shallow frying pan with long handle and glossy interior.",
+      "tags": [
+        "pan",
+        "skillet",
+        "cookware"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/frying_pan.png",
+        "512": "icons/512/frying_pan.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/frying_pan.png",
+        "512": "/avatars/kitchen_cuttlefish/512/frying_pan.png"
+      }
+    },
+    {
+      "id": "stock_pot",
+      "label": "Stock Pot",
+      "category": "cookware",
+      "description": "Tall stock pot with lid and side handles.",
+      "tags": [
+        "pot",
+        "cookware",
+        "stock"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/stock_pot.png",
+        "512": "icons/512/stock_pot.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/stock_pot.png",
+        "512": "/avatars/kitchen_cuttlefish/512/stock_pot.png"
+      }
+    },
+    {
+      "id": "baking_sheet",
+      "label": "Baking Sheet",
+      "category": "bakeware",
+      "description": "Rimmed baking sheet with golden cookies.",
+      "tags": [
+        "baking sheet",
+        "cookies",
+        "bakeware"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/baking_sheet.png",
+        "512": "icons/512/baking_sheet.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/baking_sheet.png",
+        "512": "/avatars/kitchen_cuttlefish/512/baking_sheet.png"
+      }
+    },
+    {
+      "id": "rolling_pin",
+      "label": "Rolling Pin",
+      "category": "bakeware",
+      "description": "Wood rolling pin with rounded handles.",
+      "tags": [
+        "rolling pin",
+        "baking",
+        "tool"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/rolling_pin.png",
+        "512": "icons/512/rolling_pin.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/rolling_pin.png",
+        "512": "/avatars/kitchen_cuttlefish/512/rolling_pin.png"
+      }
+    },
+    {
+      "id": "measuring_cups",
+      "label": "Measuring Cups",
+      "category": "tools",
+      "description": "Nested measuring cups on a ring.",
+      "tags": [
+        "measuring",
+        "cups",
+        "baking"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/measuring_cups.png",
+        "512": "icons/512/measuring_cups.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/measuring_cups.png",
+        "512": "/avatars/kitchen_cuttlefish/512/measuring_cups.png"
+      }
+    },
+    {
+      "id": "mixing_bowl",
+      "label": "Mixing Bowl",
+      "category": "tools",
+      "description": "Glossy mixing bowl with batter swirl.",
+      "tags": [
+        "bowl",
+        "mixing",
+        "baking"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/mixing_bowl.png",
+        "512": "icons/512/mixing_bowl.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/mixing_bowl.png",
+        "512": "/avatars/kitchen_cuttlefish/512/mixing_bowl.png"
+      }
+    },
+    {
+      "id": "colander",
+      "label": "Colander",
+      "category": "tools",
+      "description": "Rounded colander with handles and drain holes.",
+      "tags": [
+        "colander",
+        "strainer",
+        "tool"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/colander.png",
+        "512": "icons/512/colander.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/colander.png",
+        "512": "/avatars/kitchen_cuttlefish/512/colander.png"
+      }
+    },
+    {
+      "id": "spice_jars",
+      "label": "Spice Jars",
+      "category": "pantry",
+      "description": "Three small spice jars with colored contents and blank lids.",
+      "tags": [
+        "spices",
+        "jars",
+        "pantry"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/spice_jars.png",
+        "512": "icons/512/spice_jars.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/spice_jars.png",
+        "512": "/avatars/kitchen_cuttlefish/512/spice_jars.png"
+      }
+    },
+    {
+      "id": "salt_pepper_shakers",
+      "label": "Salt and Pepper Shakers",
+      "category": "tableware",
+      "description": "Paired salt and pepper shakers with rounded caps.",
+      "tags": [
+        "salt",
+        "pepper",
+        "tableware"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/salt_pepper_shakers.png",
+        "512": "icons/512/salt_pepper_shakers.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/salt_pepper_shakers.png",
+        "512": "/avatars/kitchen_cuttlefish/512/salt_pepper_shakers.png"
+      }
+    },
+    {
+      "id": "kitchen_scale",
+      "label": "Kitchen Scale",
+      "category": "tools",
+      "description": "Digital kitchen scale with shallow tray and display shape.",
+      "tags": [
+        "scale",
+        "measure",
+        "tool"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/kitchen_scale.png",
+        "512": "icons/512/kitchen_scale.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/kitchen_scale.png",
+        "512": "/avatars/kitchen_cuttlefish/512/kitchen_scale.png"
+      }
+    },
+    {
+      "id": "dishwasher",
+      "label": "Dishwasher",
+      "category": "appliances",
+      "description": "Front-load dishwasher with handle and control dots.",
+      "tags": [
+        "dishwasher",
+        "appliance",
+        "cleaning"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/dishwasher.png",
+        "512": "icons/512/dishwasher.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/dishwasher.png",
+        "512": "/avatars/kitchen_cuttlefish/512/dishwasher.png"
+      }
+    },
+    {
+      "id": "range_hood",
+      "label": "Range Hood",
+      "category": "fixtures",
+      "description": "Kitchen range hood with vent lip and underside glow.",
+      "tags": [
+        "hood",
+        "vent",
+        "fixture"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/range_hood.png",
+        "512": "icons/512/range_hood.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/range_hood.png",
+        "512": "/avatars/kitchen_cuttlefish/512/range_hood.png"
+      }
+    },
+    {
+      "id": "base_cabinet",
+      "label": "Base Cabinet",
+      "category": "storage",
+      "description": "Rounded kitchen base cabinet with two doors and drawer.",
+      "tags": [
+        "cabinet",
+        "storage",
+        "kitchen"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/base_cabinet.png",
+        "512": "icons/512/base_cabinet.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/base_cabinet.png",
+        "512": "/avatars/kitchen_cuttlefish/512/base_cabinet.png"
+      }
+    },
+    {
+      "id": "kitchen_island",
+      "label": "Kitchen Island",
+      "category": "furniture",
+      "description": "Kitchen island with countertop, drawers, and small overhang.",
+      "tags": [
+        "island",
+        "counter",
+        "furniture"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/kitchen_island.png",
+        "512": "icons/512/kitchen_island.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/kitchen_island.png",
+        "512": "/avatars/kitchen_cuttlefish/512/kitchen_island.png"
+      }
+    },
+    {
+      "id": "pantry_shelf",
+      "label": "Pantry Shelf",
+      "category": "storage",
+      "description": "Compact pantry shelf with boxes and jars.",
+      "tags": [
+        "pantry",
+        "shelf",
+        "storage"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/pantry_shelf.png",
+        "512": "icons/512/pantry_shelf.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/pantry_shelf.png",
+        "512": "/avatars/kitchen_cuttlefish/512/pantry_shelf.png"
+      }
+    },
+    {
+      "id": "mug_set",
+      "label": "Mug Set",
+      "category": "tableware",
+      "description": "Two glossy mugs nested as a friendly tableware icon.",
+      "tags": [
+        "mugs",
+        "coffee",
+        "tableware"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/mug_set.png",
+        "512": "icons/512/mug_set.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/mug_set.png",
+        "512": "/avatars/kitchen_cuttlefish/512/mug_set.png"
+      }
+    },
+    {
+      "id": "teapot",
+      "label": "Teapot",
+      "category": "tableware",
+      "description": "Rounded teapot with spout, handle, and lid.",
+      "tags": [
+        "teapot",
+        "tea",
+        "tableware"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/teapot.png",
+        "512": "icons/512/teapot.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/teapot.png",
+        "512": "/avatars/kitchen_cuttlefish/512/teapot.png"
+      }
+    },
+    {
+      "id": "dining_chair",
+      "label": "Dining Chair",
+      "category": "furniture",
+      "description": "Simple rounded dining chair with padded seat.",
+      "tags": [
+        "chair",
+        "dining",
+        "furniture"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/dining_chair.png",
+        "512": "icons/512/dining_chair.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/dining_chair.png",
+        "512": "/avatars/kitchen_cuttlefish/512/dining_chair.png"
+      }
+    },
+    {
+      "id": "bar_stool",
+      "label": "Bar Stool",
+      "category": "furniture",
+      "description": "Tall bar stool with round seat and footrest.",
+      "tags": [
+        "stool",
+        "chair",
+        "furniture"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/bar_stool.png",
+        "512": "icons/512/bar_stool.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/bar_stool.png",
+        "512": "/avatars/kitchen_cuttlefish/512/bar_stool.png"
+      }
+    },
+    {
+      "id": "trash_bin",
+      "label": "Kitchen Trash Bin",
+      "category": "storage",
+      "description": "Rounded kitchen trash bin with swing lid.",
+      "tags": [
+        "trash",
+        "bin",
+        "kitchen"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/trash_bin.png",
+        "512": "icons/512/trash_bin.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/trash_bin.png",
+        "512": "/avatars/kitchen_cuttlefish/512/trash_bin.png"
+      }
+    },
+    {
+      "id": "paper_towel_holder",
+      "label": "Paper Towel Holder",
+      "category": "tools",
+      "description": "Paper towel roll on a small countertop holder.",
+      "tags": [
+        "paper towel",
+        "holder",
+        "kitchen"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/paper_towel_holder.png",
+        "512": "icons/512/paper_towel_holder.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/paper_towel_holder.png",
+        "512": "/avatars/kitchen_cuttlefish/512/paper_towel_holder.png"
+      }
+    },
+    {
+      "id": "dish_soap_bottle",
+      "label": "Dish Soap Bottle",
+      "category": "cleaning",
+      "description": "Pump dish soap bottle with glossy translucent body.",
+      "tags": [
+        "soap",
+        "sink",
+        "cleaning"
+      ],
+      "transparentBackground": true,
+      "safeCirclePadding": true,
+      "files": {
+        "64": "icons/64/dish_soap_bottle.png",
+        "512": "icons/512/dish_soap_bottle.png"
+      },
+      "jinnPaths": {
+        "64": "/avatars/kitchen_cuttlefish/64/dish_soap_bottle.png",
+        "512": "/avatars/kitchen_cuttlefish/512/dish_soap_bottle.png"
+      }
+    }
+  ]
+}

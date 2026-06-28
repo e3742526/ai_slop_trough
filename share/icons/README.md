@@ -4,11 +4,11 @@ Curated clean PNG icon library rebuilt from vetted individual source files.
 
 ## Summary
 
-- `482` unique icons
-- `1824` exported PNG assets (`64`/`128`/`256`/`512` for most packs; `64`/`512`
-  only for `ocean-nautical-avatar-icon-pack`)
-- `5` public buckets
-- `8` included source packs
+- `532` unique icons
+- `1924` exported PNG assets (`64`/`128`/`256`/`512` for most packs; `64`/`512`
+  only for `ocean-nautical-avatar-icon-pack` and `kitchen-cuttlefish-avatar-icon-pack`)
+- `6` public buckets
+- `9` included source packs
 - `1` excluded contaminated pack: `cuttlefish_aquarium_pack_2_transparent`
 - `1` machine-readable catalog: [`catalog.json`](catalog.json)
 - `1` catalog schema: [`catalog.schema.json`](catalog.schema.json)
@@ -24,17 +24,19 @@ Curated clean PNG icon library rebuilt from vetted individual source files.
 | `nautical-items` | `51` | Boats, navigation gear, safety gear, and sea-adjacent objects |
 | `maker-workshop` | `50` | 3D printing, electronics, safety gear, sewing, welding, and maker-space tools |
 | `workshop-tools` | `150` | Garage, woodshop, hand-tool, and power-tool icons |
+| `kitchen-items` | `50` | Kitchen appliances, cookware, tableware, tools, furniture, and other kitchen and dining items |
 
 This import used only provided individual PNG files. It did not cut sheets into
 public assets. The contaminated `cuttlefish_aquarium_pack_2_transparent` pack
 was excluded from the repo surface.
 
-The `ocean-nautical-avatar-icon-pack` ships only `64` and `512` assets, so its
-catalog entries carry `sizes: [64, 512]`. Its `life_ring` and `coral` collided
-with existing ids and were imported as `life_ring_safe` and `coral_reef`; the
-originals were left untouched. See
+The `ocean-nautical-avatar-icon-pack` and `kitchen-cuttlefish-avatar-icon-pack`
+ship only `64` and `512` assets, so their catalog entries carry
+`sizes: [64, 512]`. The `ocean-nautical-avatar-icon-pack`'s `life_ring` and
+`coral` collided with existing ids and were imported as `life_ring_safe` and
+`coral_reef`; the originals were left untouched. See
 [`_meta/source-packs/ocean_nautical_avatar_icon_pack/`](_meta/source-packs/ocean_nautical_avatar_icon_pack/)
-for the full import notes.
+for those import notes.
 
 ## Layout
 
@@ -48,6 +50,7 @@ share/icons/
   nautical-items/<size>/*.png
   maker-workshop/<size>/*.png
   workshop-tools/<size>/*.png
+  kitchen-items/<size>/*.png
   _meta/source-packs/<pack>/
 ```
 
