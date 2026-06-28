@@ -1,0 +1,15 @@
+schema_version: giles.feature_ledger_index.v1
+repo: ai_slop_trough
+created_at: "2026-06-28T17:40:42Z"
+updated_at: "2026-06-28T17:40:42Z"
+current_file: giles-ledger-0001.md
+rotation:
+  soft_limit_lines: 900
+  hard_limit_lines: 1000
+files:
+  -
+    file: giles-ledger-0001.md
+    sequence: 1
+    status: active
+    entries: 0
+    line_count: 0
